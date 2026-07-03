@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #005EAD;
+  --primary-color-rgb: 0, 94, 173;
+  --secondary-color: #39ADDC;
+  --secondary-color-rgb: 57, 173, 220;
+}
+
+/* Theme button overrides using the primary brand color */
+.btn-main,
+.btn-primary,
+.btn-id,
+.btn-rsvp,
+.btn-success,
+a.btn,
+.fullwidthbanner-container a.btn {
+  background: #005EAD !important;
+  color: #ffffff !important;
+  border-color: #005EAD !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-main span,
+.btn-primary span,
+a.btn span {
+  color: #ffffff !important;
+}
+
+.btn-main:hover,
+.btn-primary:hover,
+.btn-id:hover,
+.btn-rsvp:hover,
+.btn-success:hover,
+a.btn:hover {
+  background: #39ADDC !important;
+  color: #ffffff !important;
+  border-color: #39ADDC !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 94, 173, 0.3) !important;
+}
+
+.btn-main:hover span,
+.btn-primary:hover span,
+a.btn:hover span {
+  color: #ffffff !important;
+}
+
+/* Line buttons (transparent/outline buttons) */
+a.btn-line,
+.btn-line {
+  background: transparent !important;
+  border-color: #005EAD !important;
+  color: #005EAD !important;
+  transition: all 0.3s ease !important;
+}
+
+a.btn-line span,
+.btn-line span {
+  color: #005EAD !important;
+}
+
+a.btn-line:hover,
+.btn-line:hover {
+  background: #005EAD !important;
+  border-color: #005EAD !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 94, 173, 0.3) !important;
+}
+
+a.btn-line:hover span,
+.btn-line:hover span {
+  color: #ffffff !important;
+}
+
+/* Slider buttons */
+a.btn-slider,
+a.btn-slider:after {
+  background: #005EAD !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+}
+a.btn-slider:hover {
+  background: #39ADDC !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 94, 173, 0.3) !important;
+}
