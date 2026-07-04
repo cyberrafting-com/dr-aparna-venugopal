@@ -53,8 +53,28 @@ body {
 
 p,
 li {
-  color: #000000 !important;
+  color: #3f3c3c !important;
   font-size: 18px !important;
+  font-weight: 400 !important;
+}
+
+p.text-muted,
+li.text-muted,
+span.text-muted,
+.text-muted {
+  color: rgb(51, 50, 50) !important;
+}
+
+li.fs-6,
+span.fs-6,
+p.fs-6 {
+  font-size: 16px !important;
+}
+
+li.fs-5,
+span.fs-5,
+p.fs-5 {
+  font-size: 20px !important;
 }
 
 /* Scroll Progress Button */
@@ -73,7 +93,7 @@ li {
   visibility: hidden;
   transform: translateY(15px);
   transition: all 200ms linear;
-  
+
   background-color: var(--btn-bg);
 }
 
@@ -88,7 +108,7 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
- color: var(--primary) !important;
+  color: var(--primary) !important;
   font-size: 20px;
   z-index: 2;
 }
@@ -356,7 +376,7 @@ h6 {
 
 /* Service Carousel Card */
 .service-carousel-card {
-  height: 420px;
+  height: 460px;
   border-radius: 20px;
   overflow: hidden;
   background-color: #eee;
@@ -421,7 +441,7 @@ h6 {
   justify-content: center;
   cursor: pointer;
   background-color: var(--btn-bg);
-  color:white;
+  color: white;
   transition: all 0.3s ease;
 }
 
@@ -1041,4 +1061,17 @@ h6 {
 
 .offcanvas-body .nav-link:hover i {
   color: #fff !important;
+}
+
+/* Footer Copyright Bar */
+.footer-copyright {
+  background-color: var(--primary-dark);
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer-copyright p {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 500;
 }

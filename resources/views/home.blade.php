@@ -15,11 +15,11 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             <div class="swiper-wrapper">
 
                 <!-- Slide 1 -->
-                <div class="swiper-slide custom-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+                <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/laparoscopic-banner.png') }}');">
                     <div class="custom-hero-overlay"></div>
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
-                        <h1>Advanced General & Laparoscopic Care</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Providing minimally invasive surgical solutions for hernia, gallbladder, appendix, and more, ensuring faster recovery and better outcomes.</p>
+                        <h1>Minimally Invasive Laparoscopic Surgeries for Faster Recovery</h1>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Advanced minimally invasive laparoscopic procedures for hernia, gallbladder, and appendix with less pain and faster recovery.</p>
                         <a href="#" class="custom-hero-btn">
                             Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-primary-theme ms-1"></i>
                         </a>
@@ -27,28 +27,28 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="swiper-slide custom-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+                <!-- <div class="swiper-slide custom-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
                     <div class="custom-hero-overlay"></div>
                     <div class="custom-hero-content">
-                        <h1>Expert Care for Piles & Varicose Veins</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Effective, safe, and minimally painful treatments using modern surgical techniques for quicker healing and lasting relief.</p>
+                        <h1>Expert Breast Lump Evaluation & Surgical Care</h1>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Comprehensive diagnosis and surgical management of breast lumps focusing on early detection and safe, effective treatment.</p>
                         <a href="#" class="custom-hero-btn">
                             Get Relief Today <i class="fa-solid fa-arrow-right-long text-primary-theme ms-1"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Slide 3 -->
-                <div class="swiper-slide custom-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+                <!-- <div class="swiper-slide custom-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
                     <div class="custom-hero-overlay"></div>
                     <div class="custom-hero-content">
-                        <h1>Trusted Day Care Surgical Procedures</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Precise minor surgeries including lipoma removal, cyst excision, and wound care, delivered with expert surgical precision.</p>
+                        <h1>Minor Surgical Procedures for Nail, Ear & Wound Conditions</h1>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Safe and precise minor surgical care including nail surgeries, ear lobule repair, cyst removal, and wound treatments.</p>
                         <a href="#" class="custom-hero-btn">
                             Book Appointment Now <i class="fa-solid fa-arrow-right-long text-primary-theme ms-1"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <!-- Pagination -->
@@ -107,7 +107,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
                                 <h5 class="mb-2 fw-bold font-heading">Laparoscopic Gall Bladder & Appendix</h5>
-                                <p class="mb-0 small">Minimally invasive procedures for fast recovery and minimal scarring.</p>
+                                <p class="text-muted fs-5 mb-0">Minimally invasive procedures for fast recovery and minimal scarring.</p>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
                                 <h5 class="mb-2 fw-bold font-heading">Hernia Repair (Open & Laparoscopic)</h5>
-                                <p class="mb-0 small">Expert surgical repair for all types of hernias ensuring long-term relief.</p>
+                                <p class="text-muted fs-5 mb-0">Expert surgical repair for all types of hernias ensuring long-term relief.</p>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
                                 <h5 class="mb-2 fw-bold font-heading">Breast Lump Evaluation & Surgery</h5>
-                                <p class="mb-0 small">Comprehensive diagnosis and surgical management of breast conditions.</p>
+                                <p class="text-muted fs-5 mb-0">Comprehensive diagnosis and surgical management of breast conditions.</p>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
                                 <h5 class="mb-2 fw-bold font-heading">Piles, Fissure & Fistula Treatment</h5>
-                                <p class="mb-0 small">Advanced proctology treatments prioritizing patient comfort and quick healing.</p>
+                                <p class="text-muted fs-5 mb-0">Advanced proctology treatments prioritizing patient comfort and quick healing.</p>
                             </div>
                         </div>
                     </div>
@@ -164,14 +164,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 5 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                       <img src="{{ asset('resources/assets/images/services/varicose-vein.png') }}" class="w-100 h-100 object-fit-cover" alt="Varicose Vein Surgery" referrerpolicy="no-referrer">
+                        <img src="{{ asset('resources/assets/images/services/varicose-vein.png') }}" class="w-100 h-100 object-fit-cover" alt="Varicose Vein Surgery" referrerpolicy="no-referrer">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
                                 <h5 class="mb-2 fw-bold font-heading">Varicose Vein Surgery</h5>
-                                <p class="mb-0 small">Modern surgical interventions to treat varicose veins effectively and safely.</p>
+                                <p class="text-muted fs-5 mb-0">Modern surgical interventions to treat varicose veins effectively and safely.</p>
                             </div>
                         </div>
                     </div>
@@ -180,14 +180,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 6 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                     <img src="{{ asset('resources/assets/images/services/day-care.png') }}" class="w-100 h-100 object-fit-cover" alt="Minor Surgeries & Day Care" referrerpolicy="no-referrer">
+                        <img src="{{ asset('resources/assets/images/services/ear-lobe.png') }}" class="w-100 h-100 object-fit-cover" alt="Minor Surgeries & Day Care" referrerpolicy="no-referrer">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Minor Surgeries & Day Care</h5>
-                                <p class="mb-0 small">Lipoma, cyst removal, nail surgeries, ear lobule repair and wound debridement.</p>
+                                <h5 class="mb-2 fw-bold font-heading">Ear lobule repair</h5>
+                                <p class="text-muted fs-5 mb-0">Expert surgical repair for torn, split, or elongated earlobes with minimal scarring.</p>
                             </div>
                         </div>
                     </div>
@@ -215,7 +215,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
     <div class="container position-relative z-1">
         <div class="text-center mb-5 pb-4" data-aos="fade-up">
             <h2 class="section-title text-dark font-heading fw-bold display-5 text-primary-dark-custom" data-aos="zoom-in-up" data-aos-duration="1000">Laparoscopic Procedures</h2>
-            <p class="text-muted fs-6 mt-3">Advanced minimally invasive surgical solutions</p>
+            <p class="text-muted fs-5 mt-3">Advanced minimally invasive surgical solutions</p>
         </div>
 
         <div class="row align-items-center">
@@ -227,7 +227,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5 class="fw-bold mb-2 text-primary-dark-custom">Cholecystectomy</h5>
-                        <p class="text-muted small mb-0 lh-base">Minimally invasive gallbladder removal.</p>
+                        <p class="text-muted fs-5 mb-0 lh-base">Minimally invasive gallbladder removal.</p>
                     </div>
                 </div>
 
@@ -237,7 +237,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5 class="fw-bold mb-2 text-primary-dark-custom">Appendicectomy</h5>
-                        <p class="text-muted small mb-0 lh-base">Keyhole surgery to remove the appendix.</p>
+                        <p class="text-muted fs-5 mb-0 lh-base">Keyhole surgery to remove the appendix.</p>
                     </div>
                 </div>
 
@@ -247,7 +247,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5 class="fw-bold mb-2 text-primary-dark-custom">Hernia Repair</h5>
-                        <p class="text-muted small mb-0 lh-base">Laparoscopic correction of hernia with small cuts.</p>
+                        <p class="text-muted fs-5 mb-0 lh-base">Laparoscopic correction of hernia with small cuts.</p>
                     </div>
                 </div>
             </div>
@@ -267,7 +267,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5 class="fw-bold mb-2 text-primary-dark-custom">Fundoplication</h5>
-                        <p class="text-muted small mb-0 lh-base">Anti-reflux surgery for GERD treatment.</p>
+                        <p class="text-muted fs-5 mb-0 lh-base">Anti-reflux surgery for GERD treatment.</p>
                     </div>
                 </div>
 
@@ -277,7 +277,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5 class="fw-bold mb-2 text-primary-dark-custom">Splenectomy</h5>
-                        <p class="text-muted small mb-0 lh-base">Minimally invasive spleen removal.</p>
+                        <p class="text-muted fs-5 mb-0 lh-base">Minimally invasive spleen removal.</p>
                     </div>
                 </div>
 
@@ -287,7 +287,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5 class="fw-bold mb-2 text-primary-dark-custom">Hemicolectomy</h5>
-                        <p class="text-muted small mb-0 lh-base">Partial colon removal using laparoscopy.</p>
+                        <p class="text-muted fs-5 mb-0 lh-base">Partial colon removal using laparoscopy.</p>
                     </div>
                 </div>
             </div>
@@ -300,8 +300,11 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
     <div class="container text-center">
         <div class="row g-4">
             <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="0">
-                <div class="stat-number text-white" data-target="15">0</div>
-                <div class="text-accent text-uppercase letter-spacing-1 small fw-bold">Years Experience</div>
+                <div class="d-flex justify-content-center align-items-baseline">
+                    <div class="stat-number text-white" data-target="300">0</div>
+                    <span class="text-white fs-3 fw-bold ms-1">+</span>
+                </div>
+                <div class="text-accent text-uppercase letter-spacing-1 small fw-bold"> Surgeries</div>
             </div>
             <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="stat-number text-white" data-target="12500">0</div>
@@ -343,9 +346,9 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 
                 <h2 class="display-4 font-heading fw-bold mb-4 text-primary-dark-custom" data-aos="zoom-in-up" data-aos-duration="1000">Advanced Laparoscopy</h2>
 
-                <p class="text-muted mb-4 fs-6 lh-lg pe-lg-4">Experience the most advanced minimally invasive procedures designed to ensure minimal scarring, faster recovery, and the highest standard of surgical care tailored for your well-being.</p>
+                <p class="text-muted mb-4 fs-5 lh-lg pe-lg-4">Experience the most advanced minimally invasive procedures designed to ensure minimal scarring, faster recovery, and the highest standard of surgical care tailored for your well-being.</p>
 
-                <ul class="list-unstyled mb-5">
+                <ul class="list-unstyled mb-5 fs-5 text-muted">
                     <li class="mb-3 d-flex align-items-center">
                         <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm">
                             <i class="fa-solid fa-check"></i>
@@ -375,10 +378,10 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="img-fluid shadow-lg featured-treatment-img" alt="Laparoscopic Surgery" referrerpolicy="no-referrer">
 
                     <!-- Floating Badge -->
-                    <div class="position-absolute d-flex flex-column align-items-center justify-content-center text-center shadow-lg floating-badge-lg" data-aos="zoom-in" data-aos-delay="400">
+                    <!-- <div class="position-absolute d-flex flex-column align-items-center justify-content-center text-center shadow-lg floating-badge-lg" data-aos="zoom-in" data-aos-delay="400">
                         <span class="fs-2 font-heading fw-bold lh-1 mb-1 text-white">25+</span>
                         <span class="small lh-sm px-2 text-white floating-badge-text-sm">Years Of<br>Experience</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -403,7 +406,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="stars">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="fst-italic mb-4">"The care and attention I received were unmatched. The team is incredibly professional, and the results of my treatment exceeded all expectations."</p>
+                        <p class="fst-italic text-muted fs-5 mb-4">"The care and attention I received were unmatched. The team is incredibly professional, and the results of my treatment exceeded all expectations."</p>
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
@@ -419,7 +422,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="stars">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="fst-italic mb-4">"From the moment you walk in, you feel the luxury. The doctors took their time to explain everything. I'm so happy with my recovery!"</p>
+                        <p class="fst-italic text-muted fs-5 mb-4">"From the moment you walk in, you feel the luxury. The doctors took their time to explain everything. I'm so happy with my recovery!"</p>
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
@@ -435,7 +438,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="stars">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="fst-italic mb-4">"A completely transformative experience. The clinic is pristine, and the staff made sure I was comfortable the entire time. Highly recommend."</p>
+                        <p class="fst-italic text-muted fs-5 mb-4">"A completely transformative experience. The clinic is pristine, and the staff made sure I was comfortable the entire time. Highly recommend."</p>
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
@@ -451,7 +454,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="stars">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="fst-italic mb-4">"Dr. Aparna is an excellent surgeon. The procedure was smooth and the post-operative care was phenomenal. I felt completely safe and well cared for."</p>
+                        <p class="fst-italic text-muted fs-5 mb-4">"Dr. Aparna is an excellent surgeon. The procedure was smooth and the post-operative care was phenomenal. I felt completely safe and well cared for."</p>
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
@@ -467,7 +470,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="stars">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="fst-italic mb-4">"Very professional and empathetic approach. Everything was explained in detail before the surgery, which put my mind at ease. Fantastic experience overall."</p>
+                        <p class="fst-italic text-muted fs-5 mb-4">"Very professional and empathetic approach. Everything was explained in detail before the surgery, which put my mind at ease. Fantastic experience overall."</p>
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
@@ -497,7 +500,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 <section class="section-padding bg-white">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <span class="section-subtitle">Our Work</span>
+            <!-- <span class="section-subtitle">Our Work</span> -->
             <h2 class="section-title mb-0" data-aos="zoom-in-up" data-aos-duration="1000">Gallery</h2>
         </div>
 
@@ -549,14 +552,24 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.1/index.min.js"></script>
 
 <!-- 10. CTA SECTION -->
-<section class="section-padding cta-section">
-    <div class="container">
+<section class="section-padding cta-section" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-attachment: fixed; background-size: cover; background-position: center; position: relative;">
+    <!-- Dark overlay -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(45, 55, 60, 0.85); z-index: 1;"></div>
+
+    <div class="container position-relative" style="z-index: 2; padding-top: 40px; padding-bottom: 40px;">
         <div class="row justify-content-center text-center">
-            <div class="col-lg-8" data-aos="zoom-in">
-                <span class="section-subtitle text-white-50">Ready to transform?</span>
-                <h2 class="display-4 font-heading fw-bold mb-4">Begin Your Journey to Flawless Skin Today</h2>
-                <p class="fs-5 text-white-50 mb-5">Schedule a complimentary consultation with our expert aesthetic physicians.</p>
-                <a href="#" class="btn-primary-theme px-5 py-3 fs-5">Book Your Consultation</a>
+            <div class="col-lg-10" data-aos="zoom-in">
+                <h2 class="display-5 font-heading text-white mb-4" style="font-weight: 500;">Book a Personalized Consultation</h2>
+
+                <p class="text-white mb-4 px-lg-5" style="font-size: 1.15rem; line-height: 1.6;">
+                    Experience world-class surgical care with advanced laparoscopic techniques, ensuring minimal pain, faster recovery, and the highest standards of safety for your complete well-being.
+                </p>
+
+                <p class="text-white fst-italic mb-5" style="font-size: 1.1rem; opacity: 0.9;">
+                    Best results when performed with personalized care and advanced medical expertise.
+                </p>
+
+                <a href="#" class="btn-primary-theme px-5 py-3 rounded-pill text-uppercase fw-bold shadow-sm d-inline-block transition-all" style="font-size: 14px; letter-spacing: 1px;">BOOK YOUR CONSULTATION</a>
             </div>
         </div>
     </div>
