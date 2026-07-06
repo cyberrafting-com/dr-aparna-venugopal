@@ -19,7 +19,39 @@
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Services</a></li>
+                    <li class="nav-item services-nav-item">
+                        <a href="#services" class="nav-link fw-bold hover-underline services-nav-link" style="text-transform: none;" aria-haspopup="true" aria-expanded="false">
+                            Services <i class="fa-solid fa-chevron-down services-chevron"></i>
+                        </a>
+                        <div class="services-mega-menu" aria-label="Surgical services">
+                            <!-- <div class="services-menu-header">
+                                <span class="services-menu-kicker">Expert surgical care</span>
+                                <h3>Our Services</h3>
+                            </div> -->
+                            <div class="services-menu-grid">
+                                @foreach ([
+                                    'Laparoscopic appendix surgery',
+                                    'Laparoscopic gall bladder surgery',
+                                    'Hernia repair (open & laparoscopic)',
+                                    'Breast lump evaluation & surgery',
+                                    'Piles, fissure & fistula treatment',
+                                    'Pilonidal sinus surgery',
+                                    'Varicose vein surgery',
+                                    'Lipoma & sebaceous cyst removal',
+                                    'Lymph node biopsy',
+                                    'Nail surgeries',
+                                    'Ear lobule repair',
+                                    'Wound debridement',
+                                    'Incision and drainage of abscesses'
+                                ] as $service)
+                                    <a href="#services" class="service-menu-item">
+                                        <i class="fa-solid fa-chevron-right service-menu-arrow" aria-hidden="true"></i>
+                                        <span class="service-menu-label">{{ $service }}</span>
+                                    </a>
+                                @endforeach
+                            </div>
+                        </div>
+                    </li>
                     <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Testimonials </a></li>
                     <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Gallery</a></li>
                     <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Contact </a></li>
@@ -53,7 +85,17 @@
         <ul class="navbar-nav mb-2 mb-lg-0 w-100 gap-2">
             <li class="nav-item"><a href="#" class="nav-link fw-bold text-primary-theme d-flex align-items-center gap-3 px-3 py-2 rounded bg-light-theme" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-house" style="width: 25px; text-align: center;"></i> Home</a></li>
             <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-user-doctor text-muted" style="width: 25px; text-align: center;"></i> About</a></li>
-            <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-stethoscope text-muted" style="width: 25px; text-align: center;"></i> Services</a></li>
+            <li class="nav-item">
+                <button class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded border-0 bg-transparent w-100" type="button" data-bs-toggle="collapse" data-bs-target="#mobileServices" aria-expanded="false" aria-controls="mobileServices" style="text-transform: none; font-size: 18px;">
+                    <i class="fa-solid fa-stethoscope text-muted" style="width: 25px; text-align: center;"></i> Services
+                    <i class="fa-solid fa-chevron-down ms-auto fs-6"></i>
+                </button>
+                <div class="collapse mobile-services-list" id="mobileServices">
+                    @foreach (['Laparoscopic appendix surgery', 'Laparoscopic gall bladder surgery', 'Hernia repair (open & laparoscopic)', 'Breast lump evaluation & surgery', 'Piles, fissure & fistula treatment', 'Pilonidal sinus surgery', 'Varicose vein surgery', 'Lipoma & sebaceous cyst removal', 'Lymph node biopsy', 'Nail surgeries', 'Ear lobule repair', 'Wound debridement', 'Incision and drainage of abscesses'] as $service)
+                        <a href="#services" class="d-flex align-items-start gap-2 py-2 px-3 text-dark text-decoration-none"><i class="fa-solid fa-chevron-right mt-1"></i><span>{{ $service }}</span></a>
+                    @endforeach
+                </div>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-comment-medical text-muted" style="width: 25px; text-align: center;"></i> Testimonials</a></li>
             <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-images text-muted" style="width: 25px; text-align: center;"></i> Gallery</a></li>
             <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-envelope text-muted" style="width: 25px; text-align: center;"></i> Contact</a></li>
@@ -66,39 +108,32 @@
 
 <!-- Sidebar Menu (Desktop Only) -->
 <div class="info-sidebar d-none d-lg-block">
-    <div class="sidebar-header d-flex justify-content-between align-items-center mb-4">
-        <div class="logo">
-            <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading text-white d-flex flex-column align-items-start">
-                <span class="lh-sm text-white" style="font-family: 'Playfair Display', serif;">Dr Aparna Venugopal</span>
-                <span class="mb-0 fs-5 text-white fw-normal font-body" style="margin-top: 2px;">General Surgeon</span>
+    <div class="sidebar-header d-flex align-items-center gap-3 mb-4">
+        <div class="logo sidebar-logo flex-grow-1">
+            <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
+                <span class="lh-sm" style="font-family: 'Playfair Display', serif;">Dr Aparna Venugopal</span>
+                <span class="mb-0 fs-5 fw-normal font-body" style="margin-top: 2px;">General Surgeon</span>
             </a>
         </div>
-        <button class="btn close-sidebar text-white fs-4 p-0"><i class="fa-solid fa-xmark"></i></button>
+        <button class="btn close-sidebar text-white fs-4 p-0" type="button" aria-label="Close sidebar"><i class="fa-solid fa-xmark"></i></button>
     </div>
-    
+
     <div class="sidebar-content text-white">
-        <p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
-        
-        <hr class="border-secondary mb-4 opacity-25">
-        
-        <h3 class="font-heading fw-bold mb-4 text-white">Contact with Us</h3>
-        
-        <div class="contact-info mb-4">
-            <p class="mb-3">70 Washington Square South,<br>New York, NY 10012, United States</p>
-            <p class="mb-3">Call us: <a href="tel:112346339870" class="text-white text-decoration-none">1 (1234) 633-9870</a></p>
-            <p class="mb-4">Mail: <a href="mailto:Mellea@gmail.com" class="text-white text-decoration-none">Mellea@gmail.com</a></p>
-            
-            <p class="mb-2">Mon-Sat: 10:00 To 07:00 - 18.00pm</p>
-            <p class="mb-0">Saturday-Closed</p>
-        </div>
-        
-        <hr class="border-secondary mb-4 opacity-25">
-        
-        <div class="social-links d-flex gap-3 mt-4">
-            <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+        <p class="sidebar-intro mb-4 text-white">Advanced, compassionate general and laparoscopic surgical care.</p>
+
+        <hr class="sidebar-divider mb-4">
+
+        <h3 class="font-heading fw-bold mb-4 text-white">Contact Us</h3>
+
+        <div class="contact-info">
+            <div class="sidebar-contact-item">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <p class="mb-0 text-white">Hriday Mother &amp; Child Care Hospital, First Floor, Rahul Downtown, Mumbai Pune Bypass Road, Punawale, Pimpri-Chinchwad, Maharashtra 411033</p>
+            </div>
+            <div class="sidebar-contact-item">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <a href="tel:+919495208068" class="text-white text-decoration-none">+91 94952 08068</a>
+            </div>
         </div>
     </div>
 </div>

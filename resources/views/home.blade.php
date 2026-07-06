@@ -67,7 +67,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
         <div class="row align-items-center">
             <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
                 <div class="about-img-wrapper position-relative mx-auto about-img-custom">
-                    <div class="about-bg-shape"></div>
+                    <!-- <div class="about-bg-shape"></div> -->
                     <div class="about-border-shape"></div>
                     <img src="{{ asset('resources/assets/images/dummy-dr.png') }}" alt="Dr. Aparna Venugopal" class="img-fluid position-relative z-1 shadow-sm about-img-custom" style="background-color:var(--accent)">
                 </div>
@@ -100,14 +100,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 1 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                        <img src="{{ asset('resources/assets/images/services/laparoscopic-gall-bladder.png') }}" class="w-100 h-100 object-fit-cover" alt="Laparoscopic Gall Bladder & Appendix Surgery">
+                        <img src="{{ asset('resources/assets/images/services/breast-lumps.png') }}" class="w-100 h-100 object-fit-cover" alt="Breast Lump Evaluation and Surgery">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Laparoscopic Gall Bladder & Appendix</h5>
-                                <p class="text-muted fs-5 mb-0">Minimally invasive procedures for fast recovery and minimal scarring.</p>
+                                <h5 class="mb-2 fw-bold font-heading">Breast Lump Evaluation </h5>
+                                <p class="text-muted fs-5 mb-0">Careful assessment, diagnosis and surgical treatment of breast lumps.</p>
                             </div>
                         </div>
                     </div>
@@ -116,14 +116,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 2 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                        <img src="{{ asset('resources/assets/images/services/hernia-repair.png') }}" class="w-100 h-100 object-fit-cover" alt="Hernia Repair">
+                        <img src="{{ asset('resources/assets/images/services/lipoma.png') }}" class="w-100 h-100 object-fit-cover" alt="Lipoma and Sebaceous Cyst Removal">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Hernia Repair (Open & Laparoscopic)</h5>
-                                <p class="text-muted fs-5 mb-0">Expert surgical repair for all types of hernias ensuring long-term relief.</p>
+                                <h5 class="mb-2 fw-bold font-heading">Lipoma &amp; Sebaceous Cyst Removal</h5>
+                                <p class="text-muted fs-5 mb-0">Safe removal of benign skin lumps with attention to minimal scarring.</p>
                             </div>
                         </div>
                     </div>
@@ -132,14 +132,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 3 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                        <img src="{{ asset('resources/assets/images/services/breast-lumps.png') }}" class="w-100 h-100 object-fit-cover" alt="Hernia Repair">
+                        <img src="{{ asset('resources/assets/images/services/lymph-node.png') }}" class="w-100 h-100 object-fit-cover" alt="Lymph Node Biopsy">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Breast Lump Evaluation & Surgery</h5>
-                                <p class="text-muted fs-5 mb-0">Comprehensive diagnosis and surgical management of breast conditions.</p>
+                                <h5 class="mb-2 fw-bold font-heading">Lymph Node Biopsy</h5>
+                                <p class="text-muted fs-5 mb-0">Precise tissue sampling to support accurate diagnosis and treatment planning.</p>
                             </div>
                         </div>
                     </div>
@@ -148,14 +148,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 4 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                        <img src="{{ asset('resources/assets/images/services/piles.png') }}" class="w-100 h-100 object-fit-cover" alt="Piles, Fissure & Fistula Treatment">
+                        <img src="{{ asset('resources/assets/images/services/nail-infection.png') }}" class="w-100 h-100 object-fit-cover" alt="Nail Surgeries">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Piles, Fissure & Fistula Treatment</h5>
-                                <p class="text-muted fs-5 mb-0">Advanced proctology treatments prioritizing patient comfort and quick healing.</p>
+                                <h5 class="mb-2 fw-bold font-heading">Nail Surgeries</h5>
+                                <p class="text-muted fs-5 mb-0">Treatment for ingrown, infected or damaged nails with lasting relief.</p>
                             </div>
                         </div>
                     </div>
@@ -164,14 +164,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 5 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                        <img src="{{ asset('resources/assets/images/services/varicose-vein.png') }}" class="w-100 h-100 object-fit-cover" alt="Varicose Vein Surgery" referrerpolicy="no-referrer">
+                        <img src="{{ asset('resources/assets/images/services/ear-lobe.png') }}" class="w-100 h-100 object-fit-cover" alt="Ear Lobule Repair">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Varicose Vein Surgery</h5>
-                                <p class="text-muted fs-5 mb-0">Modern surgical interventions to treat varicose veins effectively and safely.</p>
+                                <h5 class="mb-2 fw-bold font-heading">Ear Lobule Repair</h5>
+                                <p class="text-muted fs-5 mb-0">Precise repair of torn, split or stretched earlobes with minimal scarring.</p>
                             </div>
                         </div>
                     </div>
@@ -180,14 +180,30 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <!-- Service 6 -->
                 <div class="swiper-slide">
                     <div class="service-carousel-card position-relative">
-                        <img src="{{ asset('resources/assets/images/services/ear-lobe.png') }}" class="w-100 h-100 object-fit-cover" alt="Minor Surgeries & Day Care" referrerpolicy="no-referrer">
+                        <img src="{{ asset('resources/assets/images/services/wound.png') }}" class="w-100 h-100 object-fit-cover" alt="Wound Debridement">
                         <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
                         </a>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Ear lobule repair</h5>
-                                <p class="text-muted fs-5 mb-0">Expert surgical repair for torn, split, or elongated earlobes with minimal scarring.</p>
+                                <h5 class="mb-2 fw-bold font-heading">Wound Debridement</h5>
+                                <p class="text-muted fs-5 mb-0">Removal of unhealthy tissue to control infection and support wound healing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="swiper-slide">
+                    <div class="service-carousel-card position-relative">
+                        <img src="{{ asset('resources/assets/images/services/piles.png') }}" class="w-100 h-100 object-fit-cover" alt="Incision and Drainage of Abscesses">
+                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                            <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
+                        </a>
+                        <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
+                            <div class="service-content-inner p-4 shadow-sm">
+                                <h5 class="mb-2 fw-bold font-heading">Incision &amp; Drainage of Abscesses</h5>
+                                <p class="text-muted fs-5 mb-0">Prompt drainage of infected collections to relieve pain and promote healing.</p>
                             </div>
                         </div>
                     </div>
@@ -207,87 +223,67 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
         </div>
     </div>
 </section>
-<!-- 6. LAPAROSCOPIC PROCEDURES SECTION -->
-<section class="section-padding bg-secondary-theme position-relative overflow-hidden">
-    <!-- Abstract dotted SVG curve pattern for texture -->
-    <div class="position-absolute w-100 h-100 top-0 start-0 pointer-events-none bg-pattern-dots"></div>
+<!-- 6. surgical PROCEDURES SECTION -->
+<section class="section-padding laparoscopic-showcase position-relative overflow-hidden">
+    <div class="laparoscopic-glow laparoscopic-glow-left" aria-hidden="true"></div>
+    <div class="laparoscopic-glow laparoscopic-glow-right" aria-hidden="true"></div>
 
     <div class="container position-relative z-1">
-        <div class="text-center mb-5 pb-4" data-aos="fade-up">
-            <h2 class="section-title text-dark font-heading fw-bold display-5 text-primary-dark-custom" data-aos="zoom-in-up" data-aos-duration="1000">Laparoscopic Procedures</h2>
-            <p class="text-muted fs-5 mt-3">Advanced minimally invasive surgical solutions</p>
+        <div class="text-center laparoscopic-heading" data-aos="fade-up">
+            <h2 class="section-title font-heading fw-bold display-5" data-aos="zoom-in-up" data-aos-duration="1000">Specialised Surgical Care</h2>
+            <p class="fs-5 mt-3 mb-0">Safe, personalised treatment using open and minimally invasive techniques.</p>
         </div>
 
         <div class="row align-items-center">
             <!-- Left Side Items -->
-            <div class="col-lg-4">
-                <div class="d-flex flex-row-reverse align-items-start text-end mb-5" data-aos="fade-right" data-aos-delay="100">
-                    <div class="bg-white rounded-circle shadow-sm d-flex align-items-center justify-content-center ms-4 flex-shrink-0 border border-1 border-secondary icon-box-lg">
-                        <i class="fa-solid fa-file-medical fs-3"></i>
-                    </div>
-                    <div>
-                        <h5 class="fw-bold mb-2 text-primary-dark-custom">Cholecystectomy</h5>
-                        <p class="text-muted fs-5 mb-0 lh-base">Minimally invasive gallbladder removal.</p>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-row-reverse align-items-start text-end mb-5" data-aos="fade-right" data-aos-delay="200">
-                    <div class="bg-white rounded-circle shadow-sm d-flex align-items-center justify-content-center ms-4 flex-shrink-0 border border-1 border-secondary icon-box-lg">
-                        <i class="fa-solid fa-notes-medical fs-3"></i>
-                    </div>
-                    <div>
-                        <h5 class="fw-bold mb-2 text-primary-dark-custom">Appendicectomy</h5>
-                        <p class="text-muted fs-5 mb-0 lh-base">Keyhole surgery to remove the appendix.</p>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-row-reverse align-items-start text-end mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="300">
-                    <div class="bg-white rounded-circle shadow-sm d-flex align-items-center justify-content-center ms-4 flex-shrink-0 border border-1 border-secondary icon-box-lg">
+            <div class="col-lg-4 laparoscopic-list laparoscopic-list-left">
+                <div class="laparoscopic-procedure" data-aos="fade-right" data-aos-delay="100">
+                    <div class="icon-box-lg">
                         <i class="fa-solid fa-stethoscope fs-3"></i>
                     </div>
                     <div>
-                        <h5 class="fw-bold mb-2 text-primary-dark-custom">Hernia Repair</h5>
-                        <p class="text-muted fs-5 mb-0 lh-base">Laparoscopic correction of hernia with small cuts.</p>
+                        <h5>Hernia Repair</h5>
+                        <p>Open and laparoscopic repair tailored to the type and severity of the hernia.</p>
+                    </div>
+                </div>
+
+                <div class="laparoscopic-procedure" data-aos="fade-right" data-aos-delay="200">
+                    <div class="icon-box-lg">
+                        <i class="fa-solid fa-notes-medical fs-3"></i>
+                    </div>
+                    <div>
+                        <h5>Piles, Fissure &amp; Fistula Treatment</h5>
+                        <p>Personalised surgical care to relieve pain, bleeding and discomfort.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Center Image -->
-            <div class="col-lg-4 text-center mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-                <div class="d-inline-block position-relative rounded-circle overflow-hidden shadow-lg border border-5 border-white circle-img-wrapper">
-                    <img src="{{ asset('resources/assets/images/dummy-dr.png') }}" class="w-100 h-100 circle-img-inner" alt="Surgeon">
+            <div class="col-lg-4 text-center laparoscopic-visual" data-aos="zoom-in" data-aos-delay="200">
+                <div class="laparoscopic-image-wrap">
+                    <img src="{{ asset('resources/assets/images/services/laparoscopic-s.png') }}" alt="Laparoscopic surgery instruments and anatomy" loading="lazy">
                 </div>
             </div>
 
             <!-- Right Side Items -->
-            <div class="col-lg-4">
-                <div class="d-flex align-items-start mb-5" data-aos="fade-left" data-aos-delay="100">
-                    <div class="bg-white rounded-circle shadow-sm d-flex align-items-center justify-content-center me-4 flex-shrink-0 border border-1 border-secondary icon-box-lg">
-                        <i class="fa-solid fa-heart-pulse fs-3"></i>
-                    </div>
-                    <div>
-                        <h5 class="fw-bold mb-2 text-primary-dark-custom">Fundoplication</h5>
-                        <p class="text-muted fs-5 mb-0 lh-base">Anti-reflux surgery for GERD treatment.</p>
-                    </div>
-                </div>
-
-                <div class="d-flex align-items-start mb-5" data-aos="fade-left" data-aos-delay="200">
-                    <div class="bg-white rounded-circle shadow-sm d-flex align-items-center justify-content-center me-4 flex-shrink-0 border border-1 border-secondary icon-box-lg">
+            <div class="col-lg-4 laparoscopic-list laparoscopic-list-right">
+                <div class="laparoscopic-procedure" data-aos="fade-left" data-aos-delay="100">
+                    <div class="icon-box-lg">
                         <i class="fa-solid fa-staff-snake fs-3"></i>
                     </div>
                     <div>
-                        <h5 class="fw-bold mb-2 text-primary-dark-custom">Splenectomy</h5>
-                        <p class="text-muted fs-5 mb-0 lh-base">Minimally invasive spleen removal.</p>
+                        <h5>Pilonidal Sinus Surgery</h5>
+                        <p>Effective removal of the sinus with careful wound care and recovery guidance.</p>
                     </div>
                 </div>
 
-                <div class="d-flex align-items-start" data-aos="fade-left" data-aos-delay="300">
-                    <div class="bg-white rounded-circle shadow-sm d-flex align-items-center justify-content-center me-4 flex-shrink-0 border border-1 border-secondary icon-box-lg">
+                <div class="laparoscopic-procedure" data-aos="fade-left" data-aos-delay="200">
+                    <div class="icon-box-lg">
                         <i class="fa-solid fa-disease fs-3"></i>
                     </div>
                     <div>
-                        <h5 class="fw-bold mb-2 text-primary-dark-custom">Hemicolectomy</h5>
-                        <p class="text-muted fs-5 mb-0 lh-base">Partial colon removal using laparoscopy.</p>
+                        <h5>Varicose Vein Surgery</h5>
+                        <p>Surgical treatment to improve circulation and ease swelling, pain and heaviness.</p>
                     </div>
                 </div>
             </div>
@@ -344,22 +340,22 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     <span class="text-uppercase letter-spacing-1 small text-dark-custom">Specialized Care</span>
                 </div>
 
-                <h2 class="display-4 font-heading fw-bold mb-4 text-primary-dark-custom" data-aos="zoom-in-up" data-aos-duration="1000">Advanced Laparoscopy</h2>
+                <h2 class="display-4 font-heading fw-bold mb-4 text-primary-dark-custom" data-aos="zoom-in-up" data-aos-duration="1000">Laparoscopic Surgery</h2>
 
-                <p class="text-muted mb-4 fs-5 lh-lg pe-lg-4">Experience the most advanced minimally invasive procedures designed to ensure minimal scarring, faster recovery, and the highest standard of surgical care tailored for your well-being.</p>
+                <p class="text-muted mb-4 fs-5 lh-lg pe-lg-4">Advanced keyhole procedures performed through small incisions to support less pain, minimal scarring, shorter hospital stays and faster recovery.</p>
 
                 <ul class="list-unstyled mb-5 fs-5 text-muted">
                     <li class="mb-3 d-flex align-items-center">
                         <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm">
                             <i class="fa-solid fa-check"></i>
                         </span>
-                        <span class="list-text-dark">Laparoscopic Cholecystectomy</span>
+                        <span class="list-text-dark">Laparoscopic Appendix Surgery</span>
                     </li>
                     <li class="mb-3 d-flex align-items-center">
                         <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm">
                             <i class="fa-solid fa-check"></i>
                         </span>
-                        <span class="list-text-dark">Laparoscopic Appendicectomy</span>
+                        <span class="list-text-dark">Laparoscopic Gall Bladder Surgery</span>
                     </li>
                     <li class="mb-3 d-flex align-items-center">
                         <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm">
@@ -372,16 +368,23 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <a href="#" class="btn-primary-theme rounded-0 px-5 py-3 text-uppercase fw-bold shadow-sm d-inline-block transition-all">Learn More</a>
             </div>
 
-            <!-- Right Side Image -->
-            <div class="col-lg-6 text-center text-lg-end" data-aos="fade-left" data-aos-delay="100">
-                <div class="position-relative d-inline-block mt-4 mt-lg-0">
-                    <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="img-fluid shadow-lg featured-treatment-img" alt="Laparoscopic Surgery" referrerpolicy="no-referrer">
+            <!-- Right Side Service Images -->
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                <div class="laparoscopy-image-grid mt-4 mt-lg-0">
+                    <article class="laparoscopy-image-card laparoscopy-image-card-main">
+                        <img src="{{ asset('resources/assets/images/services/appendix-surgery.png') }}" alt="Laparoscopic Appendix Surgery" loading="lazy">
+                        <h5>Laparoscopic Appendix Surgery</h5>
+                    </article>
 
-                    <!-- Floating Badge -->
-                    <!-- <div class="position-absolute d-flex flex-column align-items-center justify-content-center text-center shadow-lg floating-badge-lg" data-aos="zoom-in" data-aos-delay="400">
-                        <span class="fs-2 font-heading fw-bold lh-1 mb-1 text-white">25+</span>
-                        <span class="small lh-sm px-2 text-white floating-badge-text-sm">Years Of<br>Experience</span>
-                    </div> -->
+                    <article class="laparoscopy-image-card">
+                        <img src="{{ asset('resources/assets/images/services/laparoscopic-gall-bladder.png') }}" alt="Laparoscopic Gall Bladder Surgery" loading="lazy">
+                        <h5>Laparoscopic Gall Bladder Surgery</h5>
+                    </article>
+
+                    <article class="laparoscopy-image-card">
+                        <img src="{{ asset('resources/assets/images/services/hernia-repair.png') }}" alt="Laparoscopic Hernia Repair" loading="lazy">
+                        <h5>Laparoscopic Hernia Repair</h5>
+                    </article>
                 </div>
             </div>
 
