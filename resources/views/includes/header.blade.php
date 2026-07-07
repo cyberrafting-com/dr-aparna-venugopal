@@ -17,8 +17,8 @@
             <!-- Main Nav (Desktop) -->
             <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex" id="desktopNav">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">About</a></li>
+                    <li class="nav-item"><a href="{{ route('home') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Home</a></li>
+                    <li class="nav-item"><a href="{{ route('about') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">About</a></li>
                     <li class="nav-item services-nav-item">
                         <a href="#services" class="nav-link fw-bold hover-underline services-nav-link" style="text-transform: none;" aria-haspopup="true" aria-expanded="false">
                             Services <i class="fa-solid fa-chevron-down services-chevron"></i>
@@ -52,9 +52,9 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Testimonials </a></li>
-                    <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Gallery</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link fw-bold hover-underline" style="text-transform: none;">Contact </a></li>
+                    <li class="nav-item"><a href="{{ route('testimonial') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Testimonials </a></li>
+                    <li class="nav-item"><a href="{{ route('gallery') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Gallery</a></li>
+                    <li class="nav-item"><a href="{{route('contact')}}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Contact </a></li>
                 </ul>
             </div>
 
@@ -83,8 +83,8 @@
     </div>
     <div class="offcanvas-body px-4 py-3">
         <ul class="navbar-nav mb-2 mb-lg-0 w-100 gap-2">
-            <li class="nav-item"><a href="#" class="nav-link fw-bold text-primary-theme d-flex align-items-center gap-3 px-3 py-2 rounded bg-light-theme" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-house" style="width: 25px; text-align: center;"></i> Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-user-doctor text-muted" style="width: 25px; text-align: center;"></i> About</a></li>
+            <li class="nav-item"><a href="{{ route('home') }}" class="nav-link fw-bold text-primary-theme d-flex align-items-center gap-3 px-3 py-2 rounded bg-light-theme" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-house" style="width: 25px; text-align: center;"></i> Home</a></li>
+            <li class="nav-item"><a href="{{ route('about') }}" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-user-doctor text-muted" style="width: 25px; text-align: center;"></i> About</a></li>
             <li class="nav-item">
                 <button class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded border-0 bg-transparent w-100" type="button" data-bs-toggle="collapse" data-bs-target="#mobileServices" aria-expanded="false" aria-controls="mobileServices" style="text-transform: none; font-size: 18px;">
                     <i class="fa-solid fa-stethoscope text-muted" style="width: 25px; text-align: center;"></i> Services

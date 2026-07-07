@@ -510,12 +510,12 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
         <div class="row g-4">
             <!-- Gallery Item 1 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
-                <div class="gallery-item overflow-hidden rounded-3 shadow-sm position-relative">
+                <div class="gallery-page-item overflow-hidden rounded-3 shadow-sm position-relative">
                     <a data-fslightbox="gallery" href="{{ asset('resources/assets/images/gallery-d.png') }}" class="d-block position-relative">
-                        <img src="{{ asset('resources/assets/images/gallery-d.png') }}" class="img-fluid w-100 transition-all hover-zoom gallery-img-custom" alt="Gallery Image 1">
-                        <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center transition-all">
-                            <div class="gallery-icon text-white rounded-circle d-flex align-items-center justify-content-center transition-all shadow gallery-icon-custom">
-                                <i class="fa-solid fa-plus fs-3"></i>
+                        <img src="{{ asset('resources/assets/images/gallery-d.png') }}" class="img-fluid w-100 gallery-page-img" alt="Gallery Image 1">
+                        <div class="gallery-page-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="gallery-page-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-images"></i>
                             </div>
                         </div>
                     </a>
@@ -523,12 +523,12 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             </div>
             <!-- Gallery Item 2 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="gallery-item overflow-hidden rounded-3 shadow-sm position-relative">
+                <div class="gallery-page-item overflow-hidden rounded-3 shadow-sm position-relative">
                     <a data-fslightbox="gallery" href="{{ asset('resources/assets/images/gallery-d.png') }}" class="d-block position-relative">
-                        <img src="{{ asset('resources/assets/images/gallery-d.png') }}" class="img-fluid w-100 transition-all hover-zoom gallery-img-custom" alt="Gallery Image 2">
-                        <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center transition-all">
-                            <div class="gallery-icon text-white rounded-circle d-flex align-items-center justify-content-center transition-all shadow gallery-icon-custom">
-                                <i class="fa-solid fa-plus fs-3"></i>
+                        <img src="{{ asset('resources/assets/images/gallery-d.png') }}" class="img-fluid w-100 gallery-page-img" alt="Gallery Image 2">
+                        <div class="gallery-page-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="gallery-page-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-images"></i>
                             </div>
                         </div>
                     </a>
@@ -536,12 +536,12 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             </div>
             <!-- Gallery Item 3 -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="gallery-item overflow-hidden rounded-3 shadow-sm position-relative">
+                <div class="gallery-page-item overflow-hidden rounded-3 shadow-sm position-relative">
                     <a data-fslightbox="gallery" href="{{ asset('resources/assets/images/gallery-d.png') }}" class="d-block position-relative">
-                        <img src="{{ asset('resources/assets/images/gallery-d.png') }}" class="img-fluid w-100 transition-all hover-zoom gallery-img-custom" alt="Gallery Image 3">
-                        <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center transition-all">
-                            <div class="gallery-icon text-white rounded-circle d-flex align-items-center justify-content-center transition-all shadow gallery-icon-custom">
-                                <i class="fa-solid fa-plus fs-3"></i>
+                        <img src="{{ asset('resources/assets/images/gallery-d.png') }}" class="img-fluid w-100 gallery-page-img" alt="Gallery Image 3">
+                        <div class="gallery-page-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="gallery-page-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-images"></i>
                             </div>
                         </div>
                     </a>
