@@ -18,44 +18,43 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/laparoscopic-banner.png') }}');">
                     <div class="custom-hero-overlay"></div>
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
-                        <h1>Minimally Invasive Laparoscopic Surgeries for Faster Recovery</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Advanced minimally invasive laparoscopic procedures for hernia, gallbladder, and appendix with less pain and faster recovery.</p>
+                        <h1>Minimally Invasive Laparoscopic Surgeries</h1>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Expert laparoscopic care for hernia, gallbladder, and appendix for a faster recovery.</p>
                         <a href="#" class="custom-hero-btn">
-                            Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-primary-theme ms-1"></i>
+                            Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Slide 2 -->
-                <!-- <div class="swiper-slide custom-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+                <!-- Slide 2  -->
+               <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/piles-banner.png') }}');">
                     <div class="custom-hero-overlay"></div>
-                    <div class="custom-hero-content">
+                    <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
+                        <h1>Advanced Care for Piles, Fissure & Fistula</h1>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Expert surgical treatments ensuring safe, comfortable, and lasting relief for all anorectal conditions.</p>
+                        <a href="#" class="custom-hero-btn">
+                            Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+   <!-- Slide 3 -->
+               <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/breast-banner.png') }}');">
+                    <div class="custom-hero-overlay"></div>
+                    <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
                         <h1>Expert Breast Lump Evaluation & Surgical Care</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Comprehensive diagnosis and surgical management of breast lumps focusing on early detection and safe, effective treatment.</p>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Comprehensive diagnosis and surgical management focusing on early detection and safe, effective treatment.</p>
                         <a href="#" class="custom-hero-btn">
-                            Get Relief Today <i class="fa-solid fa-arrow-right-long text-primary-theme ms-1"></i>
+                            Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
                         </a>
                     </div>
-                </div> -->
-
-                <!-- Slide 3 -->
-                <!-- <div class="swiper-slide custom-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
-                    <div class="custom-hero-overlay"></div>
-                    <div class="custom-hero-content">
-                        <h1>Minor Surgical Procedures for Nail, Ear & Wound Conditions</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Safe and precise minor surgical care including nail surgeries, ear lobule repair, cyst removal, and wound treatments.</p>
-                        <a href="#" class="custom-hero-btn">
-                            Book Appointment Now <i class="fa-solid fa-arrow-right-long text-primary-theme ms-1"></i>
-                        </a>
-                    </div>
-                </div> -->
-
+                </div>
             </div>
             <!-- Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Navigation -->
-            <div class="swiper-button-next text-white opacity-50 pe-3 d-none d-md-flex"></div>
-            <div class="swiper-button-prev text-white opacity-50 ps-3 d-none d-md-flex"></div>
+            <div class="swiper-pagination mb-2"></div>
+            <!-- Invisible click areas for sliding -->
+            <div class="swiper-button-next click-area-next"></div>
+            <div class="swiper-button-prev click-area-prev"></div>
         </div>
 
     </section>
@@ -243,7 +242,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5>Hernia Repair</h5>
-                        <p>Open and laparoscopic repair tailored to the type and severity of the hernia.</p>
+                        <p class="text-muted fs-5">Open and laparoscopic repair tailored to the type and severity of the hernia.</p>
                     </div>
                 </div>
 
@@ -253,7 +252,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5>Piles, Fissure &amp; Fistula Treatment</h5>
-                        <p>Personalised surgical care to relieve pain, bleeding and discomfort.</p>
+                        <p class="text-muted fs-5">Personalised surgical care to relieve pain, bleeding and discomfort.</p>
                     </div>
                 </div>
             </div>
@@ -261,7 +260,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             <!-- Center Image -->
             <div class="col-lg-4 text-center laparoscopic-visual" data-aos="zoom-in" data-aos-delay="200">
                 <div class="laparoscopic-image-wrap">
-                    <img src="{{ asset('resources/assets/images/services/laparoscopic-s.png') }}" alt="Laparoscopic surgery instruments and anatomy" loading="lazy">
+                    <img src="{{ asset('resources/assets/images/services/surgical-care.png') }}" alt="Laparoscopic surgery instruments and anatomy" loading="lazy">
                 </div>
             </div>
 
@@ -273,7 +272,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5>Pilonidal Sinus Surgery</h5>
-                        <p>Effective removal of the sinus with careful wound care and recovery guidance.</p>
+                        <p class="text-muted fs-5">Effective removal of the sinus with careful wound care and recovery guidance.</p>
                     </div>
                 </div>
 
@@ -283,7 +282,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                     <div>
                         <h5>Varicose Vein Surgery</h5>
-                        <p>Surgical treatment to improve circulation and ease swelling, pain and heaviness.</p>
+                        <p class="text-muted fs-5">Surgical treatment to improve circulation and ease swelling, pain and heaviness.</p>
                     </div>
                 </div>
             </div>
@@ -564,11 +563,11 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             <div class="col-lg-10" data-aos="zoom-in">
                 <h2 class="display-5 font-heading text-white mb-4" style="font-weight: 500;">Book a Personalized Consultation</h2>
 
-                <p class="text-white mb-4 px-lg-5" style="font-size: 1.15rem; line-height: 1.6;">
+                <p class="text-white mb-4 px-lg-5 fs-5" style="font-size: 1.15rem; line-height: 1.6;">
                     Experience world-class surgical care with advanced laparoscopic techniques, ensuring minimal pain, faster recovery, and the highest standards of safety for your complete well-being.
                 </p>
 
-                <p class="text-white fst-italic mb-5" style="font-size: 1.1rem; opacity: 0.9;">
+                <p class="text-white fst-italic mb-5 fs-5" style="font-size: 1.1rem; opacity: 0.9;">
                     Best results when performed with personalized care and advanced medical expertise.
                 </p>
 

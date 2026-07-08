@@ -54,9 +54,9 @@
                                 <i class="fa-solid fa-quote-right"></i>
                             </div>
                         </div>
-                        <div class="testimonial-body">
+                        <p class="testimonial-body text-muted fs-5">
                             I recently visited the hospital for a family emergency and had a very positive experience. Living nearby, it is a relief to have a reliable surgeon. What I Liked: Dr. Aparna is exceptional. She is very patient, listens carefully, and doesn’t rush into unnecessary tests. <a href="#" class="testimonial-more-link">More...</a>
-                        </div>
+                        </p>
                     </div>
                 </div>
 
@@ -86,9 +86,9 @@
                                 <i class="fa-solid fa-quote-right"></i>
                             </div>
                         </div>
-                        <div class="testimonial-body">
+                        <p class="testimonial-body text-muted fs-5">
                             Dr. Aparna performed my gallbladder surgery. From the initial consultation to post-op care, everything was handled with utmost professionalism. Her reassuring demeanor helped calm my nerves, and the recovery was incredibly smooth. Highly recommended! <a href="#" class="testimonial-more-link">More...</a>
-                        </div>
+                        </p>
                     </div>
                 </div>
 
@@ -118,9 +118,9 @@
                                 <i class="fa-solid fa-quote-right"></i>
                             </div>
                         </div>
-                        <div class="testimonial-body">
+                        <p class="testimonial-body text-muted fs-5">
                             The care I received was outstanding. She takes the time to explain the diagnosis in simple terms and ensures you understand all the options. The hospital staff is also very supportive. I felt completely safe under her treatment. <a href="#" class="testimonial-more-link">More...</a>
-                        </div>
+                        </p>
                     </div>
                 </div>
 
@@ -150,9 +150,9 @@
                                 <i class="fa-solid fa-quote-right"></i>
                             </div>
                         </div>
-                        <div class="testimonial-body">
+                        <p class="testimonial-body text-muted fs-5">
                             My father had to undergo an emergency hernia surgery. Dr. Aparna was brilliant—not just with the surgery but with how she communicated with us during a stressful time. The results are perfect, and his recovery was very fast. Thank you! <a href="#" class="testimonial-more-link">More...</a>
-                        </div>
+                        </p>
                     </div>
                 </div>
 

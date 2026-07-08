@@ -17,9 +17,9 @@
             <!-- Main Nav (Desktop) -->
             <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex" id="desktopNav">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="{{ route('home') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Home</a></li>
-                    <li class="nav-item"><a href="{{ route('about') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">About</a></li>
-                    <li class="nav-item services-nav-item">
+                    <li class="nav-item text-muted fs-5"><a href="{{ route('home') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Home</a></li>
+                    <li class="nav-item text-muted fs-5"><a href="{{ route('about') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">About</a></li>
+                    <li class="nav-item services-nav-item text-muted fs-5">
                         <a href="#services" class="nav-link fw-bold hover-underline services-nav-link" style="text-transform: none;" aria-haspopup="true" aria-expanded="false">
                             Services <i class="fa-solid fa-chevron-down services-chevron"></i>
                         </a>
@@ -30,31 +30,31 @@
                             </div> -->
                             <div class="services-menu-grid">
                                 @foreach ([
-                                    'Laparoscopic appendix surgery',
-                                    'Laparoscopic gall bladder surgery',
-                                    'Hernia repair (open & laparoscopic)',
-                                    'Breast lump evaluation & surgery',
-                                    'Piles, fissure & fistula treatment',
-                                    'Pilonidal sinus surgery',
-                                    'Varicose vein surgery',
-                                    'Lipoma & sebaceous cyst removal',
-                                    'Lymph node biopsy',
-                                    'Nail surgeries',
-                                    'Ear lobule repair',
-                                    'Wound debridement',
-                                    'Incision and drainage of abscesses'
-                                ] as $service)
-                                    <a href="#services" class="service-menu-item">
+                                    'Laparoscopic appendix surgery' => route('services.laparoscopic-appendix-surgery'),
+                                    'Laparoscopic gall bladder surgery' => '#services',
+                                    'Hernia repair (open & laparoscopic)' => route('services.hernia-repair'),
+                                    'Breast lump evaluation & surgery' => '#services',
+                                    'Piles, fissure & fistula treatment' => route('services.piles-fissure-treatment'),
+                                    'Pilonidal sinus surgery' => '#services',
+                                    'Varicose vein surgery' => route('services.varicose-vein-surgery'),
+                                    'Lipoma & sebaceous cyst removal' => '#services',
+                                    'Lymph node biopsy' => route('services.lymph-node-biopsy'),
+                                    'Nail surgeries' => '#services',
+                                    'Ear lobule repair' => '#services',
+                                    'Wound debridement' => '#services',
+                                    'Incision and drainage of abscesses' => '#services'
+                                ] as $service => $link)
+                                    <a href="{{ $link }}" class="service-menu-item">
                                         <i class="fa-solid fa-chevron-right service-menu-arrow" aria-hidden="true"></i>
-                                        <span class="service-menu-label">{{ $service }}</span>
+                                        <p class="service-menu-label mb-0 text-muted fs-5">{{ $service }}</p>
                                     </a>
                                 @endforeach
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item"><a href="{{ route('testimonial') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Testimonials </a></li>
-                    <li class="nav-item"><a href="{{ route('gallery') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Gallery</a></li>
-                    <li class="nav-item"><a href="{{route('contact')}}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Contact </a></li>
+                    <li class="nav-item text-muted fs-5"><a href="{{ route('testimonial') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Testimonials </a></li>
+                    <li class="nav-item text-muted fs-5"><a href="{{ route('gallery') }}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Gallery</a></li>
+                    <li class="nav-item text-muted fs-5"><a href="{{route('contact')}}" class="nav-link fw-bold hover-underline" style="text-transform: none;">Contact </a></li>
                 </ul>
             </div>
 
@@ -83,22 +83,36 @@
     </div>
     <div class="offcanvas-body px-4 py-3">
         <ul class="navbar-nav mb-2 mb-lg-0 w-100 gap-2">
-            <li class="nav-item"><a href="{{ route('home') }}" class="nav-link fw-bold text-primary-theme d-flex align-items-center gap-3 px-3 py-2 rounded bg-light-theme" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-house" style="width: 25px; text-align: center;"></i> Home</a></li>
-            <li class="nav-item"><a href="{{ route('about') }}" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-user-doctor text-muted" style="width: 25px; text-align: center;"></i> About</a></li>
-            <li class="nav-item">
+            <li class="nav-item text-muted fs-5"><a href="{{ route('home') }}" class="nav-link fw-bold text-primary-theme d-flex align-items-center gap-3 px-3 py-2 rounded bg-light-theme" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-house" style="width: 25px; text-align: center;"></i> Home</a></li>
+            <li class="nav-item text-muted fs-5"><a href="{{ route('about') }}" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-user-doctor text-muted" style="width: 25px; text-align: center;"></i> About</a></li>
+            <li class="nav-item text-muted fs-5">
                 <button class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded border-0 bg-transparent w-100" type="button" data-bs-toggle="collapse" data-bs-target="#mobileServices" aria-expanded="false" aria-controls="mobileServices" style="text-transform: none; font-size: 18px;">
                     <i class="fa-solid fa-stethoscope text-muted" style="width: 25px; text-align: center;"></i> Services
                     <i class="fa-solid fa-chevron-down ms-auto fs-6"></i>
                 </button>
                 <div class="collapse mobile-services-list" id="mobileServices">
-                    @foreach (['Laparoscopic appendix surgery', 'Laparoscopic gall bladder surgery', 'Hernia repair (open & laparoscopic)', 'Breast lump evaluation & surgery', 'Piles, fissure & fistula treatment', 'Pilonidal sinus surgery', 'Varicose vein surgery', 'Lipoma & sebaceous cyst removal', 'Lymph node biopsy', 'Nail surgeries', 'Ear lobule repair', 'Wound debridement', 'Incision and drainage of abscesses'] as $service)
-                        <a href="#services" class="d-flex align-items-start gap-2 py-2 px-3 text-dark text-decoration-none"><i class="fa-solid fa-chevron-right mt-1"></i><span>{{ $service }}</span></a>
+                    @foreach ([
+                        'Laparoscopic appendix surgery' => route('services.laparoscopic-appendix-surgery'),
+                        'Laparoscopic gall bladder surgery' => '#services',
+                        'Hernia repair (open & laparoscopic)' => route('services.hernia-repair'),
+                        'Breast lump evaluation & surgery' => '#services',
+                        'Piles, fissure & fistula treatment' => route('services.piles-fissure-treatment'),
+                        'Pilonidal sinus surgery' => '#services',
+                        'Varicose vein surgery' => route('services.varicose-vein-surgery'),
+                        'Lipoma & sebaceous cyst removal' => '#services',
+                        'Lymph node biopsy' => route('services.lymph-node-biopsy'),
+                        'Nail surgeries' => '#services',
+                        'Ear lobule repair' => '#services',
+                        'Wound debridement' => '#services',
+                        'Incision and drainage of abscesses' => '#services'
+                    ] as $service => $link)
+                        <a href="{{ $link }}" class="d-flex align-items-start gap-2 py-2 px-3 text-dark text-decoration-none"><i class="fa-solid fa-chevron-right mt-1"></i><p class="mb-0">{{ $service }}</p></a>
                     @endforeach
                 </div>
             </li>
-            <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-comment-medical text-muted" style="width: 25px; text-align: center;"></i> Testimonials</a></li>
-            <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-images text-muted" style="width: 25px; text-align: center;"></i> Gallery</a></li>
-            <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-envelope text-muted" style="width: 25px; text-align: center;"></i> Contact</a></li>
+            <li class="nav-item text-muted fs-5"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-comment-medical text-muted" style="width: 25px; text-align: center;"></i> Testimonials</a></li>
+            <li class="nav-item text-muted fs-5"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-images text-muted" style="width: 25px; text-align: center;"></i> Gallery</a></li>
+            <li class="nav-item text-muted fs-5"><a href="#" class="nav-link fw-bold text-dark d-flex align-items-center gap-3 px-3 py-2 rounded" style="text-transform: none; font-size: 18px;"><i class="fa-solid fa-envelope text-muted" style="width: 25px; text-align: center;"></i> Contact</a></li>
         </ul>
     </div>
 </div>
@@ -119,7 +133,7 @@
     </div>
 
     <div class="sidebar-content text-white">
-        <p class="sidebar-intro mb-4 text-white">Advanced, compassionate general and laparoscopic surgical care.</p>
+        <p class="sidebar-intro mb-4 text-white fs-5">Advanced, compassionate general and laparoscopic surgical care.</p>
 
         <hr class="sidebar-divider mb-4">
 
@@ -128,11 +142,11 @@
         <div class="contact-info">
             <div class="sidebar-contact-item">
                 <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                <p class="mb-0 text-white">Hriday Mother &amp; Child Care Hospital, First Floor, Rahul Downtown, Mumbai Pune Bypass Road, Punawale, Pimpri-Chinchwad, Maharashtra 411033</p>
+                <p class="mb-0 text-white fs-5">Hriday Mother &amp; Child Care Hospital, First Floor, Rahul Downtown, Mumbai Pune Bypass Road, Punawale, Pimpri-Chinchwad, Maharashtra 411033</p>
             </div>
             <div class="sidebar-contact-item">
                 <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                <a href="tel:+919495208068" class="text-white text-decoration-none">+91 94952 08068</a>
+                <a href="tel:+919495208068" class="text-white fs-5 text-decoration-none">+91 94952 08068</a>
             </div>
         </div>
     </div>

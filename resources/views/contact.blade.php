@@ -46,7 +46,7 @@
     <div class="contact-content">
         <h5>Clinic Address</h5>
 
-        <p class="text-white">
+        <p class="text-white fs-5">
             Hriday Mother &amp; Child Care Hospital<br>
             First Floor, Rahul Downtown,<br>
             Mumbai Pune Bypass Rd Flyover,<br>
@@ -66,7 +66,7 @@
     <div class="contact-content">
         <h5>Phone</h5>
 
-        <a href="tel:+919495208068">
+        <a href="tel:+919495208068" class="fs-5">
             +91 94952 08068
         </a>
     </div>
@@ -82,7 +82,7 @@
     <div class="contact-content">
         <h5>Email</h5>
 
-        <a href="mailto:venugopalaparna9217@gmail.com">
+        <a href="mailto:venugopalaparna9217@gmail.com" class="fs-5">
             venugopalaparna9217@gmail.com
         </a>
     </div>

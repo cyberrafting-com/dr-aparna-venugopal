@@ -5,9 +5,9 @@
             <!-- Column 1: Logo and Paragraph -->
             <div class="col-lg-4">
                 <div class="logo mb-4">
-                    <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
-                        <span class="lh-sm text-dark" style="font-family: 'Playfair Display', serif;">Dr Aparna Venugopal</span>
-                        <span class="mb-0 fs-5 text-dark fw-normal font-body" style="margin-top: 2px;">General Surgeon</span>
+                    <a href="{{ url('/') }}" class="footer-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
+                        <span class="lh-sm" style="font-family: 'Playfair Display', serif;">Dr Aparna Venugopal</span>
+                        <span class="mb-0 fs-5 text-muted fw-normal font-body" style="margin-top: 2px;">General Surgeon</span>
                     </a>
                 </div>
                 <p class="text-muted fs-5 mb-4 pe-lg-4">Expert General & Laparoscopic Surgeon delivering minimally invasive and advanced surgical care.</p>
@@ -24,15 +24,15 @@
                 <ul class="list-unstyled">
                     <li class="mb-3 d-flex text-muted fs-5">
                         <i class="fa-solid fa-location-dot mt-1 me-3" style="color: var(--primary);"></i>
-                        <span>Hriday Mother & Child Care Hospital<br>First Floor, Rahul Downtown,<br>Mumbai Pune Bypass Rd Flyover,<br>beside SK CNG Pump, Punawale,<br>Pimpri-Chinchwad, Maharashtra 411033</span>
+                        <p class="text-muted fs-5 mb-0">Hriday Mother & Child Care Hospital<br>First Floor, Rahul Downtown,<br>Mumbai Pune Bypass Rd Flyover,<br>beside SK CNG Pump, Punawale,<br>Pimpri-Chinchwad, Maharashtra 411033</p>
                     </li>
                     <li class="mb-3 d-flex align-items-center text-muted fs-5">
                         <i class="fa-solid fa-phone me-3" style="color: var(--primary);"></i>
-                        <span>9495208068</span>
+                        <a href="tel:+919495208068" class="text-muted fs-5 text-decoration-none mb-0">+91 94952 08068</a>
                     </li>
                     <li class="d-flex align-items-center text-muted fs-5">
                         <i class="fa-solid fa-envelope me-3" style="color: var(--primary);"></i>
-                        <span>venugopalaparna9217@gmail.com</span>
+                        <a href="mailto:venugopalaparna9217@gmail.com" class="text-muted fs-5 text-decoration-none mb-0">venugopalaparna9217@gmail.com</a>
                     </li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="footer-copyright text-center">
-        <p class="mb-0">&copy; {{ date('Y') }} Dr Aparna Venugopal. All rights reserved.</p>
+        <p class="mb-0 fs-5 text-white">&copy; {{ date('Y') }} Dr Aparna Venugopal. All rights reserved.</p>
     </div>
 </footer>
 

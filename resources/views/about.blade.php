@@ -70,7 +70,7 @@
                         <p class="text-muted fs-5 mb-4" style="text-align: justify;">With a strong interest in medical education and continuous learning, she stays updated with modern surgical advancements to deliver high-quality patient care.</p>
                         
                         <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme px-4 py-2 rounded">Book Appointment</a>
+                            <a href="{{ route('contact') }}" class="btn-primary-theme  ">Book Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                     <div class="edu-horizontal-card h-100">
                         <div class="edu-year-badge">2010 - 2016</div>
                         <h4 class="edu-degree-title">MBBS</h4>
-                        <p class="edu-inst-text">Amrita Institute of Medical Sciences, Kochi, Kerala</p>
+                        <p class="edu-inst-text text-muted fs-5">Amrita Institute of Medical Sciences, Kochi, Kerala</p>
                     </div>
                 </div>
                 <!-- Card 2 -->
@@ -99,7 +99,7 @@
                     <div class="edu-horizontal-card h-100">
                         <div class="edu-year-badge">2018 - 2021</div>
                         <h4 class="edu-degree-title">MS - General Surgery</h4>
-                        <p class="edu-inst-text">SRM Medical College &amp; Research Centre, Chennai</p>
+                        <p class="edu-inst-text text-muted fs-5">SRM Medical College &amp; Research Centre, Chennai</p>
                     </div>
                 </div>
                 <!-- Card 3 -->
@@ -107,7 +107,7 @@
                     <div class="edu-horizontal-card h-100">
                         <div class="edu-year-badge">2021</div>
                         <h4 class="edu-degree-title">FIAGES</h4>
-                        <p class="edu-inst-text">Advanced training in laparoscopic surgical techniques.</p>
+                        <p class="edu-inst-text text-muted fs-5">Advanced training in laparoscopic surgical techniques.</p>
                     </div>
                 </div>
                 <!-- Card 4 -->
@@ -115,7 +115,7 @@
                     <div class="edu-horizontal-card h-100">
                         <div class="edu-year-badge">2024</div>
                         <h4 class="edu-degree-title">BCME</h4>
-                        <p class="edu-inst-text">Basic Course in Medical Education, NMC.</p>
+                        <p class="edu-inst-text text-muted fs-5">Basic Course in Medical Education, NMC.</p>
                     </div>
                 </div>
             </div>
@@ -135,8 +135,8 @@
                     <h3>Assistant Professor</h3>
                     <p class="fw-bold text-muted fs-5 mb-1">SRM Medical College &amp; Research Centre</p>
                     <ul class="text-muted fs-5">
-                        <li>Teaching medical students and managing complex surgical cases.</li>
-                        <li>Providing advanced laparoscopic surgical care and clinical research support.</li>
+                        <li class="text-muted fs-5">Teaching medical students and managing complex surgical cases.</li>
+                        <li class="text-muted fs-5">Providing advanced laparoscopic surgical care and clinical research support.</li>
                     </ul>
                 </div>
 
@@ -145,8 +145,8 @@
                     <h3>Senior Resident</h3>
                     <p class="fw-bold text-muted fs-5 mb-1">SRM Medical College &amp; Research Centre</p>
                     <ul class="text-muted fs-5">
-                        <li>Managed elective and emergency surgical cases.</li>
-                        <li>Assisted and performed advanced laparoscopic procedures.</li>
+                        <li class="text-muted fs-5">Managed elective and emergency surgical cases.</li>
+                        <li class="text-muted fs-5">Assisted and performed advanced laparoscopic procedures.</li>
                     </ul>
                 </div>
 
@@ -155,8 +155,8 @@
                     <h3>Senior Resident</h3>
                     <p class="fw-bold text-muted fs-5 mb-1">Adesh Institute of Medical Sciences</p>
                     <ul class="text-muted fs-5">
-                        <li>Handled outpatient, inpatient and emergency general surgical care.</li>
-                        <li>Assisted in complex gastrointestinal and laparoscopic surgeries.</li>
+                        <li class="text-muted fs-5">Handled outpatient, inpatient and emergency general surgical care.</li>
+                        <li class="text-muted fs-5">Assisted in complex gastrointestinal and laparoscopic surgeries.</li>
                     </ul>
                 </div>
 
@@ -165,8 +165,8 @@
                     <h3>Assistant Professor</h3>
                     <p class="fw-bold text-muted fs-5 mb-1">Travancore Medical College</p>
                     <ul class="text-muted fs-5">
-                        <li>Trained students and junior residents through clinical teaching.</li>
-                        <li>Supervised patient care and surgical procedures.</li>
+                        <li class="text-muted fs-5">Trained students and junior residents through clinical teaching.</li>
+                        <li class="text-muted fs-5">Supervised patient care and surgical procedures.</li>
                     </ul>
                 </div>
             </div>
@@ -181,13 +181,13 @@
 
             <div class="clinical-note shadow-sm">
                 <ul class="text-muted fs-5" style="columns: 1;">
-                    <li class="mb-2">Proficiency in basic open surgeries with strict adherence to best practices.</li>
-                    <li class="mb-2">Laparoscopic procedures including appendicectomy and cholecystectomy.</li>
-                    <li class="mb-2">Advanced laparoscopic hernia repairs (TEP, TAPP &amp; IPOM).</li>
-                    <li class="mb-2">Extensive hands-on experience in emergency and trauma surgeries.</li>
-                    <li class="mb-2">Comprehensive pre-operative assessment and post-operative care.</li>
-                    <li class="mb-2">Collaborative approach with interdisciplinary healthcare teams.</li>
-                    <li class="mb-2">Mentorship and training of medical students and surgical residents.</li>
+                    <li class="mb-2 text-muted fs-5">Proficiency in basic open surgeries with strict adherence to best practices.</li>
+                    <li class="mb-2 text-muted fs-5">Laparoscopic procedures including appendicectomy and cholecystectomy.</li>
+                    <li class="mb-2 text-muted fs-5">Advanced laparoscopic hernia repairs (TEP, TAPP &amp; IPOM).</li>
+                    <li class="mb-2 text-muted fs-5">Extensive hands-on experience in emergency and trauma surgeries.</li>
+                    <li class="mb-2 text-muted fs-5">Comprehensive pre-operative assessment and post-operative care.</li>
+                    <li class="mb-2 text-muted fs-5">Collaborative approach with interdisciplinary healthcare teams.</li>
+                    <li class="mb-2 text-muted fs-5">Mentorship and training of medical students and surgical residents.</li>
                 </ul>
             </div>
         </div>
