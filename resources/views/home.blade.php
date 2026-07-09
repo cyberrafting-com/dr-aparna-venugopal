@@ -18,16 +18,15 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/laparoscopic-banner.png') }}');">
                     <div class="custom-hero-overlay"></div>
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
-                        <h1>Minimally Invasive Laparoscopic Surgeries</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Expert laparoscopic care for hernia, gallbladder, and appendix for a faster recovery.</p>
-                        <a href="#" class="custom-hero-btn">
-                            Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
+                        <h1>Prefer a Female Surgeon for Your Laparoscopic Procedure?</h1>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Experience advanced minimally invasive surgery with personalized care, privacy, and expertise from Dr. Aparna Venugopal.</p>
+                        <a href="{{ route('contact') }}" class="custom-hero-btn">
+                            Schedule Your Appointment <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
                         </a>
                     </div>
                 </div>
-
                 <!-- Slide 2  -->
-               <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/piles-banner.png') }}');">
+                <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/piles-banner.png') }}');">
                     <div class="custom-hero-overlay"></div>
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
                         <h1>Advanced Care for Piles, Fissure & Fistula</h1>
@@ -38,8 +37,8 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                 </div>
 
-   <!-- Slide 3 -->
-               <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/breast-banner.png') }}');">
+                <!-- Slide 3 -->
+                <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/breast-banner.png') }}');">
                     <div class="custom-hero-overlay"></div>
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
                         <h1>Expert Breast Lump Evaluation & Surgical Care</h1>
@@ -98,114 +97,114 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 
                 <!-- Service 1 -->
                 <div class="swiper-slide">
-                    <div class="service-carousel-card position-relative">
+                    <a href="{{ route('services.breast-lump-evaluation-surgery') }}" class="service-carousel-card position-relative text-decoration-none d-block">
                         <img src="{{ asset('resources/assets/images/services/breast-lumps.png') }}" class="w-100 h-100 object-fit-cover" alt="Breast Lump Evaluation and Surgery">
-                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                        <div class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
-                        </a>
+                        </div>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Breast Lump Evaluation </h5>
+                                <h5 class="mb-2 fw-bold font-heading text-dark">Breast Lump Evaluation </h5>
                                 <p class="text-muted fs-5 mb-0">Careful assessment, diagnosis and surgical treatment of breast lumps.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Service 2 -->
                 <div class="swiper-slide">
-                    <div class="service-carousel-card position-relative">
+                    <a href="{{ route('services.lipoma-sebaceous-cyst-removal') }}" class="service-carousel-card position-relative text-decoration-none d-block">
                         <img src="{{ asset('resources/assets/images/services/lipoma.png') }}" class="w-100 h-100 object-fit-cover" alt="Lipoma and Sebaceous Cyst Removal">
-                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                        <div class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
-                        </a>
+                        </div>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Lipoma &amp; Sebaceous Cyst Removal</h5>
+                                <h5 class="mb-2 fw-bold font-heading text-dark">Lipoma &amp; Sebaceous Cyst Removal</h5>
                                 <p class="text-muted fs-5 mb-0">Safe removal of benign skin lumps with attention to minimal scarring.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Service 3 -->
                 <div class="swiper-slide">
-                    <div class="service-carousel-card position-relative">
+                    <a href="{{ route('services.lymph-node-biopsy') }}" class="service-carousel-card position-relative text-decoration-none d-block">
                         <img src="{{ asset('resources/assets/images/services/lymph-node.png') }}" class="w-100 h-100 object-fit-cover" alt="Lymph Node Biopsy">
-                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                        <div class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
-                        </a>
+                        </div>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Lymph Node Biopsy</h5>
+                                <h5 class="mb-2 fw-bold font-heading text-dark">Lymph Node Biopsy</h5>
                                 <p class="text-muted fs-5 mb-0">Precise tissue sampling to support accurate diagnosis and treatment planning.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Service 4 -->
                 <div class="swiper-slide">
-                    <div class="service-carousel-card position-relative">
+                    <a href="{{ route('services.nail-surgery') }}" class="service-carousel-card position-relative text-decoration-none d-block">
                         <img src="{{ asset('resources/assets/images/services/nail-infection.png') }}" class="w-100 h-100 object-fit-cover" alt="Nail Surgeries">
-                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                        <div class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
-                        </a>
+                        </div>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Nail Surgeries</h5>
+                                <h5 class="mb-2 fw-bold font-heading text-dark">Nail Surgeries</h5>
                                 <p class="text-muted fs-5 mb-0">Treatment for ingrown, infected or damaged nails with lasting relief.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Service 5 -->
                 <div class="swiper-slide">
-                    <div class="service-carousel-card position-relative">
+                    <a href="{{ route('services.ear-lobule-repair') }}" class="service-carousel-card position-relative text-decoration-none d-block">
                         <img src="{{ asset('resources/assets/images/services/ear-lobe.png') }}" class="w-100 h-100 object-fit-cover" alt="Ear Lobule Repair">
-                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                        <div class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
-                        </a>
+                        </div>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Ear Lobule Repair</h5>
+                                <h5 class="mb-2 fw-bold font-heading text-dark">Ear Lobule Repair</h5>
                                 <p class="text-muted fs-5 mb-0">Precise repair of torn, split or stretched earlobes with minimal scarring.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Service 6 -->
                 <div class="swiper-slide">
-                    <div class="service-carousel-card position-relative">
+                    <a href="{{ route('services.wound-debridement') }}" class="service-carousel-card position-relative text-decoration-none d-block">
                         <img src="{{ asset('resources/assets/images/services/wound.png') }}" class="w-100 h-100 object-fit-cover" alt="Wound Debridement">
-                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                        <div class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
-                        </a>
+                        </div>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Wound Debridement</h5>
+                                <h5 class="mb-2 fw-bold font-heading text-dark">Wound Debridement</h5>
                                 <p class="text-muted fs-5 mb-0">Removal of unhealthy tissue to control infection and support wound healing.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Service 7 -->
                 <div class="swiper-slide">
-                    <div class="service-carousel-card position-relative">
+                    <a href="{{ route('services.incision-and-drainage-of-abscesses') }}" class="service-carousel-card position-relative text-decoration-none d-block">
                         <img src="{{ asset('resources/assets/images/services/piles.png') }}" class="w-100 h-100 object-fit-cover" alt="Incision and Drainage of Abscesses">
-                        <a href="#" class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
+                        <div class="service-icon-link position-absolute top-0 end-0 m-3 rounded-circle d-flex align-items-center justify-content-center text-decoration-none shadow-sm">
                             <i class="fa-solid fa-arrow-right icon-rotate-45"></i>
-                        </a>
+                        </div>
                         <div class="service-content-box position-absolute bottom-0 start-0 w-100 p-3">
                             <div class="service-content-inner p-4 shadow-sm">
-                                <h5 class="mb-2 fw-bold font-heading">Incision &amp; Drainage of Abscesses</h5>
+                                <h5 class="mb-2 fw-bold font-heading text-dark">Incision &amp; Drainage of Abscesses</h5>
                                 <p class="text-muted fs-5 mb-0">Prompt drainage of infected collections to relieve pain and promote healing.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
             </div>
@@ -241,7 +240,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <i class="fa-solid fa-stethoscope fs-3"></i>
                     </div>
                     <div>
-                        <h5>Hernia Repair</h5>
+                        <h5><a href="{{ route('services.hernia-repair') }}" class="text-dark no-underline">Hernia Repair</a></h5>
                         <p class="text-muted fs-5">Open and laparoscopic repair tailored to the type and severity of the hernia.</p>
                     </div>
                 </div>
@@ -251,7 +250,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <i class="fa-solid fa-notes-medical fs-3"></i>
                     </div>
                     <div>
-                        <h5>Piles, Fissure &amp; Fistula Treatment</h5>
+                        <h5><a href="{{ route('services.piles-fissure-treatment') }}" class="text-dark no-underline">Piles, Fissure &amp; Fistula Treatment</a></h5>
                         <p class="text-muted fs-5">Personalised surgical care to relieve pain, bleeding and discomfort.</p>
                     </div>
                 </div>
@@ -271,7 +270,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <i class="fa-solid fa-staff-snake fs-3"></i>
                     </div>
                     <div>
-                        <h5>Pilonidal Sinus Surgery</h5>
+                        <h5><a href="{{ route('services.pilonidal-sinus-surgery') }}" class="text-dark no-underline">Pilonidal Sinus Surgery</a></h5>
                         <p class="text-muted fs-5">Effective removal of the sinus with careful wound care and recovery guidance.</p>
                     </div>
                 </div>
@@ -281,7 +280,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <i class="fa-solid fa-disease fs-3"></i>
                     </div>
                     <div>
-                        <h5>Varicose Vein Surgery</h5>
+                        <h5><a href="{{ route('services.varicose-vein-surgery') }}" class="text-dark no-underline">Varicose Vein Surgery</a></h5>
                         <p class="text-muted fs-5">Surgical treatment to improve circulation and ease swelling, pain and heaviness.</p>
                     </div>
                 </div>
@@ -370,20 +369,20 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             <!-- Right Side Service Images -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
                 <div class="laparoscopy-image-grid mt-4 mt-lg-0">
-                    <article class="laparoscopy-image-card laparoscopy-image-card-main">
+                    <a href="{{ route('services.laparoscopic-appendix-surgery') }}" class="laparoscopy-image-card laparoscopy-image-card-main text-decoration-none">
                         <img src="{{ asset('resources/assets/images/services/appendix-surgery.png') }}" alt="Laparoscopic Appendix Surgery" loading="lazy">
                         <h5>Laparoscopic Appendix Surgery</h5>
-                    </article>
+                    </a>
 
-                    <article class="laparoscopy-image-card">
+                    <a href="{{ route('services.laparoscopic-gall-bladder-surgery') }}" class="laparoscopy-image-card text-decoration-none">
                         <img src="{{ asset('resources/assets/images/services/laparoscopic-gall-bladder.png') }}" alt="Laparoscopic Gall Bladder Surgery" loading="lazy">
                         <h5>Laparoscopic Gall Bladder Surgery</h5>
-                    </article>
+                    </a>
 
-                    <article class="laparoscopy-image-card">
+                    <a href="{{ route('services.hernia-repair') }}" class="laparoscopy-image-card text-decoration-none">
                         <img src="{{ asset('resources/assets/images/services/hernia-repair.png') }}" alt="Laparoscopic Hernia Repair" loading="lazy">
                         <h5>Laparoscopic Hernia Repair</h5>
-                    </article>
+                    </a>
                 </div>
             </div>
 
@@ -553,25 +552,49 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 <!-- Include fsLightbox for Gallery Zoom -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.1/index.min.js"></script>
 
-<!-- 10. CTA SECTION -->
-<section class="section-padding cta-section" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-attachment: fixed; background-size: cover; background-position: center; position: relative;">
-    <!-- Dark overlay -->
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(45, 55, 60, 0.85); z-index: 1;"></div>
+<!-- 10. DOCTOR PROFILE / CTA SECTION -->
+<!-- 10. DOCTOR PROFILE / CTA SECTION -->
+<section class="section-padding position-relative overflow-hidden" style="background-color: var(--accent);">
+    <!-- Decorative background elements -->
+    <div class="position-absolute top-0 end-0 opacity-25" style="width: 300px; height: 300px; background: radial-gradient(circle, var(--primary) 0%, transparent 70%); transform: translate(30%, -30%);"></div>
+    <div class="position-absolute bottom-0 start-0 opacity-25" style="width: 400px; height: 400px; background: radial-gradient(circle, var(--primary) 0%, transparent 70%); transform: translate(-30%, 30%);"></div>
 
-    <div class="container position-relative" style="z-index: 2; padding-top: 40px; padding-bottom: 40px;">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-10" data-aos="zoom-in">
-                <h2 class="display-5 font-heading text-white mb-4" style="font-weight: 500;">Book a Personalized Consultation</h2>
+    <div class="container position-relative z-1">
+        <!-- Title Row -->
+        <div class="row mb-5 pb-2">
+            <div class="col-12 text-center" data-aos="fade-up">
+                <span class="d-inline-block text-white fw-bold mb-3 px-3 py-1 rounded-pill text-uppercase shadow-sm" style="background-color: var(--primary); letter-spacing: 1.5px; font-size: 0.85rem;">Expert Care for Women in Pune</span>
+                <h2 class="display-5 font-heading text-dark fw-bold lh-sm mb-0">Compassionate & Advanced Surgical Care</h2>
+            </div>
+        </div>
 
-                <p class="text-white mb-4 px-lg-5 fs-5" style="font-size: 1.15rem; line-height: 1.6;">
-                    Experience world-class surgical care with advanced laparoscopic techniques, ensuring minimal pain, faster recovery, and the highest standards of safety for your complete well-being.
-                </p>
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5" data-aos="fade-right">
+                <div class="position-relative">
+                    <!-- Image wrapper with accent border/design -->
+                    <div class="position-absolute w-100 h-100 rounded-4" style="border: 3px solid var(--primary); opacity: 0.15; top: 15px; left: -15px; z-index: 0;"></div>
+                    <div class="position-absolute w-100 h-100 rounded-4" style="background-color: var(--primary); top: -15px; right: -15px; opacity: 0.05; z-index: 0;"></div>
+                    <img src="{{ asset('resources/assets/images/slider/cta.png') }}" alt="Compassionate Patient Care" class="img-fluid rounded-4 shadow-lg position-relative z-1 w-100" style="object-fit: cover; min-height: 400px; border: 5px solid var(--primary);">
+                </div>
+            </div>
+            <div class="col-lg-7 d-flex flex-column justify-content-center" data-aos="fade-left">
+                <div class=" ">
+                    <p class="text-muted fs-5 mb-3 text-justify" style="line-height: 1.7;">
+                        For women in Pune seeking the care of a female surgeon, <a href="{{ route('about') }}" class="fw-bold no-underline" style="color: var(--primary);">Dr. Aparna Venugopal</a> provides safe and advanced <strong style="color: var(--primary);">general and laparoscopic surgical care</strong> with a focus on comfort, privacy, and personalized treatment. She uses modern minimally invasive techniques to support smoother recovery and better outcomes.
+                    </p>
 
-                <p class="text-white fst-italic mb-5 fs-5" style="font-size: 1.1rem; opacity: 0.9;">
-                    Best results when performed with personalized care and advanced medical expertise.
-                </p>
+                    <p class="text-muted fs-5 mb-4 text-justify" style="line-height: 1.7;">
+                        Her expertise includes gallstone treatment, appendicitis surgery, hernia repair, fissure, piles, fistula, pilonidal sinus management, and breast lump evaluation and surgery. She ensures compassionate care with a patient-focused approach throughout the surgical journey.
+                    </p>
+                    <p class="fs-5 fw-bold mb-3" style="color: var(--primary)!important;">Consult Dr. Aparna Venugopal Today!</p>
 
-                <a href="#" class="btn-primary-theme px-5 py-3 rounded-pill text-uppercase fw-bold shadow-sm d-inline-block transition-all" style="font-size: 14px; letter-spacing: 1px;">BOOK YOUR CONSULTATION</a>
+                    <div class="mt-2">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme px-5 py-3 rounded-0 text-uppercase fw-bold shadow-sm d-inline-flex align-items-center gap-2 transition-all btn-text-sm">
+                            <span>Book Appointment</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

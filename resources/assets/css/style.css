@@ -2791,3 +2791,9 @@ h6 {
         max-width: 100% !important;
     }
 }
+
+/* Utility classes */
+.no-underline {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}

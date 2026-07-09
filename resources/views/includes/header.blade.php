@@ -31,18 +31,18 @@
                             <div class="services-menu-grid">
                                 @foreach ([
                                     'Laparoscopic appendix surgery' => route('services.laparoscopic-appendix-surgery'),
-                                    'Laparoscopic gall bladder surgery' => '#services',
+                                    'Laparoscopic gall bladder surgery' => route('services.laparoscopic-gall-bladder-surgery'),
                                     'Hernia repair (open & laparoscopic)' => route('services.hernia-repair'),
-                                    'Breast lump evaluation & surgery' => '#services',
+                                    'Breast lump evaluation & surgery' => route('services.breast-lump-evaluation-surgery'),
                                     'Piles, fissure & fistula treatment' => route('services.piles-fissure-treatment'),
-                                    'Pilonidal sinus surgery' => '#services',
+                                    'Pilonidal sinus surgery' => route('services.pilonidal-sinus-surgery'),
                                     'Varicose vein surgery' => route('services.varicose-vein-surgery'),
-                                    'Lipoma & sebaceous cyst removal' => '#services',
+                                    'Lipoma & sebaceous cyst removal' => route('services.lipoma-sebaceous-cyst-removal'),
                                     'Lymph node biopsy' => route('services.lymph-node-biopsy'),
-                                    'Nail surgeries' => '#services',
-                                    'Ear lobule repair' => '#services',
-                                    'Wound debridement' => '#services',
-                                    'Incision and drainage of abscesses' => '#services'
+                                    'Nail surgeries' => route('services.nail-surgery'),
+                                    'Ear lobule repair' => route('services.ear-lobule-repair'),
+                                    'Wound debridement' => route('services.wound-debridement'),
+                                    'Incision and drainage of abscesses' => route('services.incision-and-drainage-of-abscesses')
                                 ] as $service => $link)
                                     <a href="{{ $link }}" class="service-menu-item">
                                         <i class="fa-solid fa-chevron-right service-menu-arrow" aria-hidden="true"></i>
@@ -93,18 +93,18 @@
                 <div class="collapse mobile-services-list" id="mobileServices">
                     @foreach ([
                         'Laparoscopic appendix surgery' => route('services.laparoscopic-appendix-surgery'),
-                        'Laparoscopic gall bladder surgery' => '#services',
+                        'Laparoscopic gall bladder surgery' => route('services.laparoscopic-gall-bladder-surgery'),
                         'Hernia repair (open & laparoscopic)' => route('services.hernia-repair'),
-                        'Breast lump evaluation & surgery' => '#services',
+                        'Breast lump evaluation & surgery' => route('services.breast-lump-evaluation-surgery'),
                         'Piles, fissure & fistula treatment' => route('services.piles-fissure-treatment'),
-                        'Pilonidal sinus surgery' => '#services',
+                        'Pilonidal sinus surgery' => route('services.pilonidal-sinus-surgery'),
                         'Varicose vein surgery' => route('services.varicose-vein-surgery'),
-                        'Lipoma & sebaceous cyst removal' => '#services',
+                        'Lipoma & sebaceous cyst removal' => route('services.lipoma-sebaceous-cyst-removal'),
                         'Lymph node biopsy' => route('services.lymph-node-biopsy'),
-                        'Nail surgeries' => '#services',
-                        'Ear lobule repair' => '#services',
-                        'Wound debridement' => '#services',
-                        'Incision and drainage of abscesses' => '#services'
+                        'Nail surgeries' => route('services.nail-surgery'),
+                        'Ear lobule repair' => route('services.ear-lobule-repair'),
+                        'Wound debridement' => route('services.wound-debridement'),
+                        'Incision and drainage of abscesses' => route('services.incision-and-drainage-of-abscesses')
                     ] as $service => $link)
                         <a href="{{ $link }}" class="d-flex align-items-start gap-2 py-2 px-3 text-dark text-decoration-none"><i class="fa-solid fa-chevron-right mt-1"></i><p class="mb-0">{{ $service }}</p></a>
                     @endforeach

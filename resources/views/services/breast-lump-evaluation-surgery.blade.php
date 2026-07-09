@@ -1,10 +1,10 @@
 @extends('layouts.default')
 
 @php
-$title = 'Hernia Repair Surgery | Dr. Aparna Venugopal';
+$title = 'Breast Lump Evaluation & Surgery | Dr. Aparna Venugopal';
 @endphp
 
-@section('meta_desc', 'Hernia repair surgery is a safe and effective procedure used to push the bulge back into place and strengthen the abdominal wall.')
+@section('meta_desc', 'Comprehensive breast lump evaluation and surgery services including accurate diagnosis, minimally invasive biopsies, and safe surgical removal when necessary.')
 
 @section('content')
 
@@ -15,11 +15,11 @@ $title = 'Hernia Repair Surgery | Dr. Aparna Venugopal';
         <div class="container">
             <div class="breadcrumb-content">
 
-                <h1 class="about-simple-title display-3 mb-2">Hernia Repair Surgery</h1>
+                <h1 class="about-simple-title display-3 mb-2">Breast Lump Evaluation & Surgery</h1>
                 <div class="crumb-line">
                     <a href="{{ route('home') }}" class="fs-5">Home</a>
                     <span class="mx-2 fs-5">/</span>
-                    <span class="fs-5 text-muted">Hernia Repair</span>
+                    <span class="fs-5 text-muted">Breast Lump Evaluation</span>
                 </div>
             </div>
         </div>
@@ -34,17 +34,17 @@ $title = 'Hernia Repair Surgery | Dr. Aparna Venugopal';
                         <div class="position-absolute rounded-4 service-image-bg"></div>
                         
                         <!-- Image -->
-                        <img src="{{ asset('resources/assets/images/services/hernia.png') }}" alt="Hernia Repair Surgery" class="img-fluid rounded-4 w-100 shadow-sm">
+                        <img src="{{ asset('resources/assets/images/services/breast-lump.png') }}" alt="Breast Lump Evaluation & Surgery" class="img-fluid rounded-4 w-100 shadow-sm">
                     </div>
                 </div>
 
                 <div class="col-lg-8">
-                    <h2 class="about-doctor-name mb-4">Hernia Repair Surgery</h2>
+                    <h2 class="about-doctor-name mb-4">Breast Lump Evaluation & Surgery</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">A hernia occurs when an internal organ pushes through a weak spot in your muscle or tissue. Hernia repair surgery is a safe and effective procedure used to push the bulge back into place and strengthen the abdominal wall, often using a synthetic mesh to prevent recurrence.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">Discovering a breast lump can be alarming, but it is important to remember that most lumps are benign (non-cancerous). However, a prompt and accurate medical evaluation is crucial. Breast lump evaluation typically involves a thorough clinical exam, diagnostic imaging, and sometimes a biopsy to determine the exact nature of the lump.</p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> specializes in both open and advanced laparoscopic (minimally invasive) hernia repair techniques, ensuring minimal pain, faster recovery, and personalized care for every patient.</p>
+                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> offers compassionate, comprehensive evaluation and expert surgical management for breast lumps. Whether you need a minimally invasive biopsy or surgical removal (lumpectomy), she prioritizes your health, comfort, and peace of mind through personalized, step-by-step care.</p>
 
                         <div class="mt-4">
                             <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
@@ -58,7 +58,7 @@ $title = 'Hernia Repair Surgery | Dr. Aparna Venugopal';
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of Hernia Repair Surgery</h2>
+                <h2 class="about-simple-title">Benefits of Professional Evaluation</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -69,37 +69,37 @@ $title = 'Hernia Repair Surgery | Dr. Aparna Venugopal';
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Relief from pain and discomfort</span>
+                                <span class="list-text-dark fw-medium fs-5">Accurate and timely diagnosis of breast abnormalities</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Prevention of serious complications like strangulation</span>
+                                <span class="list-text-dark fw-medium fs-5">Expert guidance through every step of the evaluation process</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Advanced mesh placement for long-term support</span>
+                                <span class="list-text-dark fw-medium fs-5">Minimally invasive biopsy techniques for precise testing</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimally invasive options for faster recovery</span>
+                                <span class="list-text-dark fw-medium fs-5">Safe and effective surgical removal of benign or malignant lumps</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Reduced risk of hernia recurrence</span>
+                                <span class="list-text-dark fw-medium fs-5">Excellent cosmetic outcomes with careful incision placement</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Quick return to normal daily activities</span>
+                                <span class="list-text-dark fw-medium fs-5">Peace of mind through compassionate, personalized care</span>
                             </li>
                         </ul>
                     </div>
