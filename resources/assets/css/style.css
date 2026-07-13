@@ -295,12 +295,18 @@ h6 {
 
 .about-img-wrapper .about-border-shape {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;
-    height: 70%;
-    border: 2px solid #d7d799;
-    z-index: 0;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    border: 3px solid #d7d799;
+    z-index: 1;
+}
+
+img.about-img-custom {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* Buttons */
@@ -1216,14 +1222,14 @@ h6 {
 }
 
 .btn-text-sm {
-    font-size:17px;
+    font-size: 17px;
 }
 
 .about-img-custom {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     max-width: 450px;
 }
 
@@ -1685,7 +1691,7 @@ h6 {
 }
 
 .custom-hero-btn {
-    background-color: var(--primary)!important;
+    background-color: var(--primary) !important;
     color: #fff !important;
     border-radius: 0;
     border: none;
@@ -1699,7 +1705,7 @@ h6 {
 }
 
 .custom-hero-btn:hover {
-    background-color: var(--primary-dark)!important;
+    background-color: var(--primary-dark) !important;
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     color: white !important;
@@ -1725,7 +1731,7 @@ h6 {
     /* Or #fff depending on the next section */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .custom-hero-wrapper {
         padding: 10px;
         padding-top: 90px;
@@ -1733,11 +1739,50 @@ h6 {
 
     .custom-hero-card {
         border-radius: 20px;
-        min-height: 60vh;
+        min-height: auto;
+        background-color: var(--accent) !important;
+    }
+
+    .custom-hero-slide {
+        background-image: none !important;
+        background-color: transparent !important;
+        flex-direction: column !important;
+        justify-content: flex-start;
+        padding-top: 40px;
+        height: 100% !important;
+    }
+
+    .custom-hero-content {
+        padding: 0 20px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .custom-hero-content h1,
+    .custom-hero-content p {
+        color: #000 !important;
+    }
+
+    .custom-hero-mobile-img {
+        margin: 30px auto 20px auto;
+        padding: 0 20px;
+        max-width: 350px;
+    }
+
+    .custom-hero-mobile-img img {
+        border: 4px solid var(--primary) !important;
+        border-radius: 1rem !important; /* Matches Bootstrap rounded-4 */
     }
 
     .custom-hero-content h1 {
         font-size: 2.2rem;
+    }
+}
+
+/* iPad/Tablet Specific Sizing */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .custom-hero-mobile-img {
+        max-width: 450px;
     }
 }
 
@@ -1948,27 +1993,28 @@ h6 {
 /* 1. Doctor Image Square Design */
 .about-doctor-square-wrapper {
     position: relative;
-    max-width: 420px;
+    max-width: 360px;
+    /* Reduced width */
     padding: 25px;
     margin: 0 auto;
 }
 
 .about-doctor-border-1 {
     position: absolute;
-    top: -7px;
-    bottom: 8px;
-    left: 5px;
-    right: 21px;
+    top: -5px;
+    bottom: 5px;
+    left: 10px;
+    right: -3px;
     border: 4px solid var(--accent);
     z-index: 0;
 }
 
 .about-doctor-border-2 {
     position: absolute;
-    top: 5px;
-    bottom: -3px;
+    top: 15px;
+    bottom: -10px;
     left: -5px;
-    right: 36px;
+    right: 15px;
     border: 4px solid var(--primary);
     z-index: 0;
 }
@@ -1984,7 +2030,8 @@ h6 {
 .about-doctor-img-container img {
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 1/1;
+    aspect-ratio: 4 / 5;
+    /* More height, less width */
 }
 
 .about-floral-overlay {
@@ -2707,9 +2754,11 @@ h6 {
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
 .service-image-wrapper img {
     object-fit: cover;
 }
+
 .service-image-bg {
     background-color: #b9698494;
     width: 100%;
@@ -2718,9 +2767,11 @@ h6 {
     left: -20px;
     z-index: -1;
 }
+
 .text-justify {
     text-align: justify !important;
 }
+
 .list-icon-check {
     width: 25px !important;
     height: 25px !important;
@@ -2745,27 +2796,38 @@ h6 {
 }
 
 /* Invisible Click Areas for Hero Slider */
-.click-area-prev, .click-area-next {
-    width: 25% !important; /* Covers edges without blocking center content */
+.click-area-prev,
+.click-area-next {
+    width: 25% !important;
+    /* Covers edges without blocking center content */
     height: 100% !important;
     top: 0 !important;
     margin-top: 0 !important;
-    opacity: 0 !important; /* Fully invisible */
+    opacity: 0 !important;
+    /* Fully invisible */
     cursor: pointer;
-    z-index: 5 !important; /* Above background, below content */
+    z-index: 5 !important;
+    /* Above background, below content */
 }
+
 .click-area-prev {
     left: 0 !important;
 }
+
 .click-area-next {
     right: 0 !important;
 }
-.click-area-prev::after, .click-area-next::after {
-    display: none !important; /* Hide default swiper arrows */
+
+.click-area-prev::after,
+.click-area-next::after {
+    display: none !important;
+    /* Hide default swiper arrows */
 }
+
 .custom-hero-content {
     position: relative;
-    z-index: 10; /* Ensure button and text are clickable */
+    z-index: 10;
+    /* Ensure button and text are clickable */
 }
 
 /* Gradient Overlay for Hero Slider */
@@ -2785,6 +2847,7 @@ h6 {
         columns: 1 !important;
         display: block !important;
     }
+
     .clinical-note ul li {
         width: 100% !important;
         flex: 0 0 100% !important;

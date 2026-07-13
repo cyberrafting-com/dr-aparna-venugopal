@@ -28,7 +28,7 @@
     <section class="simple-section about-main-section">
         <div class="container">
             <div class="row align-items-start">
-                <div class="col-lg-5">
+                <div class="col-lg-5 order-lg-2 mb-5 mb-lg-0">
                     <div class="about-doctor-square-wrapper">
                         <!-- Offset double border design -->
                         <div class="about-doctor-border-1"></div>
@@ -36,17 +36,13 @@
                         
                         <!-- Image -->
                         <div class="about-doctor-img-container">
-                            <img src="{{ asset('resources/assets/images/dummy-dr.png') }}" alt="Dr. Aparna Venugopal">
+                            <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-about.png') }}" alt="Dr. Aparna Venugopal">
                         </div>
                         
-                        <!-- Floral Overlay -->
-                        <!-- <div class="about-floral-overlay">
-                            <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=300&auto=format&fit=crop" alt="Floral Overlay" class="img-fluid">
-                        </div> -->
                     </div>
                 </div>
 
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-lg-1">
                     <!-- <span class="simple-kicker mb-3 d-block text-uppercase">About the Doctor</span> -->
                     <h2 class="about-doctor-name">Dr. Aparna Venugopal</h2>
                     <div class="mb-4">
