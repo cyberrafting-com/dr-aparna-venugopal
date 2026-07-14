@@ -17,8 +17,8 @@
                 <h1 class="about-simple-title display-3 mb-2">Gallery</h1>
                 <div class="crumb-line">
                     <a href="{{ route('home') }}">Home</a>
-                    <span class="mx-2">/</span>
-                    <span>Gallery</span>
+                    <span class="mx-2 fs-5">/</span>
+                    <span class="fs-5">Gallery</span>
                 </div>
             </div>
         </div>

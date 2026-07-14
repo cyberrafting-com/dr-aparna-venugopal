@@ -1,4 +1,4 @@
-ï»¿@extends('layouts.default')
+@extends('layouts.default')
 
 @php
     $title = 'Patient Testimonials | Dr. Aparna Venugopal';
@@ -18,8 +18,8 @@
                 <h1 class="about-simple-title display-3 mb-2">Patient Reviews</h1>
                 <div class="crumb-line">
                     <a href="{{ route('home') }}">Home</a>
-                    <span class="mx-2">/</span>
-                    <span>Testimonials</span>
+                    <span class="mx-2 fs-5">/</span>
+                    <span class="fs-5">Testimonials</span>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <p class="testimonial-body text-muted fs-5">
-                            I recently visited the hospital for a family emergency and had a very positive experience. Living nearby, it is a relief to have a reliable surgeon. What I Liked: Dr. Aparna is exceptional. She is very patient, listens carefully, and doesnâ€™t rush into unnecessary tests. <a href="#" class="testimonial-more-link">More...</a>
+                            I recently visited the hospital for a family emergency and had a very positive experience. Living nearby, it is a relief to have a reliable surgeon. What I Liked: Dr. Aparna is exceptional. She is very patient, listens carefully, and doesn’t rush into unnecessary tests. <a href="#" class="testimonial-more-link">More...</a>
                         </p>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                             </div>
                         </div>
                         <p class="testimonial-body text-muted fs-5">
-                            My father had to undergo an emergency hernia surgery. Dr. Aparna was brilliantâ€”not just with the surgery but with how she communicated with us during a stressful time. The results are perfect, and his recovery was very fast. Thank you! <a href="#" class="testimonial-more-link">More...</a>
+                            My father had to undergo an emergency hernia surgery. Dr. Aparna was brilliant—not just with the surgery but with how she communicated with us during a stressful time. The results are perfect, and his recovery was very fast. Thank you! <a href="#" class="testimonial-more-link">More...</a>
                         </p>
                     </div>
                 </div>

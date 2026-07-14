@@ -44,7 +44,7 @@ $title = 'Laparoscopic Appendix Surgery | Dr. Aparna Venugopal';
                     <div class="doctor-description pe-lg-3">
                         <p class="text-muted fs-5 mb-3 text-justify">Laparoscopic Appendix Surgery is an advanced minimally invasive procedure used to remove an inflamed or infected appendix through small incisions. This technique offers reduced pain, minimal scarring, faster recovery, and a shorter hospital stay compared to traditional open surgery.</p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a>, General Surgeon, provides precise and personalised surgical care using modern laparoscopic techniques, ensuring safe treatment and better recovery outcomes for patients.</p>
+                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides precise and personalised surgical care using modern laparoscopic techniques, ensuring safe treatment and better recovery outcomes for patients.</p>
 
                         <div class="mt-4">
                             <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>

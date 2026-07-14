@@ -18,10 +18,10 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                 <div class="swiper-slide custom-hero-slide" style="background-image: url('{{ asset('resources/assets/images/slider/banner1.png') }}');">
                     <div class="custom-hero-overlay d-none d-lg-block"></div>
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
-                        <h1>Prefer a Female Surgeon for Your Laparoscopic Procedure?</h1>
-                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Experience advanced minimally invasive surgery with personalized care, privacy, and expertise from Dr. Aparna Venugopal.</p>
+                        <h1>Advanced Laparoscopic Surgery You Can Trust</h1>
+                        <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Personalized surgical solutions using minimally invasive techniques for less pain, quicker healing, and better outcomes.</p>
                         <a href="{{ route('contact') }}" class="custom-hero-btn">
-                            Schedule Your Appointment <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
+                            Book an Appointment <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
                         </a>
                     </div>
                     <!-- Square Image for iPad/Mobile -->
@@ -35,7 +35,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
                         <h1>Advanced Care for Piles, Fissure & Fistula</h1>
                         <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Expert surgical treatments ensuring safe, comfortable, and lasting relief for all anorectal conditions.</p>
-                        <a href="#" class="custom-hero-btn">
+                        <a href="{{ route('contact') }}" class="custom-hero-btn">
                             Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
                         </a>
                     </div>
@@ -51,7 +51,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     <div class="custom-hero-content" data-aos="fade-up" data-aos-duration="1000">
                         <h1>Expert Breast Lump Evaluation & Surgical Care</h1>
                         <p class="text-white fs-5 mb-5" style="opacity: 0.9;">Comprehensive diagnosis and surgical management focusing on early detection and safe, effective treatment.</p>
-                        <a href="#" class="custom-hero-btn">
+                        <a href="{{ route('contact') }}" class="custom-hero-btn">
                             Book Surgical Consultation <i class="fa-solid fa-arrow-right-long text-white ms-1"></i>
                         </a>
                     </div>
@@ -285,7 +285,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             <!-- Center Image -->
             <div class="col-lg-4 text-center laparoscopic-visual" data-aos="zoom-in" data-aos-delay="200">
                 <div class="laparoscopic-image-wrap">
-                    <img src="{{ asset('resources/assets/images/services/surgical-care.png') }}" alt="Laparoscopic surgery instruments and anatomy" loading="lazy">
+                    <img src="{{ asset('resources/assets/images/services/laparoscopic-s.png') }}" alt="Laparoscopic surgery instruments and anatomy" loading="lazy">
                 </div>
             </div>
 
@@ -347,7 +347,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
     <!-- Background Decor -->
     <div class="position-absolute rounded-circle decor-circle-lg"></div>
     <div class="position-absolute decor-star-pos">
-        <i class="fa-solid fa-star-of-life fs-3 decor-star-icon"></i>
+        <!-- <i class="fa-solid fa-star-of-life fs-3 decor-star-icon"></i> -->
     </div>
 
     <!-- Abstract dotted SVG curve pattern -->
@@ -361,7 +361,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 
                 <div class="d-flex align-items-center mb-3">
                     <span class="line-separator"></span>
-                    <span class="text-uppercase letter-spacing-1 small text-dark-custom">Specialized Care</span>
+                    <span class="text-uppercase letter-spacing-1 bold fs-5 text-dark-custom">Specialized Care</span>
                 </div>
 
                 <h2 class="display-4 font-heading fw-bold mb-4 text-primary-dark-custom" data-aos="zoom-in-up" data-aos-duration="1000">Laparoscopic Surgery</h2>
@@ -524,15 +524,15 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 
 
 <!-- 9. GALLERY SECTION -->
-<section class="section-padding bg-white">
+<!-- <section class="section-padding bg-white">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-            <!-- <span class="section-subtitle">Our Work</span> -->
+        
             <h2 class="section-title mb-0" data-aos="zoom-in-up" data-aos-duration="1000">Gallery</h2>
         </div>
 
         <div class="row g-4">
-            <!-- Gallery Item 1 -->
+           
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
                 <div class="gallery-page-item overflow-hidden rounded-3 shadow-sm position-relative">
                     <a data-fslightbox="gallery" href="{{ asset('resources/assets/images/gallery-d.png') }}" class="d-block position-relative">
@@ -545,7 +545,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </a>
                 </div>
             </div>
-            <!-- Gallery Item 2 -->
+           
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="gallery-page-item overflow-hidden rounded-3 shadow-sm position-relative">
                     <a data-fslightbox="gallery" href="{{ asset('resources/assets/images/gallery-d.png') }}" class="d-block position-relative">
@@ -558,7 +558,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </a>
                 </div>
             </div>
-            <!-- Gallery Item 3 -->
+           
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="gallery-page-item overflow-hidden rounded-3 shadow-sm position-relative">
                     <a data-fslightbox="gallery" href="{{ asset('resources/assets/images/gallery-d.png') }}" class="d-block position-relative">
@@ -573,48 +573,41 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Include fsLightbox for Gallery Zoom -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.4.1/index.min.js"></script>
 
 <!-- 10. DOCTOR PROFILE / CTA SECTION -->
-<!-- 10. DOCTOR PROFILE / CTA SECTION -->
-<section class="section-padding position-relative overflow-hidden" style="background-color: var(--accent);">
-    <!-- Decorative background elements -->
-    <div class="position-absolute top-0 end-0 opacity-25" style="width: 300px; height: 300px; background: radial-gradient(circle, var(--primary) 0%, transparent 70%); transform: translate(30%, -30%);"></div>
-    <div class="position-absolute bottom-0 start-0 opacity-25" style="width: 400px; height: 400px; background: radial-gradient(circle, var(--primary) 0%, transparent 70%); transform: translate(-30%, 30%);"></div>
+<section class="section-padding position-relative overflow-hidden" style="background-image: url('{{ asset('resources/assets/images/slider/ban.png') }}'); background-attachment: fixed; background-size: cover; background-position: center;">
+    <!-- Dark Overlay -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(88, 44, 59, 0.9);"></div>
 
-    <div class="container position-relative z-1">
+    <div class="container position-relative z-1 text-white">
         <!-- Title Row -->
         <div class="row mb-5 pb-2">
             <div class="col-12 text-center" data-aos="fade-up">
-                <span class="d-inline-block text-white fw-bold mb-3 px-3 py-1 rounded-pill text-uppercase shadow-sm" style="background-color: var(--primary); letter-spacing: 1.5px; font-size: 0.85rem;">Expert Care for Women in Pune</span>
-                <h2 class="display-5 font-heading text-dark fw-bold lh-sm mb-0">Compassionate & Advanced Surgical Care</h2>
+                <span class="d-inline-block fw-bold mb-3 px-3 py-1 rounded-pill text-uppercase shadow-sm" style="background-color: var(--secondary); color: var(--primary); letter-spacing: 1.5px; font-size: 0.85rem;">Expert Care for Women</span>
+                <h2 class="display-5 font-heading text-white fw-bold lh-sm mb-0">Compassionate & Advanced Surgical Care</h2>
             </div>
         </div>
 
         <div class="row align-items-center g-5">
-            <div class="col-lg-5 order-lg-2 mb-5 mb-lg-0" data-aos="fade-left">
-                <div class="position-relative">
-                    <!-- Image wrapper with accent border/design -->
-                    <div class="position-absolute w-100 h-100 rounded-4" style="border: 3px solid var(--primary); opacity: 0.15; top: 15px; left: -15px; z-index: 0;"></div>
-                    <div class="position-absolute w-100 h-100 rounded-4" style="background-color: var(--primary); top: -15px; right: -15px; opacity: 0.05; z-index: 0;"></div>
-                    <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-cta.png') }}" alt="Compassionate Patient Care" class="img-fluid rounded-4 shadow-lg position-relative z-1 w-100" style="object-fit: cover; min-height: 400px; border: 5px solid var(--primary);">
+            <!-- <div class="col-lg-5 order-lg-2 mb-5 mb-lg-0" data-aos="fade-left">
+                <div class="position-relative text-center">
+                    <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-cta.png') }}" alt="Compassionate Patient Care" class="img-fluid rounded-4 shadow-lg position-relative z-1 w-100" style="object-fit: cover; max-height: 450px; border: 4px solid var(--secondary);">
                 </div>
-            </div>
-            <div class="col-lg-7 d-flex flex-column justify-content-center order-lg-1" data-aos="fade-right">
-                <div class=" ">
-                    <p class="text-muted fs-5 mb-3 text-justify" style="line-height: 1.7;">
-                        For women in Pune seeking the care of a female surgeon, <a href="{{ route('about') }}" class="fw-bold no-underline" style="color: var(--primary);">Dr. Aparna Venugopal</a> provides safe and advanced <strong style="color: var(--primary);">general and laparoscopic surgical care</strong> with a focus on comfort, privacy, and personalized treatment. She uses modern minimally invasive techniques to support smoother recovery and better outcomes.
+            </div> -->
+            <div class="col-lg-12 d-flex flex-column justify-content-center order-lg-1" data-aos="fade-right">
+                <div class="pe-lg-4">
+                    <p class="fs-5 mb-4 text-white" style="line-height: 1.6; font-weight: 300;">
+                        Dr. Aparna Venugopal provides safe, modern <strong style="color: var(--secondary);">general and laparoscopic surgical care</strong> with a focus on privacy and personalized treatment.
+                    </p>
+                    <p class="fs-5 mb-5 text-white" style="line-height: 1.6;">
+                        Specializing in minimally invasive techniques for gallstones, hernia repair, piles, and breast lumps to ensure smoother recovery and better outcomes.
                     </p>
 
-                    <p class="text-muted fs-5 mb-4 text-justify" style="line-height: 1.7;">
-                        Her expertise includes gallstone treatment, appendicitis surgery, hernia repair, fissure, piles, fistula, pilonidal sinus management, and breast lump evaluation and surgery. She ensures compassionate care with a patient-focused approach throughout the surgical journey.
-                    </p>
-                    <p class="fs-5 fw-bold mb-3" style="color: var(--primary)!important;">Consult Dr. Aparna Venugopal Today!</p>
-
-                    <div class="mt-2">
+                    <div class="mt-2 text-center">
                         <a href="{{ route('contact') }}" class="btn-primary-theme px-5 py-3 rounded-0 text-uppercase fw-bold shadow-sm d-inline-flex align-items-center gap-2 transition-all btn-text-sm">
                             <span>Book Appointment</span>
                             <i class="fa-solid fa-arrow-right"></i>
@@ -630,6 +623,8 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
     document.addEventListener("DOMContentLoaded", function() {
         new Swiper(".heroSwiper", {
             loop: true,
+            preventClicks: false,
+            preventClicksPropagation: false,
             autoplay: {
                 delay: 5000,
                 disableOnInteraction: false,
