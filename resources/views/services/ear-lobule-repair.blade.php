@@ -28,7 +28,7 @@ $title = 'Ear Lobule Repair | Dr. Aparna Venugopal';
     <section class="simple-section about-main-section">
         <div class="container">
             <div class="row align-items-center g-5">
-                <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="col-lg-4  mb-lg-0">
                     <div class="service-image-wrapper position-relative z-1">
                         <!-- Transparent primary color background offset to bottom-left -->
                         <div class="position-absolute rounded-4 service-image-bg"></div>

@@ -515,7 +515,7 @@ img.about-img-custom {
 }
 
 .simple-section {
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .about-main-section {
@@ -837,6 +837,8 @@ img.about-img-custom {
     font-size: 3rem;
     margin-bottom: 1.5rem;
     color: var(--primary);
+    font-family: var(--font-heading);
+    font-weight: 700;
 }
 
 .section-subtitle {
@@ -1064,8 +1066,8 @@ img.about-img-custom {
 .info-sidebar {
     position: fixed;
     top: 0;
-    right: -450px;
-    width: 400px;
+    right: -480px; /* Hide completely off-screen matching the 480px width */
+    width: 480px;
     max-width: 100%;
     height: 100vh;
     background-color: var(--primary);
@@ -1372,7 +1374,7 @@ img.about-img-custom {
 
 .laparoscopic-heading h2 {
     margin: 8px 0 0;
-    color: var(--primary-dark);
+    /* color: var(--primary-dark); */
 }
 
 .laparoscopic-heading p {
@@ -1731,7 +1733,7 @@ img.about-img-custom {
 
 .custom-hero-content h1 {
     font-size: 3.5rem;
-    color: #fff;
+    /* color: #fff; */
     font-family: "Playfair Display", serif;
     font-weight: 500;
     margin-bottom: 2rem;
@@ -1753,6 +1755,10 @@ img.about-img-custom {
     z-index: 20;
     pointer-events: auto;
     cursor: pointer;
+}
+
+.custom-hero-btn i {
+    color: #fff !important;
 }
 
 .custom-hero-btn:hover {
@@ -1785,7 +1791,7 @@ img.about-img-custom {
 @media (max-width: 991.98px) {
     .custom-hero-wrapper {
         padding: 10px;
-        padding-top: 90px;
+        padding-top: 110px;
     }
 
     .custom-hero-card {
@@ -1799,8 +1805,13 @@ img.about-img-custom {
         background-color: transparent !important;
         flex-direction: column !important;
         justify-content: flex-start;
-        padding-top: 40px;
+        padding-top: 30px;
         height: 100% !important;
+    }
+
+    .custom-hero-content h1,
+    .custom-hero-content p {
+        margin-bottom: 1rem !important;
     }
 
     .custom-hero-content {
@@ -1842,7 +1853,25 @@ img.about-img-custom {
     }
 
     .custom-hero-mobile-img {
-        max-width: 450px;
+        max-width: 350px;
+        /* Reduced from 450px to save vertical space */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .custom-hero-wrapper {
+        padding-top: 120px !important;
+        /* Slightly less top padding on iPad */
+    }
+
+    .custom-hero-slide {
+        padding-top: 35px;
+        /* Reduce inner padding to save height */
+    }
+
+    .custom-hero-content {
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
@@ -2897,7 +2926,9 @@ img.about-img-custom {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(211 153 173 / 40%) 0%, rgb(164 85 118 / 20%) 50%, rgba(0, 0, 0, 0) 100%);
+    /* background: linear-gradient(to right, rgb(188 97 129 / 40%) 0%, rgb(164 85 118 / 20%) 50%, rgba(0, 0, 0, 0) 100%); */
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%); */
     z-index: 1;
 }
 
@@ -2977,12 +3008,12 @@ img.about-img-custom {
     position: absolute;
     left: 0;
     z-index: 2;
-    border:5px solid #e0c4c4;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    border: 5px solid #e0c4c4;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
 .membership-ribbon-badge img {
-    width: 100% ;
+    width: 100%;
     height: 100%;
     object-fit: contain;
     border-radius: 50%;
@@ -2996,9 +3027,11 @@ img.about-img-custom {
 .membership-ribbon-content {
     background-color: var(--primary);
     color: #fff;
-    padding: 25px 40px 25px 70px; /* Adjusted padding */
+    padding: 25px 40px 25px 70px;
+    /* Adjusted padding */
     width: 100%;
-    min-height: 110px; /* ensure equal height */
+    min-height: 110px;
+    /* ensure equal height */
     clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%);
     display: flex;
     flex-direction: column;
@@ -3010,7 +3043,8 @@ img.about-img-custom {
 
 .membership-ribbon-content h4 {
     color: #fff !important;
-    font-size: 22px; /* slightly smaller for 2-col */
+    font-size: 22px;
+    /* slightly smaller for 2-col */
     line-height: 1.4;
     margin-bottom: 5px;
 }
@@ -3028,14 +3062,17 @@ img.about-img-custom {
         padding-top: 55px;
         margin-bottom: 40px;
     }
+
     .membership-ribbon-badge {
         left: 50%;
         transform: translateX(-50%);
         top: 0;
     }
+
     .membership-ribbon-container:hover .membership-ribbon-badge {
         transform: translateX(-50%) scale(1.05);
     }
+
     .membership-ribbon-content {
         clip-path: none;
         border-radius: 12px;
@@ -3061,4 +3098,111 @@ img.about-img-custom {
 
 .contact-section {
     padding-bottom: 40px !important;
+}
+
+@media (max-width: 991.98px) {
+    .text-justify-mobile {
+        text-align: justify !important;
+    }
+
+    /* Responsive Headings for Mobile & iPad (Service pages and About page) */
+    .about-doctor-name,
+    main.about-simple h2 {
+        font-size: 2.2rem !important;
+    }
+
+    .about-simple-title {
+        font-size: 32px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .about-doctor-name,
+    main.about-simple h2 {
+        font-size: 1.8rem !important;
+    }
+
+    .about-simple-title {
+        font-size: 26px !important;
+    }
+}
+
+/* Degree Icon Wrapper */
+.degree-icon-wrapper {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.degree-icon-wrapper i {
+    color: var(--primary) !important;
+    font-size: 0.95rem;
+}
+.degree-name{
+    font-size: 18px !important;
+}
+
+/* Global Logo Styles */
+.logo a span:first-child {
+    font-size: 36px !important;
+    color: var(--primary) !important;
+}
+
+.logo a span:last-child {
+    font-size: 18px !important;
+    margin-top: 2px;
+    font-weight: 500 !important;
+}
+
+/* Home Page Extracted Styles */
+.hero-subtitle-opacity {
+    opacity: 0.9;
+}
+
+.hero-img-square {
+    aspect-ratio: 1/1;
+}
+
+.about-img-accent {
+    background-color: var(--accent);
+}
+
+.cta-section-bg {
+    background: linear-gradient(to bottom, var(--bg-light) 0%, var(--accent) 100%);
+}
+
+.cta-badge {
+    background-color: var(--secondary);
+    color: var(--primary);
+    letter-spacing: 1.5px;
+    font-size: 0.85rem;
+}
+
+.cta-text {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.cta-heading-color {
+    color: var(--primary);
+}
+
+.cta-img-offset-border {
+    border: 2px solid var(--primary);
+    top: 15px;
+    left: 15px;
+    z-index: 0;
+}
+
+.cta-doctor-img {
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-height: 500px;
 }

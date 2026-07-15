@@ -7,7 +7,7 @@
                 <div class="logo mb-4">
                     <a href="{{ url('/') }}" class="footer-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
                         <span class="lh-sm">Dr. Aparna Venugopal</span>
-                        <span class="mb-0 fs-5 text-dark fw-normal font-body">General Surgeon</span>
+                        <span class="mb-0 fs-5 text-dark fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
                     </a>
                 </div>
                 <p class="text-muted fs-5 mb-4 pe-lg-4">Expert General & Laparoscopic Surgeon delivering minimally invasive and advanced surgical care.</p>

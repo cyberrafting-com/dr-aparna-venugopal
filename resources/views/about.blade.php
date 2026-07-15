@@ -28,7 +28,7 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
     <section class="simple-section about-main-section">
         <div class="container">
             <div class="row align-items-start">
-                <div class="col-lg-5 order-lg-2 mb-5 mb-lg-0">
+                <div class="col-lg-4 order-lg-2 mb-5 mb-lg-0">
                     <div class="about-doctor-square-wrapper">
                         <!-- Offset double border design -->
                         <div class="about-doctor-border-1"></div>
@@ -42,32 +42,52 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
                     </div>
                 </div>
 
-                <div class="col-lg-7 order-lg-1">
+                <div class="col-lg-8 order-lg-1">
                     <!-- <span class="simple-kicker mb-3 d-block text-uppercase">About the Doctor</span> -->
                     <h2 class="about-doctor-name">Dr. Aparna Venugopal</h2>
-                    <div class="mb-4">
-                        <div class="about-doctor-designation">
-                            General Surgeon <span class="divider">|</span> Laparoscopic Surgeon
-                        </div>
+                    <!-- Designation -->
+                    <div class="mb-4 fs-5 text-primary-theme">
+                        <span class="fw-medium" style="font-size: 1.25rem;">Consultant General & Laparoscopic Surgeon</span>
+                    </div>
 
-                        <div class="degree-card">
-                            <div class="degree-icon">
+                    <!-- Degree List -->
+                    <div class="d-flex flex-column gap-2 mb-4">
+                        <div class="d-flex align-items-center">
+                            <div class="degree-icon-wrapper me-3">
                                 <i class="fa-solid fa-graduation-cap"></i>
                             </div>
-                            <div class="degree-text">
-                                <h5>MBBS, MS, FIAGES</h5>
+                            <span class="fw-medium text-dark degree-name">MBBS</span>
+                        </div>
+                        
+                        <div class="d-flex align-items-center">
+                            <div class="degree-icon-wrapper me-3">
+                                <i class="fa-solid fa-graduation-cap"></i>
                             </div>
+                            <span class="fw-medium text-dark degree-name">MS (General Surgery)</span>
+                        </div>
+                        
+                        <div class="d-flex align-items-center">
+                            <div class="degree-icon-wrapper me-3">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <span class="fw-medium text-dark degree-name">FIAGES – Fellowship of the Indian Association of Gastrointestinal Endo Surgeons</span>
                         </div>
                     </div>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3" style="text-align: justify;">Dr. Aparna Venugopal is a skilled General and Laparoscopic Surgeon with over 5 years of experience in General Surgery. She focuses on safe, evidence-based and compassionate surgical care.</p>
-                        <p class="text-muted fs-5 mb-3" style="text-align: justify;">Her work includes general surgical conditions, emergency surgeries, trauma care and minimally invasive laparoscopic procedures. She believes in personalized treatment planning, patient comfort and faster recovery.</p>
-                        <p class="text-muted fs-5 mb-4" style="text-align: justify;">With a strong interest in medical education and continuous learning, she stays updated with modern surgical advancements to deliver high-quality patient care.</p>
+                        <p class="text-muted fs-5 mb-3" style="text-align: justify;">Dr. Aparna Venugopal is a dedicated and skilled General Surgeon with over 5 years of experience in providing comprehensive surgical care. She holds an MBBS from Amrita Institute of Medical Sciences, Kochi, and an MS in General Surgery from SRM Medical College and Research Centre, Chennai. She has also earned the prestigious FIAGES (Fellowship of the Indian Association of Gastrointestinal Endo Surgeons), reflecting her advanced training in laparoscopic and minimally invasive surgical techniques.</p>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme  ">Book Appointment</a>
-                        </div>
+            <!-- Full Width Biography Section -->
+            <div class="row mt-lg-4">
+                <div class="col-12">
+                    <p class="text-muted fs-5 mb-3" style="text-align: justify;">Throughout her career, Dr. Aparna has served as an Assistant Professor and Senior Resident at reputed medical institutions across Tamil Nadu, Kerala, and Punjab, combining clinical excellence with academic teaching and research. Dr. Aparna has extensive experience in managing a wide range of general surgical conditions, including emergency and trauma surgeries, laparoscopic appendectomy, laparoscopic cholecystectomy, hernia surgeries, and various open surgical procedures.</p>
+                    <p class="text-muted fs-5 mb-4" style="text-align: justify;">She is committed to delivering patient-centered care through accurate diagnosis, meticulous surgical planning, and comprehensive post-operative follow-up. A life member of both the Association of Surgeons of India (ASI) and the Indian Association of Gastrointestinal Endo Surgeons (IAGES), she actively participates in national conferences and has contributed to surgical research through publications and scientific presentations. Her compassionate approach, precise surgical skills, and dedication to continuous learning enable her to provide safe, effective, and evidence-based treatment for every patient.</p>
+                    
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme">Book Appointment</a>
                     </div>
                 </div>
             </div>

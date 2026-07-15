@@ -5,7 +5,7 @@
             <div class="logo">
                 <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start">
                     <span class="lh-sm">Dr. Aparna Venugopal</span>
-                    <span class="mb-0 fs-5 text-dark fw-normal font-body">General Surgeon</span>
+                    <span class="mb-0 fs-5 text-dark fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
                 </a>
             </div>
 
@@ -76,7 +76,7 @@
         <div class="logo">
             <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start">
                 <span class="lh-sm">Dr. Aparna Venugopal</span>
-                <span class="mb-0 fs-5 text-dark fw-normal font-body">General Surgeon</span>
+                <span class="mb-0 fs-5 text-dark fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
             </a>
         </div>
         <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -133,7 +133,7 @@
         <div class="logo sidebar-logo flex-grow-1">
             <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
                 <span class="lh-sm">Dr. Aparna Venugopal</span>
-                <span class="mb-0 fs-5 fw-normal font-body">General Surgeon</span>
+                <span class="mb-0 fs-5 fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
             </a>
         </div>
         <button class="btn close-sidebar text-white fs-4 p-0" type="button" aria-label="Close sidebar"><i class="fa-solid fa-xmark"></i></button>
@@ -149,7 +149,7 @@
         <div class="contact-info">
             <div class="sidebar-contact-item">
                 <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                <p class="mb-0 text-white fs-5">Hriday Mother &amp; Child Care Hospital, First Floor, Rahul Downtown, Mumbai Pune Bypass Road, Punawale, Pimpri-Chinchwad, Maharashtra 411033</p>
+                <p class="mb-0 text-white fs-5">Hriday  Hospital, <br> First Floor, Rahul Downtown,<br> Mumbai Pune Bypass Road,<br> Punawale, Pimpri-Chinchwad, <br>Maharashtra 411033</p>
             </div>
             <div class="sidebar-contact-item">
                 <i class="fa-solid fa-phone" aria-hidden="true"></i>
