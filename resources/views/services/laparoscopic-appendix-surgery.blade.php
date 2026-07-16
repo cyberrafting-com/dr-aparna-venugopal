@@ -32,7 +32,7 @@ $title = 'Laparoscopic Appendix Surgery | Dr. Aparna Venugopal';
                     <div class="service-image-wrapper position-relative z-1">
                         <!-- Transparent primary color background offset to bottom-left -->
                         <div class="position-absolute rounded-4 service-image-bg"></div>
-                        
+
                         <!-- Image -->
                         <img src="{{ asset('resources/assets/images/services/laparoscopic-appendix.png') }}" alt="Laparoscopic Appendix Surgery" class="img-fluid rounded-4 w-100 shadow-sm">
                     </div>
@@ -45,10 +45,6 @@ $title = 'Laparoscopic Appendix Surgery | Dr. Aparna Venugopal';
                         <p class="text-muted fs-5 mb-3 text-justify">The appendix is a small pouch attached to the large intestine. When it becomes inflamed or infected, it can cause a condition called appendicitis, which may require surgical removal of the appendix. If left untreated, appendicitis can sometimes lead to complications such as appendix rupture and infection spread inside the abdomen.</p>
 
                         <p class="text-muted fs-5 mb-4 text-justify">Laparoscopic Appendix Surgery (Laparoscopic Appendectomy) is a minimally invasive procedure used to remove the infected appendix through small abdominal incisions. Compared to traditional open surgery, this advanced technique offers smaller scars, reduced pain, faster recovery, and a shorter hospital stay.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -60,10 +56,10 @@ $title = 'Laparoscopic Appendix Surgery | Dr. Aparna Venugopal';
             <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
-                        
+
                         <h2 class="about-simple-title mb-4 fs-3">When Is Appendix Surgery Needed?</h2>
                         <p class="text-muted fs-5 mb-4 text-justify">Appendix surgery may be recommended when patients experience symptoms such as:</p>
-                        
+
                         <ul class="list-unstyled text-muted fs-5 mb-4">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
@@ -114,6 +110,9 @@ $title = 'Laparoscopic Appendix Surgery | Dr. Aparna Venugopal';
                     <p class="text-muted fs-5 mb-4 text-justify">Most patients experience a quicker recovery after laparoscopic appendix surgery. Walking is encouraged soon after the procedure, and many patients can gradually return to normal activities within a few weeks, depending on their recovery.</p>
 
                     <p class="text-muted fs-5 mb-0 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides personalised laparoscopic surgical care using modern techniques to ensure safe treatment, minimal discomfort, and better recovery outcomes for patients.</p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -39,16 +39,16 @@ $title = 'Varicose Vein Surgery | Dr. Aparna Venugopal';
                 </div>
 
                 <div class="col-lg-8">
-                    <h2 class="about-doctor-name mb-4">Varicose Vein Treatment & Surgery</h2>
+                    <h2 class="about-doctor-name mb-4">Varicose Vein Treatment</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">Varicose veins are swollen, twisted veins that usually occur in the legs. If left untreated, they can cause pain, heaviness, swelling, and even skin ulcers. Early diagnosis and advanced treatment are essential for preventing complications and restoring proper blood circulation.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">
+                            Varicose veins are enlarged, twisted veins that commonly appear on the legs due to improper blood flow and weakened vein walls. They may cause visible bulging veins along with symptoms such as pain, heaviness, swelling, or discomfort, especially after standing for long periods.
+                        </p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> offers specialized care for varicose veins, utilizing modern minimally invasive procedures such as Endovenous Laser Ablation (EVLA) and Radiofrequency Ablation (RFA) to ensure quick recovery and excellent cosmetic outcomes.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
+                        <p class="text-muted fs-5 mb-4 text-justify">
+                            Although varicose veins are often considered a cosmetic concern, they can sometimes lead to complications if left untreated. Early evaluation helps assess the severity of the condition and determine the most suitable treatment option for long-term relief.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,51 +57,79 @@ $title = 'Varicose Vein Surgery | Dr. Aparna Venugopal';
 
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of Our Varicose Vein Treatments</h2>
-            </div>
-
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
+                        
+                        <h2 class="about-simple-title mb-4 fs-3">Signs That May Indicate Varicose Veins</h2>
+                        <p class="text-muted fs-5 mb-4 text-justify">You should consult a specialist if you experience:</p>
+                        
                         <ul class="list-unstyled text-muted fs-5 mb-0">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimally invasive techniques with no large incisions</span>
+                                <span class="list-text-dark fw-medium fs-5">Visible enlarged or twisted veins on the legs</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Immediate relief from leg pain and heaviness</span>
+                                <span class="list-text-dark fw-medium fs-5">Leg pain, heaviness, or aching sensation</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Day-care procedure allowing you to go home the same day</span>
+                                <span class="list-text-dark fw-medium fs-5">Swelling around the ankles or lower legs</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Excellent cosmetic results with virtually no scarring</span>
-                            </li>
-                            <li class="mb-3 d-flex align-items-start fs-5">
-                                <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
-                                    <i class="fa-solid fa-check"></i>
-                                </span>
-                                <span class="list-text-dark fw-medium fs-5">Reduced risk of complications and fast return to normal activities</span>
+                                <span class="list-text-dark fw-medium fs-5">Burning, itching, or discomfort near affected veins</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Long-term solution to prevent recurrence</span>
+                                <span class="list-text-dark fw-medium fs-5">Skin colour changes or changes around the affected area</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="about-simple-title mb-4 fs-3">Assessment & Treatment Options</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        A detailed evaluation is performed to understand the condition of the veins and blood flow. Your doctor may recommend a clinical examination and imaging tests such as a Doppler ultrasound to assess vein function.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Based on the severity of varicose veins, treatment options may include lifestyle changes, compression therapy, minimally invasive procedures, or surgery. The recommended approach depends on individual symptoms and vein condition.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Modern Approaches for Varicose Vein Management</h2>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Advanced treatments focus on closing or removing problematic veins while improving blood circulation through healthy veins. Minimally invasive techniques may offer benefits such as smaller incisions, reduced discomfort, and quicker recovery compared to traditional surgical methods.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Recovery After Varicose Vein Treatment</h2>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Recovery varies depending on the type of treatment performed. Most patients can gradually resume daily activities with proper care and follow-up guidance. Maintaining healthy habits and following medical advice can help support long-term vein health.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Expert Varicose Vein Care by Dr. Aparna Venugopal</h2>
+                    <p class="text-muted fs-5 mb-0 text-justify">
+                        <a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides personalised evaluation and treatment for varicose veins, focusing on accurate diagnosis, advanced surgical care, patient comfort, and improved treatment outcomes.
+                    </p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
                     </div>
                 </div>
             </div>

@@ -42,13 +42,13 @@ $title = 'Incision & Drainage of Abscesses | Dr. Aparna Venugopal';
                     <h2 class="about-doctor-name mb-4">Incision & Drainage of Abscesses</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">An abscess is a painful, tender collection of pus caused by a bacterial infection. Incision and drainage (I&D) is a minor surgical procedure necessary to release the trapped pus, providing immediate relief from pain and swelling while stopping the infection from spreading.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">
+                            An abscess is a painful collection of pus that develops under the skin due to a bacterial infection or inflammation. It can occur in different areas of the body and may cause swelling, redness, tenderness, and discomfort.
+                        </p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> performs safe and highly effective incision and drainage procedures under local anesthesia, ensuring complete removal of infected material and promoting rapid, healthy healing.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
+                        <p class="text-muted fs-5 mb-4 text-justify">
+                            While small abscesses may sometimes improve with medical treatment, larger or painful abscesses often require a minor surgical procedure to remove the trapped pus and allow proper healing. Timely treatment helps prevent the infection from spreading to surrounding tissues.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,51 +57,74 @@ $title = 'Incision & Drainage of Abscesses | Dr. Aparna Venugopal';
 
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of the Procedure</h2>
-            </div>
-
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
+                        
+                        <h2 class="about-simple-title mb-4 fs-3">Recognising an Abscess That Needs Medical Attention</h2>
+                        <p class="text-muted fs-5 mb-4 text-justify">You should consult a surgeon if you notice:</p>
+                        
                         <ul class="list-unstyled text-muted fs-5 mb-0">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Provides immediate relief from pain, pressure, and swelling</span>
+                                <span class="list-text-dark fw-medium fs-5">A painful lump or swelling under the skin</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Prevents the spread of infection to surrounding tissues</span>
+                                <span class="list-text-dark fw-medium fs-5">Redness, warmth, or tenderness around the affected area</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Quick and straightforward outpatient procedure</span>
+                                <span class="list-text-dark fw-medium fs-5">Pus or fluid discharge from the swelling</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Performed comfortably under local anesthesia</span>
-                            </li>
-                            <li class="mb-3 d-flex align-items-start fs-5">
-                                <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
-                                    <i class="fa-solid fa-check"></i>
-                                </span>
-                                <span class="list-text-dark fw-medium fs-5">Promotes faster healing of the infected area</span>
+                                <span class="list-text-dark fw-medium fs-5">Increasing size or worsening pain</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Reduces the risk of abscess recurrence with proper care</span>
+                                <span class="list-text-dark fw-medium fs-5">Fever or signs of infection</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="about-simple-title mb-4 fs-3">How Is Abscess Drainage Performed?</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        Incision and drainage is a procedure where a small opening is made over the abscess to carefully release the accumulated pus. The area is cleaned properly to reduce infection and support healing.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Depending on the size and location of the abscess, the procedure may be performed under local anaesthesia. In some cases, additional treatment or antibiotics may be recommended to manage the infection.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Recovery After Abscess Treatment</h2>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        After drainage, proper wound care and follow-up are important for complete healing. Most patients experience relief from pain and pressure after the procedure and can gradually return to normal activities as the wound heals.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Specialised Surgical Care by Dr. Aparna Venugopal</h2>
+                    <p class="text-muted fs-5 mb-0 text-justify">
+                        <a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides safe and effective treatment for abscesses with a focus on timely diagnosis, appropriate surgical management, patient comfort, and faster recovery.
+                    </p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
                     </div>
                 </div>
             </div>

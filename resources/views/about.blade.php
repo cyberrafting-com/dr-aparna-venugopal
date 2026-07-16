@@ -36,7 +36,7 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
 
                         <!-- Image -->
                         <div class="about-doctor-img-container">
-                            <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-about.png') }}" alt="Dr. Aparna Venugopal">
+                            <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-img.png') }}" alt="Dr. Aparna Venugopal">
                         </div>
 
                     </div>
@@ -56,15 +56,15 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
                             <div class="degree-icon-wrapper me-3">
                                 <i class="fa-solid fa-graduation-cap"></i>
                             </div>
-                            <span class="fw-medium text-dark degree-name">MBBS</span>
+                            <span class="fw-medium text-dark degree-name">MBBS, MS (General Surgery)</span>
                         </div>
                         
-                        <div class="d-flex align-items-center">
+                        <!-- <div class="d-flex align-items-center">
                             <div class="degree-icon-wrapper me-3">
                                 <i class="fa-solid fa-graduation-cap"></i>
                             </div>
                             <span class="fw-medium text-dark degree-name">MS (General Surgery)</span>
-                        </div>
+                        </div> -->
                         
                         <div class="d-flex align-items-center">
                             <div class="degree-icon-wrapper me-3">
@@ -75,7 +75,7 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
                     </div>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3" style="text-align: justify;">Dr. Aparna Venugopal is a dedicated and skilled General Surgeon with over 5 years of experience in providing comprehensive surgical care. She holds an MBBS from Amrita Institute of Medical Sciences, Kochi, and an MS in General Surgery from SRM Medical College and Research Centre, Chennai. She has also earned the prestigious FIAGES (Fellowship of the Indian Association of Gastrointestinal Endo Surgeons), reflecting her advanced training in laparoscopic and minimally invasive surgical techniques.</p>
+                        <p class="text-muted fs-5 mb-3" style="text-align: justify;">Dr. Aparna Venugopal is an experienced General Surgeon and Laparoscopic Surgeon in Pune, specialising in minimally invasive surgical procedures and comprehensive surgical care. With over 5 years of clinical experience in General Surgery, she is known for her precise surgical skills, patient-focused approach, and commitment to delivering safe and effective treatment. She has expertise in managing various surgical conditions, including gallbladder diseases, hernia, appendix-related conditions, emergency surgeries, and trauma cases.</p>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
             <!-- Full Width Biography Section -->
             <div class="row mt-lg-4">
                 <div class="col-12">
-                    <p class="text-muted fs-5 mb-3" style="text-align: justify;">Throughout her career, Dr. Aparna has served as an Assistant Professor and Senior Resident at reputed medical institutions across Tamil Nadu, Kerala, and Punjab, combining clinical excellence with academic teaching and research. Dr. Aparna has extensive experience in managing a wide range of general surgical conditions, including emergency and trauma surgeries, laparoscopic appendectomy, laparoscopic cholecystectomy, hernia surgeries, and various open surgical procedures.</p>
-                    <p class="text-muted fs-5 mb-4" style="text-align: justify;">She is committed to delivering patient-centered care through accurate diagnosis, meticulous surgical planning, and comprehensive post-operative follow-up. A life member of both the Association of Surgeons of India (ASI) and the Indian Association of Gastrointestinal Endo Surgeons (IAGES), she actively participates in national conferences and has contributed to surgical research through publications and scientific presentations. Her compassionate approach, precise surgical skills, and dedication to continuous learning enable her to provide safe, effective, and evidence-based treatment for every patient.</p>
+                    <p class="text-muted fs-5 mb-3" style="text-align: justify;">She completed her MBBS from Amrita Institute of Medical Sciences, Kochi, followed by MS in General Surgery from SRM Medical College and Research Centre, Chennai. To enhance her expertise in advanced surgical techniques, she pursued the FIAGES Fellowship in Laparoscopic Surgical Techniques and Applications from the Indian Association of Gastrointestinal Endo Surgeons (IAGES). Her clinical training has provided her with extensive experience in laparoscopic procedures, pre-operative evaluation, surgical planning, and post-operative patient care.</p>
+                    <p class="text-muted fs-5 mb-4" style="text-align: justify;">Dr. Aparna has worked as an Assistant Professor and Senior Resident at reputed medical institutions, including SRM Medical College and Research Centre, Chennai, gaining valuable experience in both clinical practice and surgical education. She is a life member of the Association of Surgeons of India (ASI) and the Indian Association of Gastrointestinal Endo Surgeons (IAGES). Her approach focuses on personalised treatment, advanced surgical methods, and ensuring every patient receives compassionate care throughout their surgical journey.</p>
                     
                     <div class="mt-4">
                         <a href="{{ route('contact') }}" class="btn-primary-theme">Book Appointment</a>
@@ -105,7 +105,7 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
                 <!-- Card 1 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="edu-horizontal-card h-100">
-                        <div class="edu-year-badge">2010 - 2016</div>
+                        <!-- <div class="edu-year-badge">2010 - 2016</div> -->
                         <h4 class="edu-degree-title">MBBS</h4>
                         <p class="edu-inst-text text-muted fs-5">Amrita Institute of Medical Sciences, Kochi, Kerala</p>
                     </div>
@@ -113,7 +113,7 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
                 <!-- Card 2 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="edu-horizontal-card h-100">
-                        <div class="edu-year-badge">2018 - 2021</div>
+                        <!-- <div class="edu-year-badge">2018 - 2021</div> -->
                         <h4 class="edu-degree-title">MS - General Surgery</h4>
                         <p class="edu-inst-text text-muted fs-5">SRM Medical College &amp; Research Centre, Chennai</p>
                     </div>
@@ -121,7 +121,7 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
                 <!-- Card 3 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="edu-horizontal-card h-100">
-                        <div class="edu-year-badge">2021</div>
+                        <!-- <div class="edu-year-badge">2021</div> -->
                         <h4 class="edu-degree-title">FIAGES</h4>
                         <p class="edu-inst-text text-muted fs-5">Advanced training in laparoscopic surgical techniques.</p>
                     </div>
@@ -129,7 +129,7 @@ $title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
                 <!-- Card 4 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="edu-horizontal-card h-100">
-                        <div class="edu-year-badge">2024</div>
+                        <!-- <div class="edu-year-badge">2024</div> -->
                         <h4 class="edu-degree-title">BCME</h4>
                         <p class="edu-inst-text text-muted fs-5">Basic Course in Medical Education, NMC.</p>
                     </div>

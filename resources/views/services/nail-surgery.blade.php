@@ -42,13 +42,13 @@ $title = 'Nail Surgeries | Dr. Aparna Venugopal';
                     <h2 class="about-doctor-name mb-4">Nail Surgeries</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">Ingrown toenails and severe fungal infections can cause intense pain, swelling, and difficulty wearing shoes. When conservative treatments like antibiotics or special footwear fail, minor nail surgery is often the most effective solution for permanent relief.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">
+                            Nail problems can occur due to various reasons, including injuries, infections, ingrown nails, repeated trauma, or abnormal nail growth. These conditions may cause pain, swelling, redness, and difficulty in daily activities such as walking or wearing footwear.
+                        </p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> performs highly effective nail surgeries, including partial or complete nail removal (avulsion) with matrixectomy (preventing regrowth of the affected edge). Done under local anesthesia as a quick outpatient procedure, her meticulous technique ensures the infection is cleared, pain is relieved, and recurrence is prevented.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
+                        <p class="text-muted fs-5 mb-4 text-justify">
+                            While some nail-related concerns can be managed with medicines and local care, certain conditions may require surgical treatment for long-term relief. Proper evaluation helps identify the underlying issue and determine the most suitable procedure for healthy nail recovery.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,51 +57,77 @@ $title = 'Nail Surgeries | Dr. Aparna Venugopal';
 
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of the Procedure</h2>
-            </div>
-
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
+                        
+                        <h2 class="about-simple-title mb-4 fs-3">Common Nail Conditions Requiring Surgical Treatment</h2>
+                        <p class="text-muted fs-5 mb-4 text-justify">Nail surgery may be recommended for conditions such as:</p>
+                        
                         <ul class="list-unstyled text-muted fs-5 mb-0">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Permanent relief from the pain and swelling of ingrown nails</span>
+                                <span class="list-text-dark fw-medium fs-5">Painful ingrown toenails</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Effective treatment for chronic or severe nail infections</span>
+                                <span class="list-text-dark fw-medium fs-5">Repeated nail infections or inflammation</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Quick and straightforward outpatient procedure</span>
+                                <span class="list-text-dark fw-medium fs-5">Damaged or injured nails</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Performed comfortably under local anesthesia</span>
-                            </li>
-                            <li class="mb-3 d-flex align-items-start fs-5">
-                                <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
-                                    <i class="fa-solid fa-check"></i>
-                                </span>
-                                <span class="list-text-dark fw-medium fs-5">Fast recovery time, allowing a quick return to normal shoes</span>
+                                <span class="list-text-dark fw-medium fs-5">Abnormal nail growth causing discomfort</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">High success rate with a very low risk of recurrence</span>
+                                <span class="list-text-dark fw-medium fs-5">Persistent swelling or pain around the nail area</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="about-simple-title mb-4 fs-3">Evaluation & Surgical Management</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        A detailed examination of the affected nail and surrounding tissue helps determine the cause and severity of the problem. Depending on the condition, treatment may involve partial or complete nail removal, correction of the nail edge, or removal of damaged tissue.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        The procedure is performed carefully to relieve symptoms, prevent recurrence, and support proper healing of the nail area.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Recovery After Nail Surgery</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        Nail surgeries are generally safe procedures with minimal discomfort. Most patients can return to routine activities after recovery with proper wound care and follow-up instructions.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Following medical advice helps ensure smooth healing and reduces the chances of future nail problems.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Specialised Nail Care by Dr. Aparna Venugopal</h2>
+                    <p class="text-muted fs-5 mb-0 text-justify">
+                        <a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides personalised surgical treatment for nail-related conditions with a focus on accurate diagnosis, safe procedures, patient comfort, and effective recovery outcomes.
+                    </p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
                     </div>
                 </div>
             </div>

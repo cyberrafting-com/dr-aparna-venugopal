@@ -123,6 +123,68 @@ p.fs-5 {
     transition: all 200ms linear;
 }
 
+/* Floating Action Buttons */
+.floating-action-btn {
+    position: fixed;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.floating-action-btn:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.floating-wp {
+    bottom: 95px;
+    background-color: #25D366;
+    /* WhatsApp Green */
+}
+
+.floating-call {
+    bottom: 160px;
+    background-color: var(--primary);
+    /* Website Primary Color */
+}
+
+@media (max-width: 768px) {
+
+    .floating-action-btn,
+    .progress-wrap {
+        right: 15px;
+        height: 45px;
+        width: 45px;
+        font-size: 20px;
+    }
+
+    .progress-wrap {
+        bottom: 15px;
+    }
+
+    .floating-wp {
+        bottom: 75px;
+    }
+
+    .floating-call {
+        bottom: 135px;
+    }
+
+    .progress-wrap i {
+        font-size: 18px;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -137,6 +199,43 @@ h6 {
 
 .text-primary-theme {
     color: var(--primary) !important;
+}
+
+/* Logo Typography */
+
+
+@media (max-width: 992px) {
+
+    .logo a span:first-child,
+    .logo-title {
+        font-size: 30px !important;
+    }
+
+    .logo a span:last-child,
+    .logo-subtitle {
+        font-size: 15px !important;
+    }
+
+    .section-title {
+        font-size: 2.2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .logo a span:first-child,
+    .logo-title {
+        font-size: 28px !important;
+    }
+
+    .logo a span:last-child,
+    .logo-subtitle {
+        font-size: 14px !important;
+    }
+
+    .section-title {
+        font-size: 1.8rem !important;
+    }
 }
 
 .text-accent {
@@ -948,12 +1047,12 @@ img.about-img-custom {
 /* Logo shared styles */
 .logo a span:first-child {
     color: var(--primary);
-    font-size: 27px !important;
+    /* font-size: 27px !important; */
     font-family: 'Playfair Display', serif;
 }
 
 .logo a span:last-child {
-    font-size: 22px !important;
+    /* font-size: 22px !important; */
     margin-top: 2px;
 }
 
@@ -1066,7 +1165,8 @@ img.about-img-custom {
 .info-sidebar {
     position: fixed;
     top: 0;
-    right: -480px; /* Hide completely off-screen matching the 480px width */
+    right: -480px;
+    /* Hide completely off-screen matching the 480px width */
     width: 480px;
     max-width: 100%;
     height: 100vh;
@@ -1519,7 +1619,7 @@ img.about-img-custom {
 .decor-circle-lg {
     width: 800px;
     height: 800px;
-    background-color: var(--accent);
+    /* background-color: var(--accent); */
     top: -100px;
     left: -150px;
     z-index: 0;
@@ -1806,7 +1906,9 @@ img.about-img-custom {
         flex-direction: column !important;
         justify-content: flex-start;
         padding-top: 30px;
-        height: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 50px;
     }
 
     .custom-hero-content h1,
@@ -2119,8 +2221,8 @@ img.about-img-custom {
 .about-doctor-img-container img {
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 4 / 5;
-    /* More height, less width */
+    aspect-ratio: 1 / 1;
+    /* Square image */
 }
 
 .about-floral-overlay {
@@ -3144,18 +3246,19 @@ img.about-img-custom {
     color: var(--primary) !important;
     font-size: 0.95rem;
 }
-.degree-name{
+
+.degree-name {
     font-size: 18px !important;
 }
 
 /* Global Logo Styles */
 .logo a span:first-child {
-    font-size: 36px !important;
+    font-size: 36px;
     color: var(--primary) !important;
 }
 
 .logo a span:last-child {
-    font-size: 18px !important;
+    font-size: 18px;
     margin-top: 2px;
     font-weight: 500 !important;
 }
@@ -3203,6 +3306,6 @@ img.about-img-custom {
 .cta-doctor-img {
     object-fit: cover;
     border: 4px solid #fff;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     max-height: 500px;
 }

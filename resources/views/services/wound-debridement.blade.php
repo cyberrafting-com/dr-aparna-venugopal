@@ -42,13 +42,13 @@ $title = 'Wound Debridement | Dr. Aparna Venugopal';
                     <h2 class="about-doctor-name mb-4">Wound Debridement</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">Chronic, infected, or severe wounds often fail to heal because they are trapped under a layer of dead (necrotic) or infected tissue. Wound debridement is a crucial medical procedure that involves the careful removal of this unhealthy tissue to expose the healthy underlying tissue and stimulate the body's natural healing process.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">
+                            Wounds that do not heal properly may develop dead tissue, infection, or damaged areas that delay the natural healing process. Wound debridement is a specialised procedure used to remove unhealthy or non-viable tissue from a wound, allowing healthy tissue to grow and supporting better recovery.
+                        </p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides expert surgical wound debridement with a focus on patient comfort, safety, and rapid recovery. By meticulously cleaning the wound bed, she helps prevent serious infections, reduces pain, and ensures your wound can finally heal properly.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
+                        <p class="text-muted fs-5 mb-4 text-justify">
+                            This treatment may be required for wounds caused by injuries, infections, pressure sores, diabetic ulcers, or surgical complications. Early assessment and proper wound management help reduce the risk of infection and promote effective healing.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,51 +57,77 @@ $title = 'Wound Debridement | Dr. Aparna Venugopal';
 
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of the Procedure</h2>
-            </div>
-
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
+                        
+                        <h2 class="about-simple-title mb-4 fs-3">When Is Wound Debridement Required?</h2>
+                        <p class="text-muted fs-5 mb-4 text-justify">A doctor may recommend wound debridement if you notice:</p>
+                        
                         <ul class="list-unstyled text-muted fs-5 mb-0">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Removes dead, damaged, or infected tissue to stop the spread of infection</span>
+                                <span class="list-text-dark fw-medium fs-5">Presence of dead or damaged tissue in a wound</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Exposes healthy tissue to jumpstart the body's natural healing process</span>
+                                <span class="list-text-dark fw-medium fs-5">Wounds that are slow to heal</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Significantly reduces the risk of serious complications like sepsis</span>
+                                <span class="list-text-dark fw-medium fs-5">Signs of infection such as redness, swelling, or discharge</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimizes wound odor and reduces chronic inflammation</span>
-                            </li>
-                            <li class="mb-3 d-flex align-items-start fs-5">
-                                <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
-                                    <i class="fa-solid fa-check"></i>
-                                </span>
-                                <span class="list-text-dark fw-medium fs-5">Creates a clean wound bed for advanced dressings or skin grafts if needed</span>
+                                <span class="list-text-dark fw-medium fs-5">Persistent pain or worsening wound condition</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Speeds up overall recovery time for chronic or non-healing wounds</span>
+                                <span class="list-text-dark fw-medium fs-5">Non-healing wounds due to underlying health conditions</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="about-simple-title mb-4 fs-3">Assessment & Wound Cleaning Process</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        A detailed evaluation is performed to understand the depth, severity, and condition of the wound. Based on the wound type and tissue damage, the appropriate debridement method is selected.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        During the procedure, unhealthy tissue is carefully removed to clean the wound area and create a healthier environment for healing. Depending on the condition, debridement may be performed using surgical techniques or other specialised methods.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Healing After Wound Debridement</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        After the procedure, proper wound dressing, hygiene, and follow-up care play an important role in recovery. Removing damaged tissue helps improve healing and allows the wound to gradually repair itself.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Recovery time depends on the size, location, and severity of the wound along with the patient's overall health condition.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Advanced Wound Care by Dr. Aparna Venugopal</h2>
+                    <p class="text-muted fs-5 mb-0 text-justify">
+                        <a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides expert evaluation and surgical wound care with a focus on effective wound management, infection prevention, patient comfort, and improved healing outcomes.
+                    </p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
                     </div>
                 </div>
             </div>

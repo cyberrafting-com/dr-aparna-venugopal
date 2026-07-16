@@ -47,7 +47,7 @@
         <h5>Clinic Address</h5>
 
         <p class="text-white fs-5">
-            <a href="https://maps.app.goo.gl/W78WJMeVWjknEiTa8" target="_blank" class="text-white text-decoration-none fs-5">
+            <a href="https://maps.app.goo.gl/DjLUjEUB3SMB4hA47" target="_blank" class="text-white text-decoration-none fs-5">
                 Hriday Hospital<br>
                 First Floor, Rahul Downtown,<br>
                 Mumbai Pune Bypass Rd Flyover,<br>
@@ -99,7 +99,7 @@
                     <div class="contact-map">
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1335.6387249945099!2d73.7422172240781!3d18.633115098719163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb004618788b%3A0xa388a9eb2cce66e0!2sDr%20Aparna%20Venugopal%20-%20Laparoscopic%20Surgeon%20%26%20Piles%20Specialist%20in%20Punawale%2C%20Pune!5e0!3m2!1sen!2sin!4v1784021905693!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.7846261173454!2d73.7402571758304!3d18.632540265743234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb005040649d%3A0xe17f5fd8bcb0637c!2sHriday%20Mother%20and%20Child%20Care%20Hospital!5e0!3m2!1sen!2sin!4v1784201034611!5m2!1sen!2sin"
                             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
                         </iframe>
 

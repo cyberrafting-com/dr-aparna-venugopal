@@ -98,15 +98,15 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="degree-icon-wrapper me-3">
                             <i class="fa-solid fa-graduation-cap"></i>
                         </div>
-                        <span class="fw-medium text-dark degree-name">MBBS</span>
+                        <span class="fw-medium text-dark degree-name">MBBS, MS (General Surgery)</span>
                     </div>
                     
-                    <div class="d-flex align-items-center" data-aos="fade-up" data-aos-delay="250">
+                    <!-- <div class="d-flex align-items-center" data-aos="fade-up" data-aos-delay="250">
                         <div class="degree-icon-wrapper me-3">
                             <i class="fa-solid fa-graduation-cap"></i>
                         </div>
                         <span class="fw-medium text-dark degree-name ">MS (General Surgery)</span>
-                    </div>
+                    </div> -->
                     
                     <div class="d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
                         <div class="degree-icon-wrapper me-3">
@@ -116,7 +116,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </div>
                 </div>
 
-                <p class="mb-3 text-muted fs-5 text-justify">Dr. Aparna Venugopal is a dedicated Consultant General & Laparoscopic Surgeon with over 5 years of experience in the diagnosis and surgical management of a wide range of general surgical conditions. She completed her MBBS from Amrita Institute of Medical Sciences, Kochi, MS in General Surgery from SRM Medical College and Research Centre, Chennai, and FIAGES from Sri Ramachandra Medical College, Chennai.</p>
+                <p class="mb-3 text-muted fs-5 text-justify">Dr. Aparna Venugopal is a young & dynamic General & Laparoscopic Surgeon practicing in Pune specialising in minimally invasive and laparoscopic surgical procedures. With extensive clinical training and over 5 years of experience in General Surgery, she is committed to providing safe, evidence-based, and patient-focused surgical care.</p>
 
                 <!-- <p class="mb-3 text-muted fs-5 text-justify">Trained in minimally invasive (laparoscopic) surgery, she is experienced in laparoscopic appendectomy, laparoscopic cholecystectomy, hernia surgery, emergency and trauma surgery, as well as a variety of open surgical procedures. Dr. Aparna is committed to delivering safe, evidence-based, and patient-centric care with a focus on accurate diagnosis, meticulous surgical treatment, and comprehensive post-operative recovery.</p>
 
@@ -456,7 +456,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-6">Sarah Jenkins</h5>
+                                <h5 class="mb-0 fs-5">Priya Sharma</h5>
                                 <!-- <span class="text-muted small">Skin Rejuvenation</span> -->
                             </div>
                         </div>
@@ -472,7 +472,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-6">Emily Roberts</h5>
+                                <h5 class="mb-0 fs-5">Anjali Desai</h5>
                                 <!-- <span class="text-muted small">Botox Treatment</span> -->
                             </div>
                         </div>
@@ -488,7 +488,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-6">Jessica Moore</h5>
+                                <h5 class="mb-0 fs-5">Kavita Patel</h5>
                                 <!-- <span class="text-muted small">Laser Hair Removal</span> -->
                             </div>
                         </div>
@@ -504,7 +504,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-6">Michael Brown</h5>
+                                <h5 class="mb-0 fs-5">Rahul Verma</h5>
                                 <!-- <span class="text-muted small">Hernia Surgery</span> -->
                             </div>
                         </div>
@@ -520,7 +520,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-6">David Smith</h5>
+                                <h5 class="mb-0 fs-5">Amit Kumar</h5>
                                 <!-- <span class="text-muted small">General Surgery</span> -->
                             </div>
                         </div>
@@ -540,6 +540,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
         </div>
     </div>
 </section>
+
 
 
 <!-- 9. GALLERY SECTION -->
@@ -601,7 +602,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
 <section class="section-padding position-relative overflow-hidden cta-section-bg">
     <div class="container position-relative z-1">
         <!-- Title Row -->
-        <div class="row mb-5 pb-2">
+        <div class="row mb-4 pb-2">
             <div class="col-12 text-center" data-aos="fade-up">
                 <span class="d-inline-block fw-bold mb-3 px-3 py-1 rounded-pill text-uppercase shadow-sm cta-badge">Expert Care for Women</span>
                 <h2 class="section-title display-5 lh-sm mb-0">Compassionate Surgical Care by a Female Surgeon</h2>
@@ -612,15 +613,14 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
             
             <!-- Text Content (Left Side) -->
             <div class="col-lg-7 d-flex flex-column justify-content-center order-lg-1 mb-5 mb-lg-0" data-aos="fade-right">
-                <div class="pe-lg-5">
+                <div class=" ">
                     <p class="fs-5 mb-4 text-muted text-justify-mobile cta-text">
-                        For women in Pune seeking the care of a female surgeon, Dr. Aparna Venugopal provides safe and advanced general and laparoscopic surgical care with a focus on comfort, privacy, and personalized treatment. She uses modern minimally invasive techniques to support smoother recovery and better outcomes.
-                    </p>
+                      Many women prefer consulting a female surgeon for comfort, privacy, and personalised care. Dr. Aparna Venugopal provides advanced general and laparoscopic surgical treatment for conditions like gallstones, hernia, breast lumps, piles, fissure, fistula, and other surgical concerns.   </p>
                     <p class="fs-5 mb-4 text-muted text-justify-mobile cta-text">
-                        Her expertise includes gallstone treatment, appendicitis surgery, hernia repair, fissure, piles, fistula, pilonidal sinus management, and breast lump evaluation and surgery. She ensures compassionate care with a patient-focused approach throughout the surgical journey.
-                    </p>
+                        With a patient-focused approach and minimally invasive techniques, she ensures safe treatment, reduced discomfort, and smoother recovery.
+Book a consultation with <a href="{{route('about')}}"> Dr. Aparna Venugopal </a> for trusted surgical care by an experienced female surgeon.      </p>
                     
-                    <h4 class="mb-4 font-heading fw-bold cta-heading-color">Consult Dr. Aparna Venugopal Today!</h4>
+                    <!--<h4 class="mb-4 font-heading fw-bold cta-heading-color">Consult Dr. Aparna Venugopal Today!</h4>-->
 
                     <div class="mt-2 text-center text-lg-start">
                         <a href="{{ route('contact') }}" class="btn-primary-theme px-5 py-3 rounded-0 text-uppercase fw-bold shadow-sm d-inline-flex align-items-center gap-2 transition-all btn-text-sm">

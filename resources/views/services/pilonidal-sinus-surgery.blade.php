@@ -42,13 +42,13 @@ $title = 'Pilonidal Sinus Surgery | Dr. Aparna Venugopal';
                     <h2 class="about-doctor-name mb-4">Pilonidal Sinus Surgery</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">A pilonidal sinus is a small hole or tunnel in the skin at the top of the buttocks (tailbone area) that can become infected and form a painful cyst or abscess. When this happens, surgery is often the most effective way to remove the cyst entirely and prevent it from coming back.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">
+                            Pilonidal sinus is a condition where a small tunnel or cavity develops in the skin near the tailbone, usually due to trapped hair, skin debris, or repeated friction. It may cause pain, swelling, redness, and discomfort while sitting or performing daily activities.
+                        </p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> performs advanced pilonidal sinus surgery, offering specialized flap techniques and minimally invasive options. Her approach focuses on ensuring complete healing, minimizing post-operative pain, and reducing the risk of recurrence so you can get back to a comfortable, active life.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
+                        <p class="text-muted fs-5 mb-4 text-justify">
+                            In some cases, pilonidal sinus can become infected and lead to recurrent abscess formation or discharge. Timely evaluation and appropriate treatment help manage the condition effectively and reduce the chances of repeated problems.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,51 +57,77 @@ $title = 'Pilonidal Sinus Surgery | Dr. Aparna Venugopal';
 
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of the Surgery</h2>
-            </div>
-
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
+                        
+                        <h2 class="about-simple-title mb-4 fs-3">Signs That May Require Medical Evaluation</h2>
+                        <p class="text-muted fs-5 mb-4 text-justify">You should consult a surgeon if you experience:</p>
+                        
                         <ul class="list-unstyled text-muted fs-5 mb-0">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Complete removal of the infected sinus tract or cyst</span>
+                                <span class="list-text-dark fw-medium fs-5">Painful swelling near the tailbone area</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Advanced flap techniques to promote better and faster healing</span>
+                                <span class="list-text-dark fw-medium fs-5">Pus or blood discharge from the affected area</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimizes the risk of the condition returning</span>
+                                <span class="list-text-dark fw-medium fs-5">Redness, tenderness, or skin irritation</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Significant relief from chronic pain, swelling, and discharge</span>
-                            </li>
-                            <li class="mb-3 d-flex align-items-start fs-5">
-                                <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
-                                    <i class="fa-solid fa-check"></i>
-                                </span>
-                                <span class="list-text-dark fw-medium fs-5">Shorter recovery times with specialized wound care instructions</span>
+                                <span class="list-text-dark fw-medium fs-5">Repeated episodes of infection or abscess</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Improved long-term quality of life and daily comfort</span>
+                                <span class="list-text-dark fw-medium fs-5">Discomfort while sitting for longer periods</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="about-simple-title mb-4 fs-3">Diagnosis & Treatment Approach</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        A clinical examination helps assess the extent of the pilonidal sinus and determine the most suitable treatment option. Depending on the severity, treatment may include wound care, drainage of infection, or surgical removal of the sinus tract.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Pilonidal sinus surgery aims to remove the affected tissue and sinus tract to prevent recurrence and promote proper healing.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Procedure & Recovery After Surgery</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        The surgical approach is planned based on the size and complexity of the sinus. Modern techniques focus on effective removal of the problem area while supporting faster healing and reduced discomfort.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Recovery depends on the procedure performed and individual healing. With proper wound care and follow-up, most patients can gradually return to their normal activities.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Specialised Pilonidal Sinus Care by Dr. Aparna Venugopal</h2>
+                    <p class="text-muted fs-5 mb-0 text-justify">
+                        <a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides personalised evaluation and surgical treatment for pilonidal sinus with a focus on safe procedures, patient comfort, effective management, and better recovery outcomes.
+                    </p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
                     </div>
                 </div>
             </div>

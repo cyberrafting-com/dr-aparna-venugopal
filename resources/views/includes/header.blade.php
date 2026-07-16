@@ -3,9 +3,9 @@
     <nav class="navbar navbar-expand-lg w-100">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="logo">
-                <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start">
-                    <span class="lh-sm">Dr. Aparna Venugopal</span>
-                    <span class="mb-0 fs-5 text-dark fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
+                <a href="{{ url('/') }}" class="navbar-brand fw-bold font-heading d-flex flex-column align-items-start">
+                    <span class="lh-sm logo-title">Dr. Aparna Venugopal</span>
+                    <span class="mb-0 text-dark fw-normal font-body logo-subtitle">Consultant General & Laparoscopic Surgeon</span>
                 </a>
             </div>
 
@@ -74,9 +74,9 @@
 <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileOffcanvas" aria-labelledby="mobileOffcanvasLabel">
     <div class="offcanvas-header border-bottom px-4 py-4">
         <div class="logo">
-            <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start">
-                <span class="lh-sm">Dr. Aparna Venugopal</span>
-                <span class="mb-0 fs-5 text-dark fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
+            <a href="{{ url('/') }}" class="navbar-brand fw-bold font-heading d-flex flex-column align-items-start">
+                <span class="lh-sm logo-title">Dr. Aparna Venugopal</span>
+                <span class="mb-0 text-dark fw-normal font-body logo-subtitle">Consultant General & Laparoscopic Surgeon</span>
             </a>
         </div>
         <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -131,9 +131,9 @@
 <div class="info-sidebar d-none d-lg-block">
     <div class="sidebar-header d-flex align-items-center gap-3 mb-4">
         <div class="logo sidebar-logo flex-grow-1">
-            <a href="{{ url('/') }}" class="navbar-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
-                <span class="lh-sm">Dr. Aparna Venugopal</span>
-                <span class="mb-0 fs-5 fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
+            <a href="{{ url('/') }}" class="navbar-brand fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
+                <span class="lh-sm logo-title">Dr. Aparna Venugopal</span>
+                <span class="mb-0 fw-normal font-body logo-subtitle">Consultant General & Laparoscopic Surgeon</span>
             </a>
         </div>
         <button class="btn close-sidebar text-white fs-4 p-0" type="button" aria-label="Close sidebar"><i class="fa-solid fa-xmark"></i></button>

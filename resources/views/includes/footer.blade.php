@@ -5,9 +5,9 @@
             <!-- Column 1: Logo and Paragraph -->
             <div class="col-lg-4">
                 <div class="logo mb-4">
-                    <a href="{{ url('/') }}" class="footer-brand fs-4 fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
-                        <span class="lh-sm">Dr. Aparna Venugopal</span>
-                        <span class="mb-0 fs-5 text-dark fw-normal font-body">Consultant General & Laparoscopic Surgeon</span>
+                    <a href="{{ url('/') }}" class="footer-brand fw-bold font-heading d-flex flex-column align-items-start text-decoration-none">
+                        <span class="lh-sm logo-title">Dr. Aparna Venugopal</span>
+                        <span class="mb-0 text-dark fw-normal font-body logo-subtitle">Consultant General & Laparoscopic Surgeon</span>
                     </a>
                 </div>
                 <p class="text-muted fs-5 mb-4 pe-lg-4">Expert General & Laparoscopic Surgeon delivering minimally invasive and advanced surgical care.</p>
@@ -20,11 +20,11 @@
 
             <!-- Column 2: Contact Info -->
             <div class="col-lg-4">
-                <h5  class="footer-title mb-4">Contact Info</h5>
+                <h5 class="footer-title mb-4">Contact Info</h5>
                 <ul class="list-unstyled">
                     <li class="mb-3 d-flex text-muted fs-5">
                         <i class="fa-solid fa-location-dot mt-1 me-3" style="color: var(--primary);"></i>
-                        <p class="text-muted fs-5 mb-0"><a href="https://maps.app.goo.gl/W78WJMeVWjknEiTa8" target="_blank" class="text-muted text-decoration-none"><strong>Hriday Hospital</strong><br>First Floor, Rahul Downtown,<br>Mumbai Pune Bypass Rd Flyover,<br>beside SK CNG Pump, Punawale,<br>Pimpri-Chinchwad, Maharashtra 411033</a></p>
+                        <p class="text-muted fs-5 mb-0"><a href="https://maps.app.goo.gl/DjLUjEUB3SMB4hA47" target="_blank" class="text-muted text-decoration-none"><strong>Hriday Hospital</strong><br>First Floor, Rahul Downtown,<br>Mumbai Pune Bypass Rd Flyover,<br>beside SK CNG Pump, Punawale,<br>Pimpri-Chinchwad, Maharashtra 411033</a></p>
                     </li>
                     <li class="mb-3 d-flex align-items-center text-muted fs-5">
                         <i class="fa-solid fa-phone me-3" style="color: var(--primary);"></i>
@@ -41,7 +41,7 @@
             <div class="col-lg-4">
                 <h5 class="footer-title mb-4">Location</h5>
                 <div class="map-container  rounded shadow-sm" style="height: 400px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1335.6387249945099!2d73.7422172240781!3d18.633115098719163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb004618788b%3A0xa388a9eb2cce66e0!2sDr%20Aparna%20Venugopal%20-%20Laparoscopic%20Surgeon%20%26%20Piles%20Specialist%20in%20Punawale%2C%20Pune!5e0!3m2!1sen!2sin!4v1784021905693!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.7846261173454!2d73.7402571758304!3d18.632540265743234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb005040649d%3A0xe17f5fd8bcb0637c!2sHriday%20Mother%20and%20Child%20Care%20Hospital!5e0!3m2!1sen!2sin!4v1784201034611!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div>
         </div>
@@ -50,6 +50,15 @@
         <p class="mb-0 fs-5 text-white">&copy; {{ date('Y') }} Dr Aparna Venugopal. All rights reserved.</p>
     </div>
 </footer>
+
+<!-- Floating Actions -->
+<a href="tel:+919495208068" class="floating-action-btn floating-call" target="_blank" aria-label="Call Us">
+    <i class="fa-solid fa-phone"></i>
+</a>
+
+<a href="https://wa.me/919495208068" class="floating-action-btn floating-wp" target="_blank" aria-label="WhatsApp Us">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
 
 <!-- Back to Top with Progress -->
 <div class="progress-wrap">

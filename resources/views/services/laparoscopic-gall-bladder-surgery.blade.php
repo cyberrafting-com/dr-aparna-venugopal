@@ -42,13 +42,13 @@ $title = 'Laparoscopic Gall Bladder Surgery | Dr. Aparna Venugopal';
                     <h2 class="about-doctor-name mb-4">Laparoscopic Gall Bladder Surgery</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">Gallbladder issues, such as gallstones or inflammation (cholecystitis), can cause severe abdominal pain and digestive problems. Laparoscopic gall bladder surgery, also known as a cholecystectomy, is a minimally invasive procedure to safely remove the diseased gallbladder.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">
+                            The gall bladder is a small organ that stores bile, which helps in digestion. Problems such as gallstones, repeated gall bladder inflammation, or infections can affect its normal function and may cause symptoms like abdominal pain, nausea, and digestive discomfort.
+                        </p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> is highly skilled in performing advanced laparoscopic gall bladder surgeries. By using small incisions and specialized instruments, she ensures a safe procedure with minimal scarring, less pain, and a much faster return to your normal daily activities.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
+                        <p class="text-muted fs-5 mb-4 text-justify">
+                            When gall bladder problems become frequent or severe, surgical removal of the gall bladder may be recommended. Laparoscopic Gall Bladder Surgery (Laparoscopic Cholecystectomy) is an advanced minimally invasive procedure that allows removal of the gall bladder through small abdominal incisions, helping patients experience smoother recovery.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,51 +57,79 @@ $title = 'Laparoscopic Gall Bladder Surgery | Dr. Aparna Venugopal';
 
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of the Procedure</h2>
-            </div>
-
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
+                        
+                        <h2 class="about-simple-title mb-4 fs-3">When Is Gall Bladder Surgery Recommended?</h2>
+                        <p class="text-muted fs-5 mb-4 text-justify">Surgical treatment may be advised if you experience:</p>
+                        
                         <ul class="list-unstyled text-muted fs-5 mb-0">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimally invasive technique with tiny incisions</span>
+                                <span class="list-text-dark fw-medium fs-5">Repeated episodes of abdominal pain, especially after meals</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Significantly less post-operative pain and discomfort</span>
+                                <span class="list-text-dark fw-medium fs-5">Gallstones causing discomfort or complications</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimal scarring compared to traditional open surgery</span>
+                                <span class="list-text-dark fw-medium fs-5">Nausea, vomiting, or indigestion related to gall bladder issues</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Faster recovery time and shorter hospital stay</span>
-                            </li>
-                            <li class="mb-3 d-flex align-items-start fs-5">
-                                <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
-                                    <i class="fa-solid fa-check"></i>
-                                </span>
-                                <span class="list-text-dark fw-medium fs-5">Quick return to normal daily activities and work</span>
+                                <span class="list-text-dark fw-medium fs-5">Inflammation or infection of the gall bladder</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Prevents recurrent gallstone attacks and related complications</span>
+                                <span class="list-text-dark fw-medium fs-5">Blockage of bile flow due to stones</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="about-simple-title mb-4 fs-3">Evaluation Before Gall Bladder Removal</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        Before surgery, a detailed assessment is performed to understand the condition of the gall bladder. Your doctor may recommend imaging tests such as ultrasound and other investigations to identify gallstones, inflammation, or related complications.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Based on the findings, the most suitable treatment plan is decided to ensure safe and effective care.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">How Is Laparoscopic Gall Bladder Surgery Performed?</h2>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        During laparoscopic cholecystectomy, the surgeon uses a small camera and specialised instruments inserted through tiny abdominal cuts to remove the gall bladder. This minimally invasive approach helps reduce tissue damage and supports faster healing.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Recovery After Gall Bladder Surgery</h2>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Most patients experience less pain, smaller scars, and quicker recovery compared to traditional open surgery. With proper post-operative care, many patients can gradually return to their normal routine within a short recovery period.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Advanced Gall Bladder Care by Dr. Aparna Venugopal</h2>
+                    <p class="text-muted fs-5 mb-0 text-justify">
+                        <a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides personalised laparoscopic surgical care for gall bladder conditions using modern techniques, focusing on patient safety, comfort, and improved recovery outcomes.
+                    </p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
                     </div>
                 </div>
             </div>

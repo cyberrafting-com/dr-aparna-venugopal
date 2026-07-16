@@ -42,13 +42,13 @@ $title = 'Lymph Node Biopsy | Dr. Aparna Venugopal';
                     <h2 class="about-doctor-name mb-4">Lymph Node Biopsy</h2>
 
                     <div class="doctor-description pe-lg-3">
-                        <p class="text-muted fs-5 mb-3 text-justify">A lymph node biopsy is a surgical procedure to remove all or part of a lymph node for examination under a microscope. It is a critical diagnostic tool used to determine the cause of swollen or enlarged lymph nodes, helping to accurately diagnose infections, immune disorders, or cancers such as lymphoma.</p>
+                        <p class="text-muted fs-5 mb-3 text-justify">
+                            Lymph nodes are small structures of the immune system that help the body fight infections and filter harmful substances. Sometimes, changes in the size, shape, or behaviour of a lymph node may require further evaluation to identify the underlying cause.
+                        </p>
 
-                        <p class="text-muted fs-5 mb-4 text-justify"><a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> performs safe and precise lymph node biopsies with minimal discomfort. Utilizing advanced techniques, she ensures accurate sampling and quick recovery, providing patients with the crucial information needed for their continued care and treatment.</p>
-
-                        <div class="mt-4">
-                            <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
-                        </div>
+                        <p class="text-muted fs-5 mb-4 text-justify">
+                            A lymph node biopsy is a diagnostic procedure performed to examine lymph node tissue under a microscope. It helps doctors understand whether the enlargement is due to infections, inflammation, or other medical conditions and supports accurate treatment planning.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,51 +57,74 @@ $title = 'Lymph Node Biopsy | Dr. Aparna Venugopal';
 
     <section class="simple-section education-area bg-light-theme">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="about-simple-title">Benefits of a Surgical Lymph Node Biopsy</h2>
-            </div>
-
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-3">
                 <div class="col-12">
                     <div class="clinical-note shadow-sm bg-white p-4 p-md-5 rounded">
+                        
+                        <h2 class="about-simple-title mb-4 fs-3">When Is a Lymph Node Biopsy Recommended?</h2>
+                        <p class="text-muted fs-5 mb-4 text-justify">A doctor may advise a biopsy if you notice:</p>
+                        
                         <ul class="list-unstyled text-muted fs-5 mb-0">
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Highly accurate tissue sampling for precise diagnosis</span>
+                                <span class="list-text-dark fw-medium fs-5">Persistent swelling or enlargement of lymph nodes</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimally invasive approach with a small incision</span>
+                                <span class="list-text-dark fw-medium fs-5">Lymph nodes that continue to grow in size</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Quick outpatient procedure taking under an hour</span>
+                                <span class="list-text-dark fw-medium fs-5">Unexplained lumps in the neck, armpit, or groin area</span>
                             </li>
                             <li class="mb-3 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Essential for diagnosing cancers, infections, and immune disorders</span>
-                            </li>
-                            <li class="mb-3 d-flex align-items-start fs-5">
-                                <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
-                                    <i class="fa-solid fa-check"></i>
-                                </span>
-                                <span class="list-text-dark fw-medium fs-5">Minimal discomfort with local or general anesthesia</span>
+                                <span class="list-text-dark fw-medium fs-5">Associated symptoms such as fever, night sweats, or unexplained weight loss</span>
                             </li>
                             <li class="mb-0 d-flex align-items-start fs-5">
                                 <span class="d-flex align-items-center justify-content-center rounded-circle me-3 flex-shrink-0 list-icon-sm mt-1 bg-primary-theme text-white list-icon-check">
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <span class="list-text-dark fw-medium fs-5">Fast recovery with little to no downtime</span>
+                                <span class="list-text-dark fw-medium fs-5">Abnormal findings on imaging tests</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="about-simple-title mb-4 fs-3">Understanding the Biopsy Procedure</h2>
+                    <p class="text-muted fs-5 mb-3 text-justify">
+                        During a lymph node biopsy, a small sample of tissue is carefully removed from the affected lymph node and sent for laboratory analysis. The procedure may involve removing part or the entire lymph node, depending on the clinical requirement.
+                    </p>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        The biopsy results help determine the nature of the lymph node changes and guide further treatment decisions.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Recovery After Lymph Node Biopsy</h2>
+                    <p class="text-muted fs-5 mb-5 text-justify">
+                        Lymph node biopsy is generally a safe procedure performed with appropriate precautions. Most patients experience minimal discomfort and can return to routine activities after recovery, depending on the type of biopsy performed.
+                    </p>
+
+                    <h2 class="about-simple-title mb-4 fs-3">Expert Surgical Care by Dr. Aparna Venugopal</h2>
+                    <p class="text-muted fs-5 mb-0 text-justify">
+                        <a href="{{ route('about') }}" class="text-primary-theme fw-bold text-decoration-none">Dr. Aparna Venugopal</a> provides careful evaluation and surgical management for conditions requiring lymph node biopsy, focusing on accurate diagnosis, patient safety, comfort, and personalised treatment planning.
+                    </p>
+                    <div class="mt-4">
+                        <a href="{{ route('contact') }}" class="btn-primary-theme btn-text-sm">Book Consultation</a>
                     </div>
                 </div>
             </div>
