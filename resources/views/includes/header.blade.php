@@ -30,19 +30,19 @@
                             </div> -->
                             <div class="services-menu-grid">
                                 @foreach ([
-                                'Laparoscopic appendix surgery' => route('services.laparoscopic-appendix-surgery'),
-                                'Laparoscopic gall bladder surgery' => route('services.laparoscopic-gall-bladder-surgery'),
-                                'Hernia repair (open & laparoscopic)' => route('services.hernia-repair'),
-                                'Breast lump evaluation & surgery' => route('services.breast-lump-evaluation-surgery'),
-                                'Piles, fissure & fistula treatment' => route('services.piles-fissure-treatment'),
-                                'Pilonidal sinus surgery' => route('services.pilonidal-sinus-surgery'),
-                                'Varicose vein surgery' => route('services.varicose-vein-surgery'),
-                                'Lipoma & sebaceous cyst removal' => route('services.lipoma-sebaceous-cyst-removal'),
-                                'Lymph node biopsy' => route('services.lymph-node-biopsy'),
-                                'Nail surgeries' => route('services.nail-surgery'),
-                                'Ear lobule repair' => route('services.ear-lobule-repair'),
-                                'Wound debridement' => route('services.wound-debridement'),
-                                'Incision and drainage of abscesses' => route('services.incision-and-drainage-of-abscesses')
+                                'Laparoscopic Appendix Surgery' => route('services.laparoscopic-appendix-surgery'),
+                                'Laparoscopic Gall Bladder Surgery' => route('services.laparoscopic-gall-bladder-surgery'),
+                                'Hernia Repair (Open & Laparoscopic)' => route('services.hernia-repair'),
+                                'Breast Lump Evaluation & Surgery' => route('services.breast-lump-evaluation-surgery'),
+                                'Piles, Fissure & Fistula Treatment' => route('services.piles-fissure-treatment'),
+                                'Pilonidal Sinus Surgery' => route('services.pilonidal-sinus-surgery'),
+                                'Varicose Vein Surgery' => route('services.varicose-vein-surgery'),
+                                'Lipoma & Sebaceous Cyst Removal' => route('services.lipoma-sebaceous-cyst-removal'),
+                                'Lymph Node Biopsy' => route('services.lymph-node-biopsy'),
+                                'Nail Surgeries' => route('services.nail-surgery'),
+                                'Ear Lobule Repair' => route('services.ear-lobule-repair'),
+                                'Wound Debridement' => route('services.wound-debridement'),
+                                'Incision And Drainage Of Abscesses' => route('services.incision-and-drainage-of-abscesses')
                                 ] as $service => $link)
                                 <a href="{{ $link }}" class="service-menu-item">
                                     <i class="fa-solid fa-chevron-right service-menu-arrow" aria-hidden="true"></i>
@@ -95,19 +95,19 @@
                 <div class="collapse mobile-services-list" id="mobileServices">
                     <div class="bg-light rounded mt-2 p-2 shadow-sm">
                         @foreach ([
-                        'Laparoscopic appendix surgery' => route('services.laparoscopic-appendix-surgery'),
-                        'Laparoscopic gall bladder surgery' => route('services.laparoscopic-gall-bladder-surgery'),
-                        'Hernia repair (open & laparoscopic)' => route('services.hernia-repair'),
-                        'Breast lump evaluation & surgery' => route('services.breast-lump-evaluation-surgery'),
-                        'Piles, fissure & fistula treatment' => route('services.piles-fissure-treatment'),
-                        'Pilonidal sinus surgery' => route('services.pilonidal-sinus-surgery'),
-                        'Varicose vein surgery' => route('services.varicose-vein-surgery'),
-                        'Lipoma & sebaceous cyst removal' => route('services.lipoma-sebaceous-cyst-removal'),
-                        'Lymph node biopsy' => route('services.lymph-node-biopsy'),
-                        'Nail surgeries' => route('services.nail-surgery'),
-                        'Ear lobule repair' => route('services.ear-lobule-repair'),
-                        'Wound debridement' => route('services.wound-debridement'),
-                        'Incision and drainage of abscesses' => route('services.incision-and-drainage-of-abscesses')
+                        'Laparoscopic Appendix Surgery' => route('services.laparoscopic-appendix-surgery'),
+                        'Laparoscopic Gall Bladder Surgery' => route('services.laparoscopic-gall-bladder-surgery'),
+                        'Hernia Repair (Open & Laparoscopic)' => route('services.hernia-repair'),
+                        'Breast Lump Evaluation & Surgery' => route('services.breast-lump-evaluation-surgery'),
+                        'Piles, Fissure & Fistula Treatment' => route('services.piles-fissure-treatment'),
+                        'Pilonidal Sinus Surgery' => route('services.pilonidal-sinus-surgery'),
+                        'Varicose Vein Surgery' => route('services.varicose-vein-surgery'),
+                        'Lipoma & Sebaceous Cyst Removal' => route('services.lipoma-sebaceous-cyst-removal'),
+                        'Lymph Node Biopsy' => route('services.lymph-node-biopsy'),
+                        'Nail Surgeries' => route('services.nail-surgery'),
+                        'Ear Lobule Repair' => route('services.ear-lobule-repair'),
+                        'Wound Debridement' => route('services.wound-debridement'),
+                        'Incision And Drainage Of Abscesses' => route('services.incision-and-drainage-of-abscesses')
                         ] as $service => $link)
                         <a href="{{ $link }}" class="d-flex align-items-center gap-3 py-2 px-3 text-decoration-none rounded mobile-service-link">
                             <i class="fa-solid fa-angle-right" style="color: var(--primary);"></i>

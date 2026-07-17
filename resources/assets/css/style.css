@@ -2184,8 +2184,8 @@ img.about-img-custom {
 /* 1. Doctor Image Square Design */
 .about-doctor-square-wrapper {
     position: relative;
-    max-width: 360px;
-    /* Reduced width */
+    max-width: 420px;
+    /* Increased width */
     padding: 25px;
     margin: 0 auto;
 }
@@ -3308,4 +3308,10 @@ img.about-img-custom {
     border: 4px solid #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     max-height: 500px;
+}
+
+.text-primary-bold {
+    color: var(--primary) !important;
+    font-weight: bold;
+    text-decoration: none;
 }

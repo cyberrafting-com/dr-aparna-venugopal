@@ -244,7 +244,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                     </li>
                 </ul>
 
-                <a href="#" class="btn-primary-theme rounded-0 px-5 py-3 text-uppercase fw-bold shadow-sm d-inline-block transition-all">Learn More</a>
+                <a href="{{route('services.laparoscopic-appendix-surgery')}}" class="btn-primary-theme rounded-0 px-5 py-3 text-uppercase fw-bold shadow-sm d-inline-block transition-all">Learn More</a>
             </div>
 
             <!-- Right Side Service Images -->
@@ -618,7 +618,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                       Many women prefer consulting a female surgeon for comfort, privacy, and personalised care. Dr. Aparna Venugopal provides advanced general and laparoscopic surgical treatment for conditions like gallstones, hernia, breast lumps, piles, fissure, fistula, and other surgical concerns.   </p>
                     <p class="fs-5 mb-4 text-muted text-justify-mobile cta-text">
                         With a patient-focused approach and minimally invasive techniques, she ensures safe treatment, reduced discomfort, and smoother recovery.
-Book a consultation with <a href="{{route('about')}}"> Dr. Aparna Venugopal </a> for trusted surgical care by an experienced female surgeon.      </p>
+Book a consultation with <a href="{{route('about')}}" class="text-primary-bold"> Dr. Aparna Venugopal </a> for trusted surgical care by an experienced female surgeon.      </p>
                     
                     <!--<h4 class="mb-4 font-heading fw-bold cta-heading-color">Consult Dr. Aparna Venugopal Today!</h4>-->
 
