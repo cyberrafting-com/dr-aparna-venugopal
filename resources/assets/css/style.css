@@ -3315,3 +3315,11 @@ img.about-img-custom {
     font-weight: bold;
     text-decoration: none;
 }
+
+/* iPad Responsive adjustments for CTA Image */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .ipad-cta-wrapper {
+        width: 75%;
+        margin: 0 auto;
+    }
+}

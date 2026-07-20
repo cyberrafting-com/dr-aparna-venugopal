@@ -632,7 +632,7 @@ Book a consultation with <a href="{{route('about')}}" class="text-primary-bold">
             </div>
 
             <!-- Image (Right Side) -->
-            <div class="col-lg-5 order-lg-2" data-aos="fade-left">
+            <div class="col-lg-5 order-lg-2 ipad-cta-wrapper" data-aos="fade-left">
                 <div class="position-relative">
                     <!-- Offset border design matching image -->
                     <div class="position-absolute rounded-3 w-100 h-100 cta-img-offset-border"></div>

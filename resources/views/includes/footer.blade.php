@@ -11,11 +11,11 @@
                     </a>
                 </div>
                 <p class="text-muted fs-5 mb-4 pe-lg-4">Expert General & Laparoscopic Surgeon delivering minimally invasive and advanced surgical care.</p>
-                <div class="social-links">
+                <!-- <div class="social-links">
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                </div>
+                </div> -->
             </div>
 
             <!-- Column 2: Contact Info -->

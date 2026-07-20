@@ -149,7 +149,7 @@
         <div class="contact-info">
             <div class="sidebar-contact-item">
                 <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                <p class="mb-0 text-white fs-5">Hriday  Hospital, <br> First Floor, Rahul Downtown,<br> Mumbai Pune Bypass Road,<br> Punawale, Pimpri-Chinchwad, <br>Maharashtra 411033</p>
+                <p class="mb-0 text-white fs-5"><a href="https://maps.app.goo.gl/DjLUjEUB3SMB4hA47" target="_blank" class="text-white text-decoration-none"><strong>Hriday Hospital</strong><br>First Floor, Rahul Downtown,<br>Mumbai Pune Bypass Rd Flyover,<br>beside SK CNG Pump, Punawale,<br>Pimpri-Chinchwad, Maharashtra 411033</a></p>
             </div>
             <div class="sidebar-contact-item">
                 <i class="fa-solid fa-phone" aria-hidden="true"></i>
