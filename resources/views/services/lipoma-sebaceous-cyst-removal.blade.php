@@ -1,10 +1,11 @@
+@php($title = 'Lipoma & Sebaceous Cyst Removal | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Expert surgical removal of lipomas and sebaceous cysts for excellent cosmetic outcomes, minimal scarring, and quick
+recovery.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Lipoma & Sebaceous Cyst Removal | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Expert surgical removal of lipomas and sebaceous cysts for excellent cosmetic outcomes, minimal scarring, and quick recovery.')
 
 @section('content')
 

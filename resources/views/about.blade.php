@@ -1,10 +1,11 @@
+@php($title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon')
+
+@section('meta_desc')
+About Dr. Aparna Venugopal, General and Laparoscopic Surgeon with expertise in minimally invasive surgery, emergency
+care and surgical patient management.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon';
-@endphp
-
-@section('meta_desc', 'About Dr. Aparna Venugopal, General and Laparoscopic Surgeon with expertise in minimally invasive surgery, emergency care and surgical patient management.')
 
 @section('content')
 

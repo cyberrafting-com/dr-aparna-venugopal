@@ -1,10 +1,11 @@
+@php($title = 'Varicose Vein Surgery | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Comprehensive and advanced treatments for varicose veins, offering minimally invasive procedures for lasting relief
+and improved leg health.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Varicose Vein Surgery | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Comprehensive and advanced treatments for varicose veins, offering minimally invasive procedures for lasting relief and improved leg health.')
 
 @section('content')
 

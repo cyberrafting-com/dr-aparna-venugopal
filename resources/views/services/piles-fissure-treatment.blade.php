@@ -1,10 +1,11 @@
+@php($title = 'Piles, Fissure & Fistula Treatment | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Advanced and minimally invasive surgical treatments for piles, fissures, and fistulas providing fast relief from pain
+and discomfort.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Piles, Fissure & Fistula Treatment | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Advanced and minimally invasive surgical treatments for piles, fissures, and fistulas providing fast relief from pain and discomfort.')
 
 @section('content')
 

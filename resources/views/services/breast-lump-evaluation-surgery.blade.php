@@ -1,10 +1,11 @@
+@php($title = 'Breast Lump Evaluation & Surgery | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Breast Lump Evaluation & Surgery helps diagnose and treat breast lumps with personalised surgical care focused on
+safety, comfort, and better outcomes.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Breast Lump Evaluation & Surgery | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Breast Lump Evaluation & Surgery helps diagnose and treat breast lumps with personalised surgical care focused on safety, comfort, and better outcomes.')
 
 @section('content')
 

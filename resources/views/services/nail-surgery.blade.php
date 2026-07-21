@@ -1,10 +1,11 @@
+@php($title = 'Nail Surgeries | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Expert nail surgeries for ingrown toenails and fungal infections, providing permanent relief with quick, comfortable
+outpatient procedures.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Nail Surgeries | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Expert nail surgeries for ingrown toenails and fungal infections, providing permanent relief with quick, comfortable outpatient procedures.')
 
 @section('content')
 

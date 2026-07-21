@@ -1,10 +1,12 @@
+
+
+@php($title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon')
+
+@section('meta_desc')
+Experience advanced minimally invasive surgical treatments, hernia repair, and specialized day care surgeries by
+Dr. Aparna Venugopal, a trusted general surgeon.
+@endsection
 @extends('layouts.default')
-
-@php
-$title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
-@endphp
-@section('meta_desc', 'Experience advanced minimally invasive surgical treatments, hernia repair, and specialized day care surgeries by Dr. Aparna Venugopal, a trusted general surgeon.')
-
 @section('content')
 
 <!-- 2. HERO SECTION -->
@@ -456,7 +458,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-5">Priya Sharma</h5>
+                                <h5 class="mb-0 fs-4">Priya Sharma</h5>
                                 <!-- <span class="text-muted small">Skin Rejuvenation</span> -->
                             </div>
                         </div>
@@ -472,7 +474,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-5">Anjali Desai</h5>
+                                <h5 class="mb-0 fs-4">Anjali Desai</h5>
                                 <!-- <span class="text-muted small">Botox Treatment</span> -->
                             </div>
                         </div>
@@ -484,11 +486,11 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="stars">
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="fst-italic text-muted fs-5 mb-4">"A completely transformative experience. The clinic is pristine, and the staff made sure I was comfortable the entire time. Highly recommend."</p>
+                        <p class="fst-italic text-muted fs-4 mb-4">"A completely transformative experience. The clinic is pristine, and the staff made sure I was comfortable the entire time. Highly recommend."</p>
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-5">Kavita Patel</h5>
+                                <h5 class="mb-0 fs-4">Kavita Patel</h5>
                                 <!-- <span class="text-muted small">Laser Hair Removal</span> -->
                             </div>
                         </div>
@@ -504,7 +506,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-5">Rahul Verma</h5>
+                                <h5 class="mb-0 fs-4">Rahul Verma</h5>
                                 <!-- <span class="text-muted small">Hernia Surgery</span> -->
                             </div>
                         </div>
@@ -520,7 +522,7 @@ $title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon';
                         <div class="d-flex align-items-center mt-auto">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Review" class="me-3 object-fit-contain" width="40" height="40" referrerpolicy="no-referrer">
                             <div>
-                                <h5 class="mb-0 fs-5">Amit Kumar</h5>
+                                <h5 class="mb-0 fs-4">Amit Kumar</h5>
                                 <!-- <span class="text-muted small">General Surgery</span> -->
                             </div>
                         </div>

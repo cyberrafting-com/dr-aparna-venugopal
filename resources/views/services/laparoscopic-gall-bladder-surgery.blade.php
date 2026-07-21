@@ -1,10 +1,11 @@
+@php($title = 'Laparoscopic Gall Bladder Surgery | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Laparoscopic gall bladder surgery (cholecystectomy) is a minimally invasive procedure used to remove a diseased or
+inflamed gallbladder, providing quick recovery.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Laparoscopic Gall Bladder Surgery | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Laparoscopic gall bladder surgery (cholecystectomy) is a minimally invasive procedure used to remove a diseased or inflamed gallbladder, providing quick recovery.')
 
 @section('content')
 

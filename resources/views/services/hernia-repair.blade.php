@@ -1,10 +1,11 @@
+@php($title = 'Hernia Repair Surgery | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Hernia repair surgery is a safe and effective procedure used to push the bulge back into place and strengthen the
+abdominal wall.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Hernia Repair Surgery | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Hernia repair surgery is a safe and effective procedure used to push the bulge back into place and strengthen the abdominal wall.')
 
 @section('content')
 

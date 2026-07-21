@@ -1,10 +1,11 @@
+@php($title = 'Laparoscopic Appendix Surgery | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Laparoscopic Appendix Surgery is an advanced minimally invasive procedure used to remove an inflamed or infected
+appendix through small incisions.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Laparoscopic Appendix Surgery | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Laparoscopic Appendix Surgery is an advanced minimally invasive procedure used to remove an inflamed or infected appendix through small incisions.')
 
 @section('content')
 

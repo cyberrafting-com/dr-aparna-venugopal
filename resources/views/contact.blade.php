@@ -1,11 +1,11 @@
+
+@php($title = 'Contact Dr. Aparna Venugopal | Book Appointment')
+
+@section('meta_desc')
+Contact Dr. Aparna Venugopal, General & Laparoscopic Surgeon. Book your appointment, find clinic address, phone
+number and email.
+@endsection
 @extends('layouts.default')
-
-@php
-    $title = 'Contact Dr. Aparna Venugopal | Book Appointment';
-@endphp
-
-@section('meta_desc', 'Contact Dr. Aparna Venugopal, General & Laparoscopic Surgeon. Book your appointment, find clinic address, phone number and email.')
-
 @section('content')
 
 <main class="contact-page">

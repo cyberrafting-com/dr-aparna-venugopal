@@ -1,11 +1,11 @@
+
+
+@php($title = 'Gallery | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Browse the gallery of Dr. Aparna Venugopal — surgical facilities, clinic environment and patient care moments.
+@endsection
 @extends('layouts.default')
-
-@php
-    $title = 'Gallery | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Browse the gallery of Dr. Aparna Venugopal — surgical facilities, clinic environment and patient care moments.')
-
 @section('content')
 
 <main class="gallery-page">

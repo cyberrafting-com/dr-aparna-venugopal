@@ -1,10 +1,11 @@
+@php($title = 'Wound Debridement | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Expert wound debridement services for removing dead tissue, preventing infection, and promoting faster healing of
+chronic or severe wounds.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Wound Debridement | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Expert wound debridement services for removing dead tissue, preventing infection, and promoting faster healing of chronic or severe wounds.')
 
 @section('content')
 

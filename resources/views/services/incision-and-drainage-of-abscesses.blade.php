@@ -1,10 +1,11 @@
+@php($title = 'Incision & Drainage of Abscesses | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Incision and drainage is a minor surgical procedure used to treat abscesses by releasing the trapped pus, relieving
+pain, and promoting healthy healing.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Incision & Drainage of Abscesses | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Incision and drainage is a minor surgical procedure used to treat abscesses by releasing the trapped pus, relieving pain, and promoting healthy healing.')
 
 @section('content')
 

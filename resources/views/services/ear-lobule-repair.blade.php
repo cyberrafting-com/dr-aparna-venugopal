@@ -1,10 +1,11 @@
+@php($title = 'Ear Lobule Repair | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Ear lobule repair is a simple and effective procedure used to restore the natural shape of torn or stretched
+earlobes.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Ear Lobule Repair | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Ear lobule repair is a simple and effective procedure used to restore the natural shape of torn or stretched earlobes.')
 
 @section('content')
 

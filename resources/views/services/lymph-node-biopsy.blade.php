@@ -1,10 +1,11 @@
+@php($title = 'Lymph Node Biopsy | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Accurate and minimally invasive lymph node biopsy procedures for precise diagnosis of infections, immune disorders,
+and cancers.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Lymph Node Biopsy | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Accurate and minimally invasive lymph node biopsy procedures for precise diagnosis of infections, immune disorders, and cancers.')
 
 @section('content')
 

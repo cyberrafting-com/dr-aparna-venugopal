@@ -1,10 +1,11 @@
+@php($title = 'Pilonidal Sinus Surgery | Dr. Aparna Venugopal')
+
+@section('meta_desc')
+Pilonidal sinus surgery is a safe and effective treatment to remove painful cysts at the tailbone and prevent them
+from recurring.
+@endsection
+
 @extends('layouts.default')
-
-@php
-$title = 'Pilonidal Sinus Surgery | Dr. Aparna Venugopal';
-@endphp
-
-@section('meta_desc', 'Pilonidal sinus surgery is a safe and effective treatment to remove painful cysts at the tailbone and prevent them from recurring.')
 
 @section('content')
 
