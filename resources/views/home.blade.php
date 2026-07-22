@@ -638,7 +638,7 @@ Book a consultation with <a href="{{route('about')}}" class="text-primary-bold">
                 <div class="position-relative">
                     <!-- Offset border design matching image -->
                     <div class="position-absolute rounded-3 w-100 h-100 cta-img-offset-border"></div>
-                    <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-cta.png') }}" alt="Dr. Aparna Venugopal" class="img-fluid rounded-3 position-relative z-1 w-100 cta-doctor-img">
+                    <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-img.png') }}" alt="Dr. Aparna Venugopal" class="img-fluid rounded-3 position-relative z-1 w-100 cta-doctor-img">
                 </div>
             </div>
 

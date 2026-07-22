@@ -1756,6 +1756,11 @@ img.about-img-custom {
         height: 230px;
         flex: none;
     }
+
+    .laparoscopy-image-card:first-child img,
+    .laparoscopy-image-card:last-child img {
+        height: 350px;
+    }
 }
 
 .floating-badge-lg {
@@ -3304,10 +3309,11 @@ img.about-img-custom {
 }
 
 .cta-doctor-img {
+   
     object-fit: cover;
     border: 4px solid #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-height: 500px;
+    height: 390px;
 }
 
 .text-primary-bold {
