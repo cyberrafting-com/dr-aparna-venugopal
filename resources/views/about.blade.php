@@ -1,8 +1,7 @@
-@php($title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon')
+@php($title = 'About Dr. Aparna Venugopal | General & Laparoscopic Surgeon in Pune')
 
 @section('meta_desc')
-About Dr. Aparna Venugopal, General and Laparoscopic Surgeon with expertise in minimally invasive surgery, emergency
-care and surgical patient management.
+Meet Dr. Aparna Venugopal, General & Laparoscopic Surgeon in Pune. Learn about her qualifications, experience, and expertise in minimally invasive surgery.
 @endsection
 
 @extends('layouts.default')

@@ -6,6 +6,7 @@
     <meta name="description" content="@yield('meta_desc', 'Consult Dr. Aparna Venugopal for expert general surgery, advanced laparoscopic treatments, hernia repair, and specialized surgical care.')">
 
     @include('includes.head')
+    <link rel="canonical" href="{{ url()->current() }}" />
     
 </head>
 

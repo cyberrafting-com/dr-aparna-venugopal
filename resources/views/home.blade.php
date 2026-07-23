@@ -1,10 +1,9 @@
 
 
-@php($title = 'Dr. Aparna Venugopal | Expert General & Laparoscopic Surgeon')
+@php($title = 'Dr. Aparna Venugopal | General & Laparoscopic Surgeon in Pune')
 
 @section('meta_desc')
-Experience advanced minimally invasive surgical treatments, hernia repair, and specialized day care surgeries by
-Dr. Aparna Venugopal, a trusted general surgeon.
+Consult Dr. Aparna Venugopal, a leading general & laparoscopic surgeon in Pune. Expertise in advanced minimally invasive surgeries, hernia, gallbladder & piles.
 @endsection
 @extends('layouts.default')
 @section('content')
@@ -81,7 +80,7 @@ Dr. Aparna Venugopal, a trusted general surgeon.
                 <div class="about-img-wrapper position-relative  about-img-custom">
                     <!-- <div class="about-bg-shape"></div> -->
                     <div class="about-border-shape"></div>
-                    <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal.png') }}" alt="Dr. Aparna Venugopal" class="img-fluid position-relative z-1 shadow-sm about-img-custom about-img-accent">
+                    <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-.jpg') }}" alt="Dr. Aparna Venugopal" class="img-fluid position-relative z-1 shadow-sm about-img-custom about-img-accent">
                 </div>
             </div>
             <div class="col-lg-7  order-lg-1" data-aos="fade-right" data-aos-delay="100">
@@ -638,7 +637,7 @@ Book a consultation with <a href="{{route('about')}}" class="text-primary-bold">
                 <div class="position-relative">
                     <!-- Offset border design matching image -->
                     <div class="position-absolute rounded-3 w-100 h-100 cta-img-offset-border"></div>
-                    <img src="{{ asset('resources/assets/images/doctor/dr-aparna-venugopal-img.png') }}" alt="Dr. Aparna Venugopal" class="img-fluid rounded-3 position-relative z-1 w-100 cta-doctor-img">
+                    <img src="{{ asset('resources/assets/images/slider/cta.png') }}" alt="Dr. Aparna Venugopal" class="img-fluid rounded-3 position-relative z-1 w-100 cta-doctor-img">
                 </div>
             </div>
 
