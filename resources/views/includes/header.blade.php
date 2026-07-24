@@ -10,8 +10,10 @@
             </div>
 
             <!-- Mobile Toggle -->
-            <button class="navbar-toggler border-0 shadow-none d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileOffcanvas" aria-controls="mobileOffcanvas">
-                <i class="fa-solid fa-bars fs-2 text-dark"></i>
+            <button class="navbar-toggler border-0 shadow-none d-lg-none p-2 d-flex flex-column gap-1 align-items-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileOffcanvas" aria-controls="mobileOffcanvas" aria-label="Toggle navigation">
+                <span class="toggle-line line-1"></span>
+                <span class="toggle-line line-2"></span>
+                <span class="toggle-line line-3"></span>
             </button>
 
             <!-- Main Nav (Desktop) -->
